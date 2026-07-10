@@ -1,0 +1,1239 @@
+location_name,datetimeLocal,AQI,AQI_category,AQI_pred,AQI_category_pred
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 01:00:00+05:30,68.5625,Satisfactory,69.037994,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 01:00:00+05:30,65.20791666666666,Satisfactory,65.18247,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 01:00:00+05:30,65.08958333333334,Satisfactory,65.36471,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 01:00:00+05:30,74.74166666666666,Satisfactory,75.13804,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 01:00:00+05:30,61.6875,Satisfactory,62.839478,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 02:00:00+05:30,64.84708333333333,Satisfactory,65.15163,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 02:00:00+05:30,65.25916666666667,Satisfactory,65.02298,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 02:00:00+05:30,67.94583333333334,Satisfactory,67.751335,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 02:00:00+05:30,74.07083333333334,Satisfactory,74.4527,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 02:00:00+05:30,61.69166666666667,Satisfactory,61.860195,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 03:00:00+05:30,66.07916666666667,Satisfactory,65.41889,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 03:00:00+05:30,73.875,Satisfactory,74.264046,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 03:00:00+05:30,67.39166666666667,Satisfactory,66.59054,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 03:00:00+05:30,62.02916666666667,Satisfactory,61.70936,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 03:00:00+05:30,64.74125,Satisfactory,64.45229,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 04:00:00+05:30,67.20833333333333,Satisfactory,66.48245,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 04:00:00+05:30,65.39833333333333,Satisfactory,65.23987,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 04:00:00+05:30,62.07916666666667,Satisfactory,61.745018,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 04:00:00+05:30,73.77499999999999,Satisfactory,73.93798,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 04:00:00+05:30,64.28291666666668,Satisfactory,64.576035,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 05:00:00+05:30,66.4875,Satisfactory,66.003654,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 05:00:00+05:30,61.75,Satisfactory,62.112656,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 05:00:00+05:30,63.29500000000001,Satisfactory,63.563,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 05:00:00+05:30,74.02916666666667,Satisfactory,73.46644,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 05:00:00+05:30,64.81916666666667,Satisfactory,65.10505,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 06:00:00+05:30,65.15708333333333,Satisfactory,64.85918,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 06:00:00+05:30,74.41666666666667,Satisfactory,73.88961,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 06:00:00+05:30,63.29458333333333,Satisfactory,62.976295,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 06:00:00+05:30,65.94583333333333,Satisfactory,65.31441,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 06:00:00+05:30,61.84166666666668,Satisfactory,61.43884,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 07:00:00+05:30,64.59916666666668,Satisfactory,65.02651,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 07:00:00+05:30,74.58333333333333,Satisfactory,73.678154,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 07:00:00+05:30,65.70833333333333,Satisfactory,65.05687,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 07:00:00+05:30,63.50541666666666,Satisfactory,62.939285,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 07:00:00+05:30,62.01250000000001,Satisfactory,61.53353,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 08:00:00+05:30,63.84166666666667,Satisfactory,63.05803,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 08:00:00+05:30,65.09666666666668,Satisfactory,65.43462,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 08:00:00+05:30,65.56666666666668,Satisfactory,65.00838,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 08:00:00+05:30,62.62916666666667,Satisfactory,61.941322,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 08:00:00+05:30,74.53333333333333,Satisfactory,73.78599,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 09:00:00+05:30,65.445,Satisfactory,65.464966,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 09:00:00+05:30,65.64166666666667,Satisfactory,64.90169,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 09:00:00+05:30,74.71249999999999,Satisfactory,74.09499,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 09:00:00+05:30,63.1125,Satisfactory,62.466618,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 09:00:00+05:30,64.44708333333334,Satisfactory,63.126644,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 10:00:00+05:30,75.19166666666666,Satisfactory,74.716446,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 10:00:00+05:30,65.7875,Satisfactory,64.84271,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 10:00:00+05:30,63.69583333333335,Satisfactory,62.836086,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 10:00:00+05:30,65.03291666666667,Satisfactory,65.46335,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 10:00:00+05:30,66.59,Satisfactory,64.376724,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 11:00:00+05:30,75.54583333333333,Satisfactory,76.417,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 11:00:00+05:30,67.70458333333333,Satisfactory,67.43662,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 11:00:00+05:30,66.03333333333333,Satisfactory,65.3822,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 11:00:00+05:30,65.20958333333333,Satisfactory,65.571815,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 11:00:00+05:30,64.00416666666668,Satisfactory,63.91422,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 12:00:00+05:30,63.741666666666674,Satisfactory,65.02355,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 12:00:00+05:30,65.9875,Satisfactory,65.457855,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 12:00:00+05:30,64.41333333333334,Satisfactory,70.73885,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 12:00:00+05:30,72.83333333333333,Satisfactory,75.02338,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 12:00:00+05:30,64.5825,Satisfactory,65.19757,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 13:00:00+05:30,63.20875000000001,Satisfactory,66.134865,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 13:00:00+05:30,73.00833333333334,Satisfactory,75.87393,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 13:00:00+05:30,87.80000000000001,Satisfactory,65.03111,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 13:00:00+05:30,70.83749999999999,Satisfactory,70.75718,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 13:00:00+05:30,65.53875000000001,Satisfactory,65.42405,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 14:00:00+05:30,67.99625,Satisfactory,68.04542,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 14:00:00+05:30,78.17625,Satisfactory,71.857124,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 14:00:00+05:30,64.82583333333334,Satisfactory,65.92345,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 14:00:00+05:30,96.8075,Satisfactory,121.28699,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 14:00:00+05:30,73.49166666666666,Satisfactory,76.26528,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 15:00:00+05:30,77.27375,Satisfactory,78.99799,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 15:00:00+05:30,86.60374999999999,Satisfactory,83.257576,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 15:00:00+05:30,111.29526119402988,Moderate,113.21051,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 15:00:00+05:30,75.21875,Satisfactory,79.7355,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 15:00:00+05:30,64.36958333333334,Satisfactory,66.44552,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 16:00:00+05:30,81.905,Satisfactory,82.55445,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 16:00:00+05:30,72.78000000000002,Satisfactory,89.16412,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 16:00:00+05:30,116.40041044776122,Moderate,122.89961,Moderate
+"Fort William, Kolkata - WBPCB",2022-04-25 16:00:00+05:30,63.36208333333334,Satisfactory,65.95178,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 16:00:00+05:30,90.82125,Satisfactory,90.74624,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 17:00:00+05:30,73.22125000000001,Satisfactory,73.08919,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 17:00:00+05:30,116.60542910447764,Moderate,111.43248,Moderate
+"Fort William, Kolkata - WBPCB",2022-04-25 17:00:00+05:30,62.38458333333333,Satisfactory,64.79174,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 17:00:00+05:30,79.90625,Satisfactory,86.06602,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 17:00:00+05:30,90.26125,Satisfactory,93.096375,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 18:00:00+05:30,68.49625,Satisfactory,74.59951,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 18:00:00+05:30,87.38250000000001,Satisfactory,96.10917,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 18:00:00+05:30,108.32710820895524,Moderate,111.18717,Moderate
+"Fort William, Kolkata - WBPCB",2022-04-25 18:00:00+05:30,61.150000000000006,Satisfactory,64.6379,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 18:00:00+05:30,75.79125,Satisfactory,81.64723,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 19:00:00+05:30,97.77125,Satisfactory,99.97909,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 19:00:00+05:30,83.72625000000001,Satisfactory,85.89851,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 19:00:00+05:30,79.39874999999999,Satisfactory,75.686745,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 19:00:00+05:30,62.000416666666666,Satisfactory,68.62626,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 19:00:00+05:30,60.24916666666667,Satisfactory,63.25309,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 20:00:00+05:30,59.71625,Satisfactory,60.852066,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 20:00:00+05:30,64.50500000000001,Satisfactory,62.918888,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 20:00:00+05:30,62.212500000000006,Satisfactory,80.82212,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 20:00:00+05:30,72.79499999999999,Satisfactory,77.49055,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 20:00:00+05:30,88.90500000000002,Satisfactory,88.8299,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 21:00:00+05:30,62.52916666666666,Satisfactory,63.38426,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 21:00:00+05:30,60.06666666666667,Satisfactory,83.2338,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 21:00:00+05:30,72.75833333333334,Satisfactory,72.38952,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 21:00:00+05:30,59.717083333333335,Satisfactory,60.101982,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 21:00:00+05:30,66.73291666666667,Satisfactory,65.46321,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 22:00:00+05:30,59.94041666666666,Satisfactory,59.773083,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 22:00:00+05:30,73.05416666666666,Satisfactory,71.86081,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 22:00:00+05:30,67.57916666666667,Satisfactory,66.80009,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 22:00:00+05:30,62.90416666666667,Satisfactory,63.894,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 22:00:00+05:30,60.60416666666666,Satisfactory,72.914444,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-25 23:00:00+05:30,65.685,Satisfactory,66.61987,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-25 23:00:00+05:30,63.24583333333333,Satisfactory,61.540447,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-25 23:00:00+05:30,73.46249999999999,Satisfactory,70.69149,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-25 23:00:00+05:30,60.31666666666666,Satisfactory,59.561245,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-25 23:00:00+05:30,60.650000000000006,Satisfactory,59.800667,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 00:00:00+05:30,73.92083333333333,Satisfactory,71.61392,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 00:00:00+05:30,60.4825,Satisfactory,61.04399,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 00:00:00+05:30,60.91666666666666,Satisfactory,60.313614,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 00:00:00+05:30,66.31208333333333,Satisfactory,65.1341,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 00:00:00+05:30,64.03750000000001,Satisfactory,63.338146,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 01:00:00+05:30,60.66875,Satisfactory,60.78771,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 01:00:00+05:30,64.58333333333333,Satisfactory,63.682365,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 01:00:00+05:30,61.1625,Satisfactory,60.921013,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 01:00:00+05:30,66.415,Satisfactory,65.59306,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 01:00:00+05:30,74.60000000000001,Satisfactory,73.57706,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 02:00:00+05:30,65.6,Satisfactory,64.37026,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 02:00:00+05:30,67.02916666666667,Satisfactory,65.456795,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 02:00:00+05:30,61.245833333333344,Satisfactory,61.690166,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 02:00:00+05:30,61.149166666666666,Satisfactory,60.925934,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 02:00:00+05:30,75.33333333333333,Satisfactory,73.98249,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 03:00:00+05:30,67.32666666666667,Satisfactory,65.899216,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 03:00:00+05:30,75.82083333333334,Satisfactory,73.64813,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 03:00:00+05:30,61.01250000000001,Satisfactory,61.453873,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 03:00:00+05:30,61.78563218390805,Satisfactory,62.936447,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 03:00:00+05:30,66.325,Satisfactory,65.07075,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 04:00:00+05:30,76.36666666666666,Satisfactory,74.3469,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 04:00:00+05:30,68.04041666666667,Satisfactory,67.145164,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 04:00:00+05:30,61.09583333333334,Satisfactory,60.485527,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 04:00:00+05:30,67.42083333333333,Satisfactory,65.03659,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 04:00:00+05:30,62.21937499999999,Satisfactory,62.891014,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 05:00:00+05:30,62.384375,Satisfactory,63.693264,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 05:00:00+05:30,67.97500000000001,Satisfactory,66.9563,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 05:00:00+05:30,76.76666666666667,Satisfactory,75.216515,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 05:00:00+05:30,61.020833333333336,Satisfactory,60.04585,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 05:00:00+05:30,68.43875,Satisfactory,67.300125,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 06:00:00+05:30,68.69166666666668,Satisfactory,67.74245,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 06:00:00+05:30,68.4625,Satisfactory,67.26049,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 06:00:00+05:30,77.09166666666665,Satisfactory,75.40909,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 06:00:00+05:30,62.60145833333333,Satisfactory,63.319122,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 06:00:00+05:30,60.991666666666674,Satisfactory,60.151596,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 07:00:00+05:30,62.485625,Satisfactory,63.256584,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 07:00:00+05:30,77.5375,Satisfactory,76.016495,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 07:00:00+05:30,60.79166666666668,Satisfactory,60.18773,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 07:00:00+05:30,68.75833333333334,Satisfactory,68.01646,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 07:00:00+05:30,69.10125000000001,Satisfactory,67.904724,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 08:00:00+05:30,66.59708333333333,Satisfactory,68.7077,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 08:00:00+05:30,62.430208333333326,Satisfactory,63.32807,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 08:00:00+05:30,68.73333333333333,Satisfactory,67.77207,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 08:00:00+05:30,78.0625,Satisfactory,76.474556,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 08:00:00+05:30,60.725000000000016,Satisfactory,60.056854,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 09:00:00+05:30,61.963125,Satisfactory,63.319572,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 09:00:00+05:30,69.075,Satisfactory,67.464584,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 09:00:00+05:30,60.741666666666674,Satisfactory,60.205414,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 09:00:00+05:30,78.25,Satisfactory,77.837524,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 09:00:00+05:30,66.2025,Satisfactory,66.09089,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 10:00:00+05:30,64.35583333333334,Satisfactory,65.26197,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 10:00:00+05:30,61.68229166666666,Satisfactory,62.71597,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 10:00:00+05:30,69.52916666666667,Satisfactory,68.689064,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 10:00:00+05:30,60.554166666666674,Satisfactory,60.00064,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 10:00:00+05:30,78.65,Satisfactory,77.41525,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 11:00:00+05:30,61.44520833333333,Satisfactory,62.580173,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 11:00:00+05:30,78.92916666666666,Satisfactory,78.27861,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 11:00:00+05:30,60.75833333333335,Satisfactory,60.302,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 11:00:00+05:30,63.00833333333333,Satisfactory,63.965233,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 11:00:00+05:30,69.5,Satisfactory,68.82816,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 12:00:00+05:30,69.8,Satisfactory,69.011,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 12:00:00+05:30,61.234375,Satisfactory,62.292084,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 12:00:00+05:30,58.12500000000001,Satisfactory,60.62521,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 12:00:00+05:30,65.59166666666667,Satisfactory,64.64386,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 12:00:00+05:30,81.66250000000001,Satisfactory,79.49906,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 13:00:00+05:30,60.860625,Satisfactory,62.908825,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 13:00:00+05:30,72.65416666666667,Satisfactory,68.20727,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 13:00:00+05:30,80.82083333333334,Satisfactory,80.19535,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 13:00:00+05:30,58.39583333333334,Satisfactory,53.442497,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 13:00:00+05:30,69.45416666666667,Satisfactory,66.30773,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 14:00:00+05:30,68.81291666666667,Satisfactory,71.4722,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 14:00:00+05:30,79.28750000000001,Satisfactory,81.296425,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 14:00:00+05:30,58.56666666666667,Satisfactory,59.583424,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 14:00:00+05:30,58.04867816091954,Satisfactory,60.966335,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 14:00:00+05:30,71.22500000000001,Satisfactory,72.08877,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 15:00:00+05:30,70.15833333333335,Satisfactory,70.570724,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 15:00:00+05:30,78.20833333333333,Satisfactory,80.86474,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 15:00:00+05:30,58.46666666666668,Satisfactory,60.18383,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 15:00:00+05:30,57.66229166666667,Satisfactory,57.79944,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 15:00:00+05:30,66.84166666666667,Satisfactory,68.62566,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 16:00:00+05:30,69.15833333333333,Satisfactory,69.94708,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 16:00:00+05:30,76.825,Satisfactory,80.27664,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 16:00:00+05:30,57.69583333333333,Satisfactory,59.33695,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 16:00:00+05:30,70.88208333333334,Satisfactory,70.23353,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 16:00:00+05:30,57.537708333333335,Satisfactory,66.36472,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 17:00:00+05:30,75.57916666666667,Satisfactory,77.20318,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 17:00:00+05:30,68.49583333333334,Satisfactory,69.892555,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 17:00:00+05:30,57.29979166666667,Satisfactory,61.93636,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 17:00:00+05:30,56.80416666666667,Satisfactory,57.668266,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 17:00:00+05:30,69.26958333333333,Satisfactory,70.96421,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 18:00:00+05:30,56.08333333333334,Satisfactory,56.44513,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 18:00:00+05:30,67.67916666666666,Satisfactory,70.1447,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 18:00:00+05:30,56.413125,Satisfactory,58.778362,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 18:00:00+05:30,68.66250000000001,Satisfactory,67.0298,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 18:00:00+05:30,74.6625,Satisfactory,75.430084,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 19:00:00+05:30,68.06666666666666,Satisfactory,65.92501,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 19:00:00+05:30,63.28708333333333,Satisfactory,66.881546,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 19:00:00+05:30,61.20624999999999,Satisfactory,70.581406,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 19:00:00+05:30,73.95833333333333,Satisfactory,73.92869,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 19:00:00+05:30,56.025000000000006,Satisfactory,55.9346,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 20:00:00+05:30,67.6375,Satisfactory,65.118866,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 20:00:00+05:30,62.73291666666666,Satisfactory,60.8576,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 20:00:00+05:30,55.77083333333334,Satisfactory,55.278645,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 20:00:00+05:30,73.4125,Satisfactory,72.25954,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 20:00:00+05:30,67.29249999999999,Satisfactory,64.02264,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 21:00:00+05:30,72.91250000000001,Satisfactory,70.55885,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 21:00:00+05:30,56.4875,Satisfactory,56.064083,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 21:00:00+05:30,73.03625,Satisfactory,71.378044,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 21:00:00+05:30,67.07916666666667,Satisfactory,64.51583,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 21:00:00+05:30,62.10541666666668,Satisfactory,61.96639,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 22:00:00+05:30,73.15249999999999,Satisfactory,72.283585,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 22:00:00+05:30,66.71458333333332,Satisfactory,64.43093,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 22:00:00+05:30,72.28750000000001,Satisfactory,70.01856,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 22:00:00+05:30,61.55041666666667,Satisfactory,61.79492,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 22:00:00+05:30,56.075,Satisfactory,55.58249,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-26 23:00:00+05:30,65.93541666666667,Satisfactory,63.967037,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-26 23:00:00+05:30,71.8125,Satisfactory,69.547295,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-26 23:00:00+05:30,55.75000000000001,Satisfactory,55.514366,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-26 23:00:00+05:30,63.89625,Satisfactory,60.776093,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-26 23:00:00+05:30,69.815,Satisfactory,69.5561,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-27 00:00:00+05:30,71.58333333333333,Satisfactory,69.30922,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-27 00:00:00+05:30,63.95416666666667,Satisfactory,63.037354,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-27 00:00:00+05:30,56.69499999999999,Satisfactory,70.294365,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-27 00:00:00+05:30,65.36458333333333,Satisfactory,64.98915,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-27 00:00:00+05:30,55.275000000000006,Satisfactory,56.812515,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-27 01:00:00+05:30,63.58625,Satisfactory,63.34544,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-27 01:00:00+05:30,54.84583333333334,Satisfactory,56.80989,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-27 01:00:00+05:30,71.2375,Satisfactory,69.80474,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-27 01:00:00+05:30,64.10749999999999,Satisfactory,57.713585,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-27 01:00:00+05:30,65.05208333333333,Satisfactory,65.122246,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-27 02:00:00+05:30,63.51624999999999,Satisfactory,63.26958,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-27 02:00:00+05:30,56.24520833333333,Satisfactory,64.50446,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-27 02:00:00+05:30,70.925,Satisfactory,69.606346,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-27 02:00:00+05:30,54.650000000000006,Satisfactory,56.220627,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-27 02:00:00+05:30,63.94375,Satisfactory,64.63618,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-27 03:00:00+05:30,70.59166666666665,Satisfactory,69.956825,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-27 03:00:00+05:30,54.70416666666667,Satisfactory,56.309143,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-27 03:00:00+05:30,63.56875,Satisfactory,63.58124,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-27 03:00:00+05:30,55.67875,Satisfactory,58.030296,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-27 03:00:00+05:30,63.50333333333333,Satisfactory,63.06293,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-27 04:00:00+05:30,70.37083333333334,Satisfactory,69.77563,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-27 04:00:00+05:30,55.20083333333334,Satisfactory,57.2761,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-27 04:00:00+05:30,62.94375,Satisfactory,63.19655,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-27 04:00:00+05:30,54.90833333333334,Satisfactory,55.628025,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-27 04:00:00+05:30,63.126666666666665,Satisfactory,63.061043,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-27 05:00:00+05:30,55.23,Satisfactory,56.471313,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-27 05:00:00+05:30,55.525000000000006,Satisfactory,54.794933,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-27 05:00:00+05:30,62.80625,Satisfactory,62.922245,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-27 05:00:00+05:30,69.97916666666667,Satisfactory,69.85264,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-27 05:00:00+05:30,63.27291666666667,Satisfactory,63.118843,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-27 06:00:00+05:30,63.34623333333334,Satisfactory,63.18166,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-27 06:00:00+05:30,62.85341666666667,Satisfactory,63.200867,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-27 06:00:00+05:30,54.71956666666667,Satisfactory,56.54762,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-27 06:00:00+05:30,55.870833333333344,Satisfactory,55.728893,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-27 06:00:00+05:30,69.61616666666667,Satisfactory,69.76819,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-27 07:00:00+05:30,54.28203333333334,Satisfactory,56.576275,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-27 07:00:00+05:30,62.91858333333334,Satisfactory,62.999557,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-27 07:00:00+05:30,56.19583333333335,Satisfactory,56.494003,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-27 07:00:00+05:30,63.06786666666667,Satisfactory,63.228508,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-27 07:00:00+05:30,69.12349999999999,Satisfactory,68.68208,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-27 08:00:00+05:30,65.21906666666668,Satisfactory,63.94564,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-27 08:00:00+05:30,68.78866666666666,Satisfactory,68.61193,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-27 08:00:00+05:30,56.15833333333334,Satisfactory,57.150806,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-27 08:00:00+05:30,62.72258333333334,Satisfactory,62.761696,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-27 08:00:00+05:30,53.9649,Satisfactory,55.761868,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-27 09:00:00+05:30,62.56269565217392,Satisfactory,62.89007,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-27 09:00:00+05:30,54.59554782608696,Satisfactory,54.699863,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-27 09:00:00+05:30,65.52641739130435,Satisfactory,64.82539,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-27 09:00:00+05:30,56.29565217391305,Satisfactory,56.92373,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-27 09:00:00+05:30,69.09252173913043,Satisfactory,67.40759,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-28 09:00:00+05:30,15.460571428571445,Good,26.040346,Good
+"Fort William, Kolkata - WBPCB",2022-04-28 09:00:00+05:30,99.78719999999998,Satisfactory,94.67036,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-28 09:00:00+05:30,17.615542857142866,Good,22.489504,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-28 09:00:00+05:30,18.39428571428571,Good,24.5399,Good
+"Ballygunge, Kolkata - WBPCB",2022-04-28 09:00:00+05:30,28.22262857142857,Good,38.399147,Good
+"Jadavpur, Kolkata - WBPCB",2022-04-28 10:00:00+05:30,17.526750000000014,Good,28.073687,Good
+"Bidhannagar, Kolkata - WBPCB",2022-04-28 10:00:00+05:30,20.041100000000007,Good,25.506187,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-28 10:00:00+05:30,18.47,Good,28.242691,Good
+"Fort William, Kolkata - WBPCB",2022-04-28 10:00:00+05:30,101.14598805970148,Moderate,95.60218,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-28 10:00:00+05:30,30.86355,Good,42.620495,Good
+"Ballygunge, Kolkata - WBPCB",2022-04-28 11:00:00+05:30,36.81365,Good,42.933517,Good
+"Bidhannagar, Kolkata - WBPCB",2022-04-28 11:00:00+05:30,23.94680000000001,Good,26.59478,Good
+"Jadavpur, Kolkata - WBPCB",2022-04-28 11:00:00+05:30,22.00900000000001,Good,34.865517,Good
+"Fort William, Kolkata - WBPCB",2022-04-28 11:00:00+05:30,92.12189999999998,Satisfactory,97.8553,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-28 11:00:00+05:30,18.61,Good,33.649902,Good
+"Ballygunge, Kolkata - WBPCB",2022-04-28 12:00:00+05:30,42.0433,Good,71.33276,Good
+"Jadavpur, Kolkata - WBPCB",2022-04-28 12:00:00+05:30,27.27550000000001,Good,27.496235,Good
+"Fort William, Kolkata - WBPCB",2022-04-28 12:00:00+05:30,79.9948,Satisfactory,90.092606,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-28 12:00:00+05:30,55.47185000000001,Satisfactory,28.586939,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-28 12:00:00+05:30,21.34255,Good,29.126713,Good
+"Bidhannagar, Kolkata - WBPCB",2022-04-28 13:00:00+05:30,59.88500000000001,Satisfactory,85.44079,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-28 13:00:00+05:30,25.006249999999994,Good,30.792803,Good
+"Ballygunge, Kolkata - WBPCB",2022-04-28 13:00:00+05:30,47.651250000000005,Good,50.468266,Good
+"Fort William, Kolkata - WBPCB",2022-04-28 13:00:00+05:30,116.12520522388056,Moderate,78.98789,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-28 13:00:00+05:30,31.86250000000001,Good,33.694786,Good
+"Bidhannagar, Kolkata - WBPCB",2022-04-28 14:00:00+05:30,64.8225,Satisfactory,61.677258,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-28 14:00:00+05:30,63.675666666666665,Satisfactory,30.932392,Good
+"Ballygunge, Kolkata - WBPCB",2022-04-28 14:00:00+05:30,65.881,Satisfactory,55.374657,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-28 14:00:00+05:30,99.8825,Satisfactory,111.56319,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-28 14:00:00+05:30,57.06666666666667,Satisfactory,38.510803,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-28 15:00:00+05:30,64.38523076923077,Satisfactory,74.160484,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-28 15:00:00+05:30,57.53846153846155,Satisfactory,71.352806,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-28 15:00:00+05:30,67.044,Satisfactory,67.886536,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-28 15:00:00+05:30,92.948125,Satisfactory,94.31159,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-28 15:00:00+05:30,68.89750000000001,Satisfactory,65.91081,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-28 16:00:00+05:30,58.335714285714296,Satisfactory,55.29855,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-28 16:00:00+05:30,64.90057142857142,Satisfactory,63.284363,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-28 16:00:00+05:30,68.16942857142858,Satisfactory,69.1135,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-28 16:00:00+05:30,88.050625,Satisfactory,92.710304,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-28 16:00:00+05:30,71.19375000000001,Satisfactory,68.707115,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-28 17:00:00+05:30,71.59125,Satisfactory,72.98485,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-28 17:00:00+05:30,65.75386666666667,Satisfactory,62.282524,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-28 17:00:00+05:30,59.613333333333344,Satisfactory,56.888584,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-28 17:00:00+05:30,69.03813333333333,Satisfactory,69.18333,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-28 17:00:00+05:30,78.78062499999999,Satisfactory,86.28728,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 06:00:00+05:30,63.89458333333334,Satisfactory,65.20764,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 06:00:00+05:30,65.77916666666665,Satisfactory,65.31429,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 06:00:00+05:30,70.2775,Satisfactory,70.20555,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 06:00:00+05:30,71.63333333333334,Satisfactory,70.10033,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 06:00:00+05:30,60.86250000000001,Satisfactory,61.97433,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 07:00:00+05:30,63.92875,Satisfactory,63.393208,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 07:00:00+05:30,69.71124999999999,Satisfactory,69.589424,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 07:00:00+05:30,71.56666666666668,Satisfactory,70.002304,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 07:00:00+05:30,65.44166666666666,Satisfactory,65.38834,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 07:00:00+05:30,61.01250000000001,Satisfactory,61.92966,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 08:00:00+05:30,71.71666666666667,Satisfactory,70.04211,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 08:00:00+05:30,69.22833333333334,Satisfactory,68.94591,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 08:00:00+05:30,63.83500000000001,Satisfactory,63.807865,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 08:00:00+05:30,61.01666666666667,Satisfactory,62.067566,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 08:00:00+05:30,65.49166666666666,Satisfactory,64.925125,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 09:00:00+05:30,63.845,Satisfactory,64.04366,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 09:00:00+05:30,61.64166666666667,Satisfactory,61.83278,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 09:00:00+05:30,65.30833333333334,Satisfactory,64.82204,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 09:00:00+05:30,68.86541666666666,Satisfactory,68.59722,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 09:00:00+05:30,72.03333333333333,Satisfactory,70.13177,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 10:00:00+05:30,63.48166666666668,Satisfactory,64.276634,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 10:00:00+05:30,65.08749999999999,Satisfactory,64.163956,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 10:00:00+05:30,69.00541666666666,Satisfactory,67.89573,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 10:00:00+05:30,61.76666666666668,Satisfactory,63.57476,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 10:00:00+05:30,72.15833333333335,Satisfactory,70.32119,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 11:00:00+05:30,65.12083333333334,Satisfactory,65.85254,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 11:00:00+05:30,69.17416666666666,Satisfactory,68.717834,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 11:00:00+05:30,72.4875,Satisfactory,70.80547,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 11:00:00+05:30,62.26666666666668,Satisfactory,63.42942,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 11:00:00+05:30,63.24458333333334,Satisfactory,63.938427,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 12:00:00+05:30,65.78666666666668,Satisfactory,65.128876,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 12:00:00+05:30,62.77083333333334,Satisfactory,62.91816,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 12:00:00+05:30,72.69583333333333,Satisfactory,72.4472,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 12:00:00+05:30,65.3375,Satisfactory,65.573975,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 12:00:00+05:30,69.12249999999999,Satisfactory,68.81922,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 13:00:00+05:30,73.17916666666667,Satisfactory,73.01974,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 13:00:00+05:30,65.42916666666666,Satisfactory,64.90786,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 13:00:00+05:30,63.73,Satisfactory,65.06931,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 13:00:00+05:30,72.15499999999999,Satisfactory,69.03155,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 13:00:00+05:30,63.20000000000001,Satisfactory,62.562534,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 14:00:00+05:30,73.59583333333333,Satisfactory,73.708015,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 14:00:00+05:30,71.90625,Satisfactory,71.05634,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 14:00:00+05:30,65.47500000000001,Satisfactory,64.99479,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 14:00:00+05:30,63.36250000000001,Satisfactory,62.9246,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 14:00:00+05:30,62.79291666666666,Satisfactory,64.74958,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 15:00:00+05:30,71.67166666666667,Satisfactory,70.88784,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 15:00:00+05:30,73.8125,Satisfactory,73.6922,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 15:00:00+05:30,65.70416666666667,Satisfactory,64.35959,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 15:00:00+05:30,62.01499999999999,Satisfactory,63.914013,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 15:00:00+05:30,63.67083333333334,Satisfactory,62.85918,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 16:00:00+05:30,73.90833333333333,Satisfactory,75.36651,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 16:00:00+05:30,71.07416666666667,Satisfactory,70.94741,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 16:00:00+05:30,65.88333333333334,Satisfactory,65.23306,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 16:00:00+05:30,63.4375,Satisfactory,63.769215,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 16:00:00+05:30,61.56875,Satisfactory,63.085648,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 17:00:00+05:30,62.92083333333334,Satisfactory,62.190136,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 17:00:00+05:30,60.946875000000006,Satisfactory,62.401337,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 17:00:00+05:30,71.09916666666668,Satisfactory,69.693375,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 17:00:00+05:30,65.71249999999999,Satisfactory,64.201546,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 17:00:00+05:30,73.975,Satisfactory,74.800186,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 18:00:00+05:30,74.43333333333332,Satisfactory,73.71175,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 18:00:00+05:30,60.493541666666665,Satisfactory,60.229904,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 18:00:00+05:30,62.43333333333334,Satisfactory,62.54482,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 18:00:00+05:30,71.03125,Satisfactory,70.01971,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 18:00:00+05:30,65.24583333333334,Satisfactory,64.31849,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 19:00:00+05:30,62.40833333333334,Satisfactory,61.423435,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 19:00:00+05:30,60.09729166666667,Satisfactory,59.34009,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 19:00:00+05:30,70.73625,Satisfactory,69.5454,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 19:00:00+05:30,64.92916666666667,Satisfactory,63.18163,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 19:00:00+05:30,74.78750000000001,Satisfactory,72.33306,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 20:00:00+05:30,62.22916666666668,Satisfactory,61.09663,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 20:00:00+05:30,64.64999999999999,Satisfactory,62.48381,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 20:00:00+05:30,59.853125000000006,Satisfactory,58.96325,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 20:00:00+05:30,70.82625,Satisfactory,68.24509,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 20:00:00+05:30,74.9875,Satisfactory,72.86966,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 21:00:00+05:30,75.95,Satisfactory,72.88805,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 21:00:00+05:30,65.37916666666668,Satisfactory,62.61031,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 21:00:00+05:30,71.77875,Satisfactory,68.74111,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 21:00:00+05:30,63.775000000000006,Satisfactory,60.660267,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 21:00:00+05:30,60.325208333333336,Satisfactory,58.99565,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 22:00:00+05:30,74.29416666666667,Satisfactory,69.67006,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 22:00:00+05:30,67.08333333333333,Satisfactory,64.34773,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 22:00:00+05:30,62.72145833333333,Satisfactory,59.41261,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 22:00:00+05:30,67.275,Satisfactory,62.166065,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 22:00:00+05:30,78.57083333333333,Satisfactory,75.57027,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-29 23:00:00+05:30,78.08333333333333,Satisfactory,73.85425,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-29 23:00:00+05:30,81.92083333333333,Satisfactory,79.21467,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-29 23:00:00+05:30,70.33333333333333,Satisfactory,65.71369,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-29 23:00:00+05:30,66.25520833333333,Satisfactory,62.666126,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-29 23:00:00+05:30,70.9875,Satisfactory,65.72205,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 00:00:00+05:30,85.175,Satisfactory,82.28971,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 00:00:00+05:30,69.433125,Satisfactory,67.001236,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 00:00:00+05:30,74.49166666666666,Satisfactory,71.545555,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 00:00:00+05:30,82.1475,Satisfactory,79.98654,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 00:00:00+05:30,73.5625,Satisfactory,71.38991,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 01:00:00+05:30,88.4375,Satisfactory,87.47284,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 01:00:00+05:30,77.43333333333334,Satisfactory,75.14437,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 01:00:00+05:30,85.97833333333334,Satisfactory,84.80415,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 01:00:00+05:30,76.93333333333334,Satisfactory,72.35535,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 01:00:00+05:30,71.78645833333333,Satisfactory,71.35764,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 02:00:00+05:30,79.9875,Satisfactory,74.71596,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 02:00:00+05:30,90.67083333333336,Satisfactory,88.11567,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 02:00:00+05:30,80.03333333333335,Satisfactory,77.759254,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 02:00:00+05:30,74.43020833333334,Satisfactory,72.18837,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 02:00:00+05:30,89.21583333333335,Satisfactory,88.09919,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 03:00:00+05:30,82.25416666666668,Satisfactory,83.34398,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 03:00:00+05:30,82.33749999999999,Satisfactory,79.582306,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 03:00:00+05:30,92.7625,Satisfactory,91.47112,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 03:00:00+05:30,91.685,Satisfactory,89.991165,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 03:00:00+05:30,76.39604166666668,Satisfactory,75.664345,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 04:00:00+05:30,84.37083333333334,Satisfactory,81.42621,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 04:00:00+05:30,94.52916666666664,Satisfactory,93.11607,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 04:00:00+05:30,84.07083333333334,Satisfactory,82.48823,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 04:00:00+05:30,93.68208333333332,Satisfactory,91.70232,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 04:00:00+05:30,77.93854166666667,Satisfactory,76.7844,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 05:00:00+05:30,86.27499999999999,Satisfactory,85.50175,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 05:00:00+05:30,80.121875,Satisfactory,79.51444,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 05:00:00+05:30,96.02083333333331,Satisfactory,92.66996,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 05:00:00+05:30,96.5125,Satisfactory,93.41253,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 05:00:00+05:30,85.87916666666666,Satisfactory,84.11569,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 06:00:00+05:30,82.50520833333333,Satisfactory,81.82618,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 06:00:00+05:30,88.00833333333334,Satisfactory,85.62637,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 06:00:00+05:30,87.78333333333335,Satisfactory,86.68496,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 06:00:00+05:30,98.89958333333334,Satisfactory,93.44314,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 06:00:00+05:30,98.99166666666666,Satisfactory,91.648026,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 07:00:00+05:30,101.29622483221478,Moderate,94.629456,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 07:00:00+05:30,101.14977348993288,Moderate,96.12199,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 07:00:00+05:30,90.35,Satisfactory,87.24022,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 07:00:00+05:30,84.58145833333333,Satisfactory,84.20921,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 07:00:00+05:30,89.32083333333334,Satisfactory,87.606285,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 08:00:00+05:30,102.38145973154364,Moderate,94.245384,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 08:00:00+05:30,90.8,Satisfactory,89.313484,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 08:00:00+05:30,86.56270833333333,Satisfactory,86.9847,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 08:00:00+05:30,102.41689597315435,Moderate,93.76722,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 08:00:00+05:30,91.89583333333331,Satisfactory,88.60859,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 09:00:00+05:30,91.5125,Satisfactory,90.32587,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 09:00:00+05:30,103.3324244966443,Moderate,99.42658,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 09:00:00+05:30,88.158125,Satisfactory,87.80968,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 09:00:00+05:30,103.20092281879197,Moderate,100.11215,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 09:00:00+05:30,93.17083333333332,Satisfactory,89.43728,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 10:00:00+05:30,103.80472315436242,Moderate,100.81763,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 10:00:00+05:30,92.5,Satisfactory,90.127235,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 10:00:00+05:30,89.48604166666667,Satisfactory,88.57793,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 10:00:00+05:30,103.85427852348994,Moderate,99.675514,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 10:00:00+05:30,94.3125,Satisfactory,90.32148,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 11:00:00+05:30,89.63937500000002,Satisfactory,89.406296,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 11:00:00+05:30,104.13666107382552,Moderate,99.662605,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 11:00:00+05:30,92.62916666666668,Satisfactory,89.62888,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 11:00:00+05:30,95.03333333333332,Satisfactory,90.57412,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 11:00:00+05:30,103.98439597315436,Moderate,100.76015,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 12:00:00+05:30,94.90000000000002,Satisfactory,91.046165,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 12:00:00+05:30,104.1726510067114,Moderate,99.81292,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 12:00:00+05:30,92.13333333333334,Satisfactory,88.89216,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 12:00:00+05:30,89.779375,Satisfactory,88.49149,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 12:00:00+05:30,104.24186241610738,Moderate,99.76767,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 13:00:00+05:30,94.87916666666666,Satisfactory,90.27534,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 13:00:00+05:30,104.13942953020135,Moderate,98.31051,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 13:00:00+05:30,89.080625,Satisfactory,89.20097,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 13:00:00+05:30,91.5125,Satisfactory,88.48387,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 13:00:00+05:30,104.22829697986576,Moderate,99.437225,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 14:00:00+05:30,104.27480704697986,Moderate,99.67714,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 14:00:00+05:30,88.35604166666667,Satisfactory,86.84276,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 14:00:00+05:30,103.99270134228188,Moderate,98.27833,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 14:00:00+05:30,91.01666666666668,Satisfactory,88.31664,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 14:00:00+05:30,94.8125,Satisfactory,89.52191,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 15:00:00+05:30,103.801677852349,Moderate,97.45855,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 15:00:00+05:30,90.57916666666668,Satisfactory,88.15744,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 15:00:00+05:30,88.10812500000002,Satisfactory,84.88112,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 15:00:00+05:30,104.3326677852349,Moderate,98.63315,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 15:00:00+05:30,94.25833333333334,Satisfactory,89.83315,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 16:00:00+05:30,93.89166666666668,Satisfactory,88.34281,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 16:00:00+05:30,87.43604166666667,Satisfactory,84.74948,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 16:00:00+05:30,103.40855704697988,Moderate,96.57875,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 16:00:00+05:30,90.08333333333336,Satisfactory,87.14175,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 16:00:00+05:30,104.28754194630872,Moderate,100.177925,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 17:00:00+05:30,103.12894295302011,Moderate,96.32705,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 17:00:00+05:30,93.65416666666668,Satisfactory,88.234764,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 17:00:00+05:30,87.05541666666666,Satisfactory,83.87175,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 17:00:00+05:30,89.6125,Satisfactory,85.13429,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 17:00:00+05:30,103.9528355704698,Moderate,96.76494,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 18:00:00+05:30,103.50130033557048,Moderate,98.198746,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 18:00:00+05:30,86.3775,Satisfactory,84.10974,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 18:00:00+05:30,93.67083333333336,Satisfactory,87.46688,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 18:00:00+05:30,88.7625,Satisfactory,83.50484,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 18:00:00+05:30,102.68875838926176,Moderate,95.00076,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 19:00:00+05:30,102.13506711409396,Moderate,94.4758,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 19:00:00+05:30,88.22083333333335,Satisfactory,82.81607,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 19:00:00+05:30,103.31276845637584,Moderate,96.51034,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 19:00:00+05:30,93.55,Satisfactory,86.96768,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 19:00:00+05:30,85.7375,Satisfactory,82.074135,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 20:00:00+05:30,86.83916666666666,Satisfactory,81.23714,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 20:00:00+05:30,88.52916666666665,Satisfactory,81.00714,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 20:00:00+05:30,102.653322147651,Moderate,95.28773,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 20:00:00+05:30,95.2625,Satisfactory,86.682495,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 20:00:00+05:30,102.23473154362416,Moderate,92.428154,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 21:00:00+05:30,101.61459731543624,Moderate,93.343285,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 21:00:00+05:30,101.72782718120806,Moderate,94.10743,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 21:00:00+05:30,86.56833333333333,Satisfactory,83.078476,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 21:00:00+05:30,85.85000000000001,Satisfactory,81.059685,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 21:00:00+05:30,94.72916666666669,Satisfactory,86.57244,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 22:00:00+05:30,98.6125,Satisfactory,86.81018,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 22:00:00+05:30,83.78791666666667,Satisfactory,81.77172,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 22:00:00+05:30,81.11250000000001,Satisfactory,78.830376,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 22:00:00+05:30,98.9525,Satisfactory,93.0367,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 22:00:00+05:30,92.02916666666664,Satisfactory,84.15508,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-04-30 23:00:00+05:30,76.55416666666666,Satisfactory,72.7375,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-04-30 23:00:00+05:30,94.44166666666666,Satisfactory,84.74272,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-04-30 23:00:00+05:30,79.85333333333334,Satisfactory,78.22992,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-04-30 23:00:00+05:30,94.32916666666668,Satisfactory,85.97368,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-04-30 23:00:00+05:30,87.94583333333334,Satisfactory,83.31394,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 00:00:00+05:30,89.23583333333333,Satisfactory,85.00616,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 00:00:00+05:30,75.49374999999999,Satisfactory,76.07599,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 00:00:00+05:30,71.86666666666667,Satisfactory,72.463196,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 00:00:00+05:30,90.39166666666664,Satisfactory,86.34446,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 00:00:00+05:30,83.73333333333333,Satisfactory,82.20423,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 01:00:00+05:30,79.32916666666667,Satisfactory,76.00134,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 01:00:00+05:30,84.4675,Satisfactory,82.36251,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 01:00:00+05:30,86.60416666666667,Satisfactory,83.52627,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 01:00:00+05:30,68.19166666666666,Satisfactory,68.519775,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 01:00:00+05:30,72.24708333333334,Satisfactory,73.890686,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 02:00:00+05:30,68.88708333333334,Satisfactory,71.12345,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 02:00:00+05:30,80.1775,Satisfactory,77.195724,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 02:00:00+05:30,65.0,Satisfactory,67.262344,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 02:00:00+05:30,83.97916666666667,Satisfactory,79.59184,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 02:00:00+05:30,75.89999999999999,Satisfactory,73.95725,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 03:00:00+05:30,62.13750000000001,Satisfactory,63.119457,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 03:00:00+05:30,76.69625,Satisfactory,73.84751,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 03:00:00+05:30,73.18333333333332,Satisfactory,73.14779,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 03:00:00+05:30,66.48875,Satisfactory,68.263115,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 03:00:00+05:30,81.5625,Satisfactory,79.06479,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 04:00:00+05:30,64.38333333333333,Satisfactory,64.77218,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 04:00:00+05:30,71.175,Satisfactory,71.849,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 04:00:00+05:30,74.115,Satisfactory,74.04164,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 04:00:00+05:30,60.208333333333336,Satisfactory,62.766792,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 04:00:00+05:30,79.47916666666667,Satisfactory,76.04759,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 05:00:00+05:30,61.38875,Satisfactory,64.350876,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 05:00:00+05:30,71.65833333333333,Satisfactory,73.08567,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 05:00:00+05:30,58.05000000000001,Satisfactory,60.234764,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 05:00:00+05:30,69.5125,Satisfactory,69.7379,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 05:00:00+05:30,77.26666666666667,Satisfactory,76.95135,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 06:00:00+05:30,58.13541666666666,Satisfactory,62.82313,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 06:00:00+05:30,66.90833333333333,Satisfactory,68.0064,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 06:00:00+05:30,74.5875,Satisfactory,75.445274,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 06:00:00+05:30,68.69291666666666,Satisfactory,70.2435,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 06:00:00+05:30,56.40833333333334,Satisfactory,57.95736,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 07:00:00+05:30,72.16250000000001,Satisfactory,75.75992,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 07:00:00+05:30,66.60708333333334,Satisfactory,68.240166,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 07:00:00+05:30,55.23333333333334,Satisfactory,57.542725,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 07:00:00+05:30,64.98333333333333,Satisfactory,65.512596,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 07:00:00+05:30,55.40041666666667,Satisfactory,58.40685,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 08:00:00+05:30,70.80833333333334,Satisfactory,71.223495,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 08:00:00+05:30,54.34166666666667,Satisfactory,57.222992,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 08:00:00+05:30,54.16708333333333,Satisfactory,57.654057,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 08:00:00+05:30,63.57500000000001,Satisfactory,64.52263,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 08:00:00+05:30,64.94416666666667,Satisfactory,66.442085,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 09:00:00+05:30,63.860833333333325,Satisfactory,65.33543,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 09:00:00+05:30,62.958333333333336,Satisfactory,63.371468,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 09:00:00+05:30,70.08333333333333,Satisfactory,71.65844,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 09:00:00+05:30,54.01666666666667,Satisfactory,57.269108,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 09:00:00+05:30,53.44875,Satisfactory,56.72354,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 10:00:00+05:30,52.77166666666667,Satisfactory,56.461926,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 10:00:00+05:30,63.30416666666667,Satisfactory,63.872124,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 10:00:00+05:30,69.54166666666667,Satisfactory,70.19214,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 10:00:00+05:30,53.57916666666667,Satisfactory,56.345245,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 10:00:00+05:30,62.5875,Satisfactory,63.573856,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 11:00:00+05:30,53.39166666666668,Satisfactory,54.85496,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 11:00:00+05:30,69.59166666666665,Satisfactory,71.69067,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 11:00:00+05:30,59.79750000000001,Satisfactory,63.83383,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 11:00:00+05:30,62.66666666666666,Satisfactory,63.637905,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 11:00:00+05:30,52.79583333333333,Satisfactory,54.265526,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 12:00:00+05:30,62.89166666666667,Satisfactory,63.70305,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 12:00:00+05:30,69.6875,Satisfactory,73.96036,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 12:00:00+05:30,53.42500000000001,Satisfactory,54.83812,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 12:00:00+05:30,56.26958333333334,Satisfactory,62.416584,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 12:00:00+05:30,52.68833333333333,Satisfactory,54.348064,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 13:00:00+05:30,53.32916666666667,Satisfactory,54.699406,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 13:00:00+05:30,69.81,Satisfactory,74.55547,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 13:00:00+05:30,53.09166666666666,Satisfactory,54.583435,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 13:00:00+05:30,63.19166666666666,Satisfactory,62.95601,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 13:00:00+05:30,55.605,Satisfactory,58.400917,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 14:00:00+05:30,53.69166666666666,Satisfactory,55.017212,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 14:00:00+05:30,73.66874999999999,Satisfactory,74.64811,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 14:00:00+05:30,63.49583333333333,Satisfactory,63.58,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 14:00:00+05:30,53.27916666666667,Satisfactory,54.285946,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 14:00:00+05:30,55.11375,Satisfactory,58.437828,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 15:00:00+05:30,54.63999999999999,Satisfactory,56.487938,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 15:00:00+05:30,78.10875,Satisfactory,77.63745,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 15:00:00+05:30,53.86375,Satisfactory,55.001312,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 15:00:00+05:30,63.9875,Satisfactory,63.103382,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 15:00:00+05:30,53.27083333333334,Satisfactory,54.549126,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 16:00:00+05:30,54.62916666666666,Satisfactory,56.399605,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 16:00:00+05:30,64.09583333333333,Satisfactory,63.37966,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 16:00:00+05:30,80.22749999999999,Satisfactory,80.80788,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 16:00:00+05:30,53.76250000000001,Satisfactory,55.442455,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 16:00:00+05:30,54.2425,Satisfactory,54.55613,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 17:00:00+05:30,64.20833333333333,Satisfactory,62.124786,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 17:00:00+05:30,54.20833333333334,Satisfactory,55.403492,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 17:00:00+05:30,76.82999999999998,Satisfactory,79.73464,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 17:00:00+05:30,54.51666666666667,Satisfactory,55.27992,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 17:00:00+05:30,54.27125,Satisfactory,54.16058,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 18:00:00+05:30,64.09166666666667,Satisfactory,62.373394,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 18:00:00+05:30,51.720416666666665,Satisfactory,53.964973,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 18:00:00+05:30,55.25,Satisfactory,55.10739,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 18:00:00+05:30,54.750416666666666,Satisfactory,53.75657,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 18:00:00+05:30,70.53333333333333,Satisfactory,75.81618,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 19:00:00+05:30,55.62916666666666,Satisfactory,53.499493,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 19:00:00+05:30,63.975,Satisfactory,61.774853,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 19:00:00+05:30,51.7875,Satisfactory,48.27075,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 19:00:00+05:30,55.08958333333334,Satisfactory,53.577934,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 19:00:00+05:30,70.9125,Satisfactory,69.46711,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 20:00:00+05:30,55.15416666666667,Satisfactory,53.16449,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 20:00:00+05:30,62.20416666666666,Satisfactory,60.79241,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 20:00:00+05:30,52.19583333333333,Satisfactory,48.716644,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 20:00:00+05:30,53.62833333333334,Satisfactory,53.032406,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 20:00:00+05:30,70.4875,Satisfactory,68.18223,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 21:00:00+05:30,62.12083333333334,Satisfactory,61.24213,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 21:00:00+05:30,70.41666666666667,Satisfactory,67.01674,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 21:00:00+05:30,52.69291666666667,Satisfactory,52.259285,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 21:00:00+05:30,52.564166666666665,Satisfactory,50.954517,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 21:00:00+05:30,56.175,Satisfactory,53.806896,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 22:00:00+05:30,70.95833333333333,Satisfactory,67.90714,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 22:00:00+05:30,52.48166666666666,Satisfactory,52.603107,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 22:00:00+05:30,53.25625,Satisfactory,52.406403,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 22:00:00+05:30,62.8375,Satisfactory,61.340252,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 22:00:00+05:30,57.08333333333334,Satisfactory,54.840145,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-01 23:00:00+05:30,57.59166666666667,Satisfactory,55.425663,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-01 23:00:00+05:30,54.01708333333334,Satisfactory,51.97297,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-01 23:00:00+05:30,63.525,Satisfactory,61.39303,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-01 23:00:00+05:30,71.375,Satisfactory,67.8851,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-01 23:00:00+05:30,51.890833333333326,Satisfactory,51.864307,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 00:00:00+05:30,58.03333333333334,Satisfactory,56.787903,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 00:00:00+05:30,64.05416666666666,Satisfactory,63.033504,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 00:00:00+05:30,51.78625,Satisfactory,49.555267,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 00:00:00+05:30,55.031666666666666,Satisfactory,54.4183,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-02 00:00:00+05:30,71.54166666666667,Satisfactory,71.995926,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 01:00:00+05:30,64.65416666666667,Satisfactory,63.309196,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-02 01:00:00+05:30,71.55416666666667,Satisfactory,70.545944,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 01:00:00+05:30,55.727916666666665,Satisfactory,53.965393,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 01:00:00+05:30,51.19,Satisfactory,49.70178,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 01:00:00+05:30,57.76250000000001,Satisfactory,57.0546,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 02:00:00+05:30,57.337500000000006,Satisfactory,56.92116,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 02:00:00+05:30,25.414999999999992,Good,46.917698,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 02:00:00+05:30,64.72083333333333,Satisfactory,63.71228,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 02:00:00+05:30,56.18958333333333,Satisfactory,55.008057,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-02 02:00:00+05:30,71.11666666666666,Satisfactory,69.62238,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-02 03:00:00+05:30,70.43333333333332,Satisfactory,69.58504,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 03:00:00+05:30,25.69875,Good,32.476517,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-02 03:00:00+05:30,57.025,Satisfactory,56.664192,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 03:00:00+05:30,55.94208333333333,Satisfactory,56.272614,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 03:00:00+05:30,64.32083333333334,Satisfactory,63.956158,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 04:00:00+05:30,63.39166666666666,Satisfactory,63.352345,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 04:00:00+05:30,25.6825,Good,32.58967,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-02 04:00:00+05:30,69.78333333333333,Satisfactory,69.105316,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 04:00:00+05:30,56.13333333333333,Satisfactory,56.5304,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 04:00:00+05:30,55.84375,Satisfactory,55.971886,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 05:00:00+05:30,62.40833333333333,Satisfactory,62.41324,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 05:00:00+05:30,55.28791666666667,Satisfactory,56.64081,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-02 05:00:00+05:30,69.25,Satisfactory,68.56959,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 05:00:00+05:30,49.66736111111111,Good,29.437277,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-02 05:00:00+05:30,55.22916666666668,Satisfactory,56.389904,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-02 06:00:00+05:30,68.50833333333334,Satisfactory,68.69854,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 06:00:00+05:30,61.57916666666667,Satisfactory,62.421234,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 06:00:00+05:30,49.44236111111112,Good,48.279182,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-02 06:00:00+05:30,54.40833333333333,Satisfactory,55.742397,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 06:00:00+05:30,54.94583333333333,Satisfactory,56.689575,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 07:00:00+05:30,52.833333333333336,Satisfactory,55.181183,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 07:00:00+05:30,49.09041666666666,Good,47.50577,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 07:00:00+05:30,53.81375,Satisfactory,56.127357,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-02 07:00:00+05:30,67.78750000000001,Satisfactory,67.668274,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 07:00:00+05:30,60.38333333333333,Satisfactory,61.70313,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 08:00:00+05:30,59.05,Satisfactory,59.640186,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 08:00:00+05:30,52.76749999999999,Satisfactory,55.089287,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 08:00:00+05:30,48.59583333333333,Good,47.059742,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-02 08:00:00+05:30,66.21249999999999,Satisfactory,66.89311,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 08:00:00+05:30,51.25833333333333,Satisfactory,53.68166,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 09:00:00+05:30,49.7875,Good,44.057034,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 09:00:00+05:30,57.30833333333333,Satisfactory,57.92421,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-02 09:00:00+05:30,64.13333333333334,Satisfactory,65.11059,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 09:00:00+05:30,47.51597222222222,Good,47.70578,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 09:00:00+05:30,51.39791666666667,Satisfactory,53.617146,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-02 10:00:00+05:30,62.47083333333333,Satisfactory,63.850983,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 10:00:00+05:30,55.3125,Satisfactory,57.041454,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 10:00:00+05:30,46.75208333333333,Good,47.608524,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 10:00:00+05:30,49.91041666666666,Good,44.48287,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 10:00:00+05:30,48.23611111111111,Good,44.718388,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 11:00:00+05:30,53.10833333333333,Satisfactory,56.534576,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 11:00:00+05:30,45.89861111111112,Good,47.08213,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-02 11:00:00+05:30,60.85416666666666,Satisfactory,63.719265,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 11:00:00+05:30,47.25000000000001,Good,47.393887,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 11:00:00+05:30,51.3375,Satisfactory,47.04552,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-02 12:00:00+05:30,65.21875,Satisfactory,62.47979,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 12:00:00+05:30,45.2201388888889,Good,46.422367,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 12:00:00+05:30,70.4375,Satisfactory,57.264503,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 12:00:00+05:30,53.07708333333333,Satisfactory,47.62669,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 12:00:00+05:30,46.00694444444445,Good,48.45508,Good
+"Fort William, Kolkata - WBPCB",2022-05-02 13:00:00+05:30,44.16250000000001,Good,45.126377,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 13:00:00+05:30,74.56875,Satisfactory,78.06208,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 13:00:00+05:30,43.36111111111112,Good,47.030205,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-02 13:00:00+05:30,70.47,Satisfactory,67.11433,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 13:00:00+05:30,51.96458333333334,Satisfactory,53.9534,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 14:00:00+05:30,43.52777777777777,Good,44.629826,Good
+"Fort William, Kolkata - WBPCB",2022-05-02 14:00:00+05:30,43.44513888888889,Good,44.702126,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 14:00:00+05:30,76.20875,Satisfactory,74.35517,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-02 14:00:00+05:30,72.88250000000001,Satisfactory,73.17518,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 14:00:00+05:30,49.830000000000005,Good,53.254417,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 15:00:00+05:30,45.63625000000002,Good,47.59115,Good
+"Fort William, Kolkata - WBPCB",2022-05-02 15:00:00+05:30,43.125,Good,44.180126,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-02 15:00:00+05:30,75.73125,Satisfactory,74.8028,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 15:00:00+05:30,77.54249999999999,Satisfactory,76.0086,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 15:00:00+05:30,53.36500000000001,Satisfactory,50.536266,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 16:00:00+05:30,42.62638888888889,Good,43.8315,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 16:00:00+05:30,77.56625,Satisfactory,75.89224,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 16:00:00+05:30,49.70500000000001,Good,49.007847,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-02 16:00:00+05:30,76.59625,Satisfactory,75.24438,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 16:00:00+05:30,92.61375,Satisfactory,56.347054,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 17:00:00+05:30,93.88375,Satisfactory,117.40528,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-02 17:00:00+05:30,75.5825,Satisfactory,75.77827,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 17:00:00+05:30,42.144444444444446,Good,42.5018,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 17:00:00+05:30,76.5875,Satisfactory,76.23951,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 17:00:00+05:30,52.41125000000002,Satisfactory,49.457455,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 18:00:00+05:30,73.7425,Satisfactory,75.795616,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 18:00:00+05:30,54.22375000000002,Satisfactory,53.9625,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-02 18:00:00+05:30,73.64625,Satisfactory,74.012695,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 18:00:00+05:30,94.40625,Satisfactory,95.60045,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 18:00:00+05:30,41.81527777777778,Good,42.95116,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-02 19:00:00+05:30,52.01250000000001,Satisfactory,54.81655,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 19:00:00+05:30,91.50125,Satisfactory,87.78742,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-02 19:00:00+05:30,69.41,Satisfactory,72.412125,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 19:00:00+05:30,42.009027777777774,Good,42.30457,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 19:00:00+05:30,76.59625,Satisfactory,71.46711,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 20:00:00+05:30,42.21805555555556,Good,42.708344,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 20:00:00+05:30,86.97250000000001,Satisfactory,85.463776,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-02 20:00:00+05:30,63.63125,Satisfactory,65.9916,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 20:00:00+05:30,44.07916666666667,Good,71.65189,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 20:00:00+05:30,48.03250000000002,Good,51.51583,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 21:00:00+05:30,82.825,Satisfactory,81.70448,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-02 21:00:00+05:30,42.40486111111111,Good,42.425137,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-02 21:00:00+05:30,58.9725,Satisfactory,62.67849,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 21:00:00+05:30,44.210000000000015,Good,46.420567,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 21:00:00+05:30,43.15416666666667,Good,45.01808,Good
+"Fort William, Kolkata - WBPCB",2022-05-02 22:00:00+05:30,42.81666666666667,Good,42.815685,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-02 22:00:00+05:30,39.95833333333334,Good,44.09334,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 22:00:00+05:30,77.6675,Satisfactory,75.4658,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 22:00:00+05:30,42.37916666666667,Good,45.840675,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-02 22:00:00+05:30,54.03125,Satisfactory,57.5573,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-02 23:00:00+05:30,40.00694444444444,Good,41.410313,Good
+"Fort William, Kolkata - WBPCB",2022-05-02 23:00:00+05:30,43.01666666666667,Good,42.885086,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-02 23:00:00+05:30,47.471250000000005,Good,55.59875,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-02 23:00:00+05:30,72.02375,Satisfactory,73.682365,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-02 23:00:00+05:30,42.079166666666666,Good,43.261192,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-03 00:00:00+05:30,42.46541666666666,Good,70.761505,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-03 00:00:00+05:30,41.9875,Good,42.859062,Good
+"Fort William, Kolkata - WBPCB",2022-05-03 00:00:00+05:30,43.3625,Good,44.026287,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-03 00:00:00+05:30,40.25000000000001,Good,42.205147,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-03 00:00:00+05:30,46.90833333333333,Good,49.05639,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-03 01:00:00+05:30,47.275,Good,48.871265,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-03 01:00:00+05:30,42.57416666666666,Good,47.578285,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-03 01:00:00+05:30,42.0,Good,43.38993,Good
+"Fort William, Kolkata - WBPCB",2022-05-03 01:00:00+05:30,43.55555555555555,Good,44.05811,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-03 01:00:00+05:30,41.04861111111111,Good,42.331654,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-03 02:00:00+05:30,42.22083333333333,Good,43.412083,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-03 02:00:00+05:30,47.59166666666667,Good,47.76787,Good
+"Fort William, Kolkata - WBPCB",2022-05-03 02:00:00+05:30,43.96736111111111,Good,43.732075,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-03 02:00:00+05:30,42.91416666666667,Good,45.95694,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-03 02:00:00+05:30,41.4375,Good,42.558624,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-03 03:00:00+05:30,42.85,Good,43.46878,Good
+"Fort William, Kolkata - WBPCB",2022-05-03 03:00:00+05:30,44.08055555555556,Good,44.46807,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-03 03:00:00+05:30,47.9,Good,48.53194,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-03 03:00:00+05:30,41.46527777777777,Good,42.39585,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-03 03:00:00+05:30,43.57708333333333,Good,44.48318,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-03 04:00:00+05:30,43.57272727272727,Good,43.33493,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-03 04:00:00+05:30,44.018358585858586,Good,43.982456,Good
+"Fort William, Kolkata - WBPCB",2022-05-03 04:00:00+05:30,44.06694023569024,Good,43.819626,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-03 04:00:00+05:30,48.23888888888889,Good,48.41391,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-03 04:00:00+05:30,41.8543771043771,Good,41.780796,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-03 05:00:00+05:30,48.25,Good,48.295612,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-03 05:00:00+05:30,44.60924242424243,Good,44.92671,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-03 05:00:00+05:30,41.77146464646465,Good,42.607944,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-03 05:00:00+05:30,44.451515151515146,Good,43.778454,Good
+"Fort William, Kolkata - WBPCB",2022-05-03 05:00:00+05:30,43.834848484848486,Good,44.03573,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-03 06:00:00+05:30,41.80681818181818,Good,42.5456,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-03 06:00:00+05:30,45.28636363636363,Good,44.21901,Good
+"Fort William, Kolkata - WBPCB",2022-05-03 06:00:00+05:30,43.5606691919192,Good,43.847218,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-03 06:00:00+05:30,48.4375,Good,48.56257,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-03 06:00:00+05:30,44.96515151515152,Good,45.90314,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-03 07:00:00+05:30,45.42407114624506,Good,46.061153,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-03 07:00:00+05:30,48.6608695652174,Good,48.600437,Good
+"Fort William, Kolkata - WBPCB",2022-05-03 07:00:00+05:30,43.55243741765481,Good,43.86079,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-03 07:00:00+05:30,42.00856389986824,Good,42.736137,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-03 07:00:00+05:30,45.79011857707509,Good,45.056145,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-04 15:00:00+05:30,56.21467532467533,Satisfactory,57.104145,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-04 15:00:00+05:30,74.31597402597403,Satisfactory,74.72702,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-04 15:00:00+05:30,58.11493506493508,Satisfactory,58.696205,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-04 15:00:00+05:30,46.81688311688312,Good,45.562496,Good
+"Fort William, Kolkata - WBPCB",2022-05-04 15:00:00+05:30,15.032597402597396,Good,25.559162,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-04 16:00:00+05:30,58.0768181818182,Satisfactory,57.922325,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-04 16:00:00+05:30,75.71147727272728,Satisfactory,75.7088,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-04 16:00:00+05:30,15.073863636363638,Good,26.558065,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-04 16:00:00+05:30,46.706022727272725,Good,49.705387,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-04 16:00:00+05:30,57.37159090909091,Satisfactory,57.8096,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-04 17:00:00+05:30,47.396136363636366,Good,49.30054,Good
+"Fort William, Kolkata - WBPCB",2022-05-04 17:00:00+05:30,15.380681818181818,Good,26.782972,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-04 17:00:00+05:30,58.360909090909104,Satisfactory,56.728813,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-04 17:00:00+05:30,75.66261363636363,Satisfactory,85.663605,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-04 17:00:00+05:30,58.61954545454546,Satisfactory,58.56663,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-04 18:00:00+05:30,57.441969696969714,Satisfactory,56.91234,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-04 18:00:00+05:30,15.731060606060607,Good,27.55724,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-04 18:00:00+05:30,47.19496212121212,Good,47.573658,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-04 18:00:00+05:30,72.92337121212122,Satisfactory,76.13231,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-04 18:00:00+05:30,58.19443181818183,Satisfactory,58.18643,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-04 19:00:00+05:30,15.812499999999998,Good,25.222858,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-04 19:00:00+05:30,46.58625,Good,46.704754,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-04 19:00:00+05:30,56.34625000000002,Satisfactory,55.73853,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-04 19:00:00+05:30,70.6675,Satisfactory,72.723145,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-04 19:00:00+05:30,56.251250000000006,Satisfactory,56.124077,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-04 20:00:00+05:30,53.77000000000001,Satisfactory,55.239822,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-04 20:00:00+05:30,41.80462121212121,Good,23.884476,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-04 20:00:00+05:30,70.66666666666667,Satisfactory,71.4442,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-04 20:00:00+05:30,56.61136363636365,Satisfactory,54.540367,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-04 20:00:00+05:30,45.651250000000005,Good,46.483467,Good
+"Fort William, Kolkata - WBPCB",2022-05-04 21:00:00+05:30,41.153496503496505,Good,49.713116,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-04 21:00:00+05:30,69.97692307692309,Satisfactory,68.86546,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-04 21:00:00+05:30,49.78671328671329,Good,44.81246,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-04 21:00:00+05:30,55.94895104895106,Satisfactory,54.28755,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-04 21:00:00+05:30,46.06048951048951,Good,54.07406,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-04 22:00:00+05:30,40.2661038961039,Good,49.387367,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-04 22:00:00+05:30,49.0948051948052,Good,45.696026,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-04 22:00:00+05:30,46.04402597402598,Good,46.54241,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-04 22:00:00+05:30,54.8383116883117,Satisfactory,54.44768,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-04 22:00:00+05:30,69.17857142857143,Satisfactory,67.754845,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-04 23:00:00+05:30,48.42848484848485,Good,46.30912,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-04 23:00:00+05:30,46.019090909090906,Good,45.625916,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-04 23:00:00+05:30,54.44909090909092,Satisfactory,53.848103,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-04 23:00:00+05:30,68.39333333333335,Satisfactory,65.86333,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-04 23:00:00+05:30,40.14769696969697,Good,51.686184,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-05 12:00:00+05:30,48.61437500000001,Good,47.352444,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-05 12:00:00+05:30,62.12083333333334,Satisfactory,63.049664,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-05 12:00:00+05:30,47.87083333333334,Good,48.121853,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-05 12:00:00+05:30,51.84166666666667,Satisfactory,52.075665,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-05 12:00:00+05:30,39.10694444444445,Good,41.088535,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-05 13:00:00+05:30,48.44583333333333,Good,47.531487,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-05 13:00:00+05:30,54.910625,Satisfactory,52.941944,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-05 13:00:00+05:30,52.325,Satisfactory,52.875595,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-05 13:00:00+05:30,62.75416666666667,Satisfactory,64.32972,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-05 13:00:00+05:30,39.54583333333334,Good,40.694477,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-05 14:00:00+05:30,69.73125,Satisfactory,65.910805,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-05 14:00:00+05:30,49.51250000000001,Good,49.43993,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-05 14:00:00+05:30,53.62125000000001,Satisfactory,58.249546,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-05 14:00:00+05:30,59.96093750000001,Satisfactory,60.20096,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-05 14:00:00+05:30,40.00069444444445,Good,41.51383,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-05 15:00:00+05:30,64.54031250000001,Satisfactory,63.82262,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-05 15:00:00+05:30,41.45416666666667,Good,42.31008,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-05 15:00:00+05:30,60.62250000000002,Satisfactory,58.926144,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-05 15:00:00+05:30,77.16375,Satisfactory,76.871414,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-05 15:00:00+05:30,45.4775,Good,48.65277,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-05 16:00:00+05:30,66.4925,Satisfactory,68.22836,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-05 16:00:00+05:30,83.47875,Satisfactory,84.900764,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-05 16:00:00+05:30,42.75555555555555,Good,44.83504,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-05 16:00:00+05:30,64.15750000000001,Satisfactory,64.11556,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-05 16:00:00+05:30,52.583333333333336,Satisfactory,50.358143,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-05 17:00:00+05:30,57.42875,Satisfactory,56.954777,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-05 17:00:00+05:30,89.73124999999999,Satisfactory,85.04904,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-05 17:00:00+05:30,62.943750000000016,Satisfactory,63.88228,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-05 17:00:00+05:30,43.20972222222223,Good,46.16939,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-05 17:00:00+05:30,70.91250000000001,Satisfactory,66.45979,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-05 18:00:00+05:30,60.06750000000001,Satisfactory,62.353443,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-05 18:00:00+05:30,44.23611111111112,Good,46.263145,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-05 18:00:00+05:30,71.47875,Satisfactory,72.94362,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-05 18:00:00+05:30,59.61749999999999,Satisfactory,61.136913,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-05 18:00:00+05:30,92.4825,Satisfactory,89.818375,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-05 19:00:00+05:30,68.51875000000001,Satisfactory,69.87508,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-05 19:00:00+05:30,57.22083333333334,Satisfactory,58.54029,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-05 19:00:00+05:30,45.238888888888894,Good,45.820263,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-05 19:00:00+05:30,90.9325,Satisfactory,89.02811,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-05 19:00:00+05:30,59.05624999999999,Satisfactory,59.080627,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-05 20:00:00+05:30,57.475,Satisfactory,54.91788,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-05 20:00:00+05:30,46.29305555555556,Good,44.85714,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-05 20:00:00+05:30,65.00750000000001,Satisfactory,64.389015,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-05 20:00:00+05:30,89.93125,Satisfactory,86.05232,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-05 20:00:00+05:30,58.76125,Satisfactory,56.218266,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-05 21:00:00+05:30,57.21125,Satisfactory,55.638325,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-05 21:00:00+05:30,46.98194444444445,Good,46.944405,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-05 21:00:00+05:30,58.054166666666674,Satisfactory,55.63502,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-05 21:00:00+05:30,88.96000000000001,Satisfactory,86.13959,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-05 21:00:00+05:30,61.495000000000005,Satisfactory,61.831768,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-05 22:00:00+05:30,57.59583333333334,Satisfactory,55.440094,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-05 22:00:00+05:30,84.705,Satisfactory,84.28829,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-05 22:00:00+05:30,47.49375,Good,47.730984,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-05 22:00:00+05:30,58.79583333333334,Satisfactory,55.926975,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-05 22:00:00+05:30,58.77125000000001,Satisfactory,60.312473,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-05 23:00:00+05:30,80.92875000000001,Satisfactory,81.2128,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-05 23:00:00+05:30,59.15416666666667,Satisfactory,56.731583,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-05 23:00:00+05:30,58.14166666666666,Satisfactory,55.122307,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-05 23:00:00+05:30,47.65138888888889,Good,46.623787,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-05 23:00:00+05:30,56.09125000000001,Satisfactory,57.2698,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 00:00:00+05:30,48.34513888888888,Good,47.6574,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-06 00:00:00+05:30,77.64125,Satisfactory,78.92569,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-06 00:00:00+05:30,59.75,Satisfactory,57.92868,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 00:00:00+05:30,55.27250000000001,Satisfactory,57.029495,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 00:00:00+05:30,58.5875,Satisfactory,56.38506,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 01:00:00+05:30,48.84861111111111,Good,48.333157,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 01:00:00+05:30,54.88958333333334,Satisfactory,56.691517,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-06 01:00:00+05:30,59.925,Satisfactory,58.906105,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 01:00:00+05:30,74.07,Satisfactory,77.37165,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 01:00:00+05:30,58.81666666666667,Satisfactory,57.615673,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 02:00:00+05:30,54.71625,Satisfactory,55.998173,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 02:00:00+05:30,69.67125,Satisfactory,75.35538,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-06 02:00:00+05:30,60.06250000000001,Satisfactory,59.481594,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 02:00:00+05:30,58.97083333333333,Satisfactory,57.559547,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 02:00:00+05:30,49.09236111111111,Good,47.781265,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 03:00:00+05:30,59.03333333333333,Satisfactory,57.923923,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-06 03:00:00+05:30,60.366666666666674,Satisfactory,59.647835,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 03:00:00+05:30,54.66374999999999,Satisfactory,55.874763,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 03:00:00+05:30,48.85347222222222,Good,47.99072,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-06 03:00:00+05:30,67.2375,Satisfactory,69.53344,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 04:00:00+05:30,49.081944444444446,Good,48.012093,Good
+"Jadavpur, Kolkata - WBPCB",2022-05-06 04:00:00+05:30,60.375,Satisfactory,59.866135,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 04:00:00+05:30,59.2375,Satisfactory,58.228382,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 04:00:00+05:30,54.60041666666667,Satisfactory,55.24456,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 04:00:00+05:30,65.02083333333333,Satisfactory,66.86951,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-06 05:00:00+05:30,60.66666666666668,Satisfactory,59.882515,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 05:00:00+05:30,59.47916666666666,Satisfactory,58.386597,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 05:00:00+05:30,54.689166666666665,Satisfactory,54.076103,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 05:00:00+05:30,49.13472222222222,Good,48.32861,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-06 05:00:00+05:30,65.05833333333334,Satisfactory,65.52405,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-06 06:00:00+05:30,61.39583333333334,Satisfactory,60.29367,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 06:00:00+05:30,55.000416666666666,Satisfactory,54.48777,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 06:00:00+05:30,49.43333333333333,Good,47.999424,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-06 06:00:00+05:30,65.22916666666667,Satisfactory,65.14194,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 06:00:00+05:30,60.083333333333336,Satisfactory,59.190243,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-06 07:00:00+05:30,62.28333333333333,Satisfactory,61.980747,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 07:00:00+05:30,61.0125,Satisfactory,60.055695,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 07:00:00+05:30,66.25416666666666,Satisfactory,66.16144,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 07:00:00+05:30,55.673750000000005,Satisfactory,54.63329,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 07:00:00+05:30,46.51916666666667,Good,48.380604,Good
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 08:00:00+05:30,61.69583333333333,Satisfactory,60.42276,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 08:00:00+05:30,56.656666666666666,Satisfactory,55.23818,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-06 08:00:00+05:30,63.12083333333334,Satisfactory,63.18054,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 08:00:00+05:30,67.45,Satisfactory,66.70603,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 08:00:00+05:30,47.2075,Good,48.060925,Good
+"Fort William, Kolkata - WBPCB",2022-05-06 09:00:00+05:30,51.17459770114943,Satisfactory,49.246593,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-06 09:00:00+05:30,68.725,Satisfactory,68.53266,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 09:00:00+05:30,62.45416666666667,Satisfactory,62.20316,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-06 09:00:00+05:30,64.00416666666668,Satisfactory,64.087685,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 09:00:00+05:30,57.76416666666666,Satisfactory,56.57169,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 10:00:00+05:30,59.1975,Satisfactory,57.837105,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 10:00:00+05:30,52.15882183908046,Satisfactory,49.066486,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 10:00:00+05:30,69.91250000000001,Satisfactory,67.37764,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-06 10:00:00+05:30,64.89583333333334,Satisfactory,64.30258,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 10:00:00+05:30,62.93333333333333,Satisfactory,62.63041,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 11:00:00+05:30,52.6776867816092,Satisfactory,52.777233,Satisfactory
+"Jadavpur, Kolkata - WBPCB",2022-05-06 11:00:00+05:30,65.11739130434783,Satisfactory,65.314064,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 11:00:00+05:30,63.35833333333334,Satisfactory,63.07466,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 11:00:00+05:30,60.910833333333336,Satisfactory,61.39343,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 11:00:00+05:30,70.59166666666667,Satisfactory,73.70436,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 12:00:00+05:30,63.28333333333333,Satisfactory,63.606144,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 12:00:00+05:30,62.42,Satisfactory,63.511917,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 12:00:00+05:30,53.25850574712644,Satisfactory,55.223076,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 12:00:00+05:30,72.10249999999999,Satisfactory,74.27471,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 13:00:00+05:30,63.61500000000001,Satisfactory,66.924545,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 13:00:00+05:30,82.2925,Satisfactory,79.35032,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 13:00:00+05:30,63.475,Satisfactory,65.23823,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 13:00:00+05:30,53.45563218390804,Satisfactory,54.923565,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 14:00:00+05:30,91.15,Satisfactory,88.7498,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 14:00:00+05:30,63.2675,Satisfactory,66.11654,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 14:00:00+05:30,53.21133620689655,Satisfactory,54.10888,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 14:00:00+05:30,77.59875,Satisfactory,69.87403,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 15:00:00+05:30,117.24080223880595,Moderate,97.0506,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 15:00:00+05:30,73.755,Satisfactory,66.807205,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 15:00:00+05:30,52.27709770114942,Satisfactory,53.712105,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 15:00:00+05:30,92.89,Satisfactory,85.465065,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 16:00:00+05:30,106.78115671641793,Moderate,96.50947,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 16:00:00+05:30,82.67125,Satisfactory,84.10315,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 16:00:00+05:30,141.80610074626867,Moderate,122.76119,Moderate
+"Fort William, Kolkata - WBPCB",2022-05-06 16:00:00+05:30,51.17318965517242,Satisfactory,52.86733,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 17:00:00+05:30,118.35824626865671,Moderate,114.7926,Moderate
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 17:00:00+05:30,89.57374999999999,Satisfactory,90.18497,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 17:00:00+05:30,130.07940298507464,Moderate,148.82137,Moderate
+"Fort William, Kolkata - WBPCB",2022-05-06 17:00:00+05:30,49.27777777777778,Good,44.63848,Good
+"Ballygunge, Kolkata - WBPCB",2022-05-06 18:00:00+05:30,141.21320895522388,Moderate,122.91853,Moderate
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 18:00:00+05:30,124.10430970149254,Moderate,118.7058,Moderate
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 18:00:00+05:30,93.83875,Satisfactory,93.20748,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 18:00:00+05:30,51.623333333333335,Satisfactory,50.12592,Good
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 19:00:00+05:30,125.87744402985076,Moderate,119.56768,Moderate
+"Fort William, Kolkata - WBPCB",2022-05-06 19:00:00+05:30,55.084583333333335,Satisfactory,53.035942,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 19:00:00+05:30,141.51796641791043,Moderate,137.20709,Moderate
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 19:00:00+05:30,95.385,Satisfactory,94.81535,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 20:00:00+05:30,124.55867537313432,Moderate,137.05226,Moderate
+"Fort William, Kolkata - WBPCB",2022-05-06 20:00:00+05:30,58.13541666666666,Satisfactory,56.218254,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 20:00:00+05:30,119.93005597014928,Moderate,118.37096,Moderate
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 20:00:00+05:30,88.45375,Satisfactory,88.208725,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 21:00:00+05:30,81.235,Satisfactory,83.47828,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 21:00:00+05:30,102.4166604477612,Moderate,110.88987,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 21:00:00+05:30,60.41041666666666,Satisfactory,57.67462,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 21:00:00+05:30,115.10380597014924,Moderate,118.638695,Moderate
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 22:00:00+05:30,76.315,Satisfactory,76.27296,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 22:00:00+05:30,89.79875000000001,Satisfactory,99.9998,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 22:00:00+05:30,62.715833333333336,Satisfactory,60.485134,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-06 22:00:00+05:30,108.02419776119405,Moderate,108.84328,Moderate
+"Ballygunge, Kolkata - WBPCB",2022-05-06 23:00:00+05:30,89.3625,Satisfactory,102.575455,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-06 23:00:00+05:30,64.29041666666667,Satisfactory,63.195473,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-06 23:00:00+05:30,69.35249999999999,Satisfactory,73.457565,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-06 23:00:00+05:30,76.40375,Satisfactory,87.43031,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 00:00:00+05:30,78.30416666666666,Satisfactory,88.145164,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 00:00:00+05:30,65.81666666666668,Satisfactory,69.70297,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 00:00:00+05:30,73.83625,Satisfactory,76.97937,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 00:00:00+05:30,65.12125,Satisfactory,65.281075,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 01:00:00+05:30,81.1075,Satisfactory,82.526085,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 01:00:00+05:30,66.02499999999999,Satisfactory,66.131836,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 01:00:00+05:30,74.88916666666667,Satisfactory,73.269966,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 01:00:00+05:30,65.87833333333333,Satisfactory,65.508705,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 02:00:00+05:30,75.67958333333333,Satisfactory,73.87826,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 02:00:00+05:30,66.39208333333333,Satisfactory,65.59045,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 02:00:00+05:30,66.12916666666666,Satisfactory,65.161804,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 02:00:00+05:30,79.6875,Satisfactory,77.76203,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 03:00:00+05:30,66.6375,Satisfactory,65.698654,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 03:00:00+05:30,80.0625,Satisfactory,78.780914,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 03:00:00+05:30,75.91291666666667,Satisfactory,74.1095,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 03:00:00+05:30,66.43708333333333,Satisfactory,65.43054,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 04:00:00+05:30,66.77333333333334,Satisfactory,65.27863,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 04:00:00+05:30,80.00833333333333,Satisfactory,78.503685,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 04:00:00+05:30,76.10708333333334,Satisfactory,74.97428,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 04:00:00+05:30,66.54583333333333,Satisfactory,65.6388,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 05:00:00+05:30,76.25958333333334,Satisfactory,75.06737,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 05:00:00+05:30,67.43458333333334,Satisfactory,65.62616,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 05:00:00+05:30,66.19583333333334,Satisfactory,65.70867,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 05:00:00+05:30,80.1125,Satisfactory,78.122604,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 06:00:00+05:30,80.27916666666667,Satisfactory,78.405495,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 06:00:00+05:30,65.76666666666667,Satisfactory,65.2897,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 06:00:00+05:30,68.19875,Satisfactory,66.785515,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 06:00:00+05:30,76.33583333333333,Satisfactory,75.43731,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 07:00:00+05:30,79.85833333333333,Satisfactory,78.5732,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 07:00:00+05:30,65.40416666666667,Satisfactory,64.99686,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 07:00:00+05:30,68.28291666666667,Satisfactory,67.40859,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 07:00:00+05:30,76.30583333333333,Satisfactory,75.44707,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 08:00:00+05:30,68.58166666666666,Satisfactory,67.47899,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 08:00:00+05:30,76.0375,Satisfactory,75.49775,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 08:00:00+05:30,79.08333333333333,Satisfactory,78.5265,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 08:00:00+05:30,64.8125,Satisfactory,64.84642,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 09:00:00+05:30,75.66708333333334,Satisfactory,75.32432,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 09:00:00+05:30,69.01416666666667,Satisfactory,67.42,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 09:00:00+05:30,63.875,Satisfactory,64.27367,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 09:00:00+05:30,78.54583333333333,Satisfactory,79.37151,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 10:00:00+05:30,63.179166666666674,Satisfactory,63.05374,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 10:00:00+05:30,77.57916666666667,Satisfactory,78.625854,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 10:00:00+05:30,69.22166666666668,Satisfactory,68.440216,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 10:00:00+05:30,74.81708333333333,Satisfactory,74.81467,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 11:00:00+05:30,68.77541666666666,Satisfactory,68.25484,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 11:00:00+05:30,63.32083333333333,Satisfactory,63.25767,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 11:00:00+05:30,73.35041666666666,Satisfactory,74.1911,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 11:00:00+05:30,76.97916666666666,Satisfactory,78.69787,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 12:00:00+05:30,68.97875,Satisfactory,67.51048,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 12:00:00+05:30,71.95333333333333,Satisfactory,73.128815,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 12:00:00+05:30,72.53875,Satisfactory,62.762104,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 12:00:00+05:30,76.42916666666666,Satisfactory,79.291504,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 13:00:00+05:30,76.19166666666666,Satisfactory,80.21234,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 13:00:00+05:30,70.65875000000001,Satisfactory,71.758934,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 13:00:00+05:30,76.77,Satisfactory,79.09808,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 13:00:00+05:30,69.25666666666666,Satisfactory,68.56737,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 14:00:00+05:30,84.78375,Satisfactory,81.94059,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 14:00:00+05:30,90.33375,Satisfactory,70.04619,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 14:00:00+05:30,70.09416666666667,Satisfactory,68.56366,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 14:00:00+05:30,82.1675,Satisfactory,77.2642,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 15:00:00+05:30,86.73187499999999,Satisfactory,85.966675,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 15:00:00+05:30,71.015,Satisfactory,69.695915,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 15:00:00+05:30,97.4325,Satisfactory,118.55487,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 15:00:00+05:30,94.09,Satisfactory,89.1887,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 16:00:00+05:30,71.87333333333333,Satisfactory,70.222916,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 16:00:00+05:30,91.226875,Satisfactory,91.19014,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 16:00:00+05:30,102.6216791044776,Moderate,95.423744,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 16:00:00+05:30,103.08527985074628,Moderate,99.6948,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 17:00:00+05:30,93.153125,Satisfactory,92.41601,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 17:00:00+05:30,75.41833333333334,Satisfactory,72.279594,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 17:00:00+05:30,107.42207089552238,Moderate,103.89842,Moderate
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 17:00:00+05:30,106.71835820895524,Moderate,111.366356,Moderate
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 18:00:00+05:30,91.970625,Satisfactory,92.03221,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 18:00:00+05:30,73.41208333333333,Satisfactory,71.566246,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 18:00:00+05:30,106.28430970149256,Moderate,108.139915,Moderate
+"Ballygunge, Kolkata - WBPCB",2022-05-07 18:00:00+05:30,106.9049067164179,Moderate,105.20733,Moderate
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 19:00:00+05:30,88.371875,Satisfactory,88.21319,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 19:00:00+05:30,72.19500000000001,Satisfactory,70.96804,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 19:00:00+05:30,101.15514925373137,Moderate,97.56812,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 19:00:00+05:30,77.08333333333333,Satisfactory,101.8998,Moderate
+"Fort William, Kolkata - WBPCB",2022-05-07 20:00:00+05:30,71.38625,Satisfactory,69.99773,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 20:00:00+05:30,96.4225,Satisfactory,88.854385,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 20:00:00+05:30,96.49875,Satisfactory,78.21698,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 20:00:00+05:30,60.43333333333334,Satisfactory,83.47524,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 21:00:00+05:30,89.68875,Satisfactory,88.37749,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 21:00:00+05:30,71.06083333333333,Satisfactory,69.50288,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 21:00:00+05:30,60.24583333333334,Satisfactory,61.924236,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 21:00:00+05:30,91.22125,Satisfactory,89.604935,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 22:00:00+05:30,70.11208333333333,Satisfactory,69.34932,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 22:00:00+05:30,66.03375,Satisfactory,87.28354,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 22:00:00+05:30,59.79583333333334,Satisfactory,61.955467,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 22:00:00+05:30,81.2775,Satisfactory,87.93158,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-07 23:00:00+05:30,70.31208333333333,Satisfactory,68.06316,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-07 23:00:00+05:30,66.28583333333334,Satisfactory,65.15565,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-07 23:00:00+05:30,59.96666666666666,Satisfactory,58.900024,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-07 23:00:00+05:30,78.825,Satisfactory,78.12608,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 00:00:00+05:30,70.57458333333334,Satisfactory,70.26497,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 00:00:00+05:30,60.54999999999999,Satisfactory,60.887196,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 00:00:00+05:30,67.00666666666666,Satisfactory,66.460815,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 00:00:00+05:30,79.07083333333334,Satisfactory,79.12549,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 01:00:00+05:30,60.79166666666666,Satisfactory,60.671787,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 01:00:00+05:30,67.21625,Satisfactory,67.54258,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 01:00:00+05:30,71.00958333333334,Satisfactory,70.592735,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 01:00:00+05:30,79.1875,Satisfactory,79.56998,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 02:00:00+05:30,61.275000000000006,Satisfactory,60.636864,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 02:00:00+05:30,67.51291666666667,Satisfactory,67.37573,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 02:00:00+05:30,79.47083333333333,Satisfactory,78.58759,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 02:00:00+05:30,71.69333333333334,Satisfactory,70.76285,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 03:00:00+05:30,68.435,Satisfactory,67.67041,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 03:00:00+05:30,61.35,Satisfactory,61.735966,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 03:00:00+05:30,72.29208333333334,Satisfactory,70.41213,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 03:00:00+05:30,79.9875,Satisfactory,79.24634,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 04:00:00+05:30,61.48333333333334,Satisfactory,61.76614,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 04:00:00+05:30,80.5625,Satisfactory,78.56324,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 04:00:00+05:30,72.6025,Satisfactory,71.91995,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 04:00:00+05:30,69.19541666666667,Satisfactory,67.85935,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 05:00:00+05:30,61.84583333333333,Satisfactory,61.980114,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 05:00:00+05:30,80.675,Satisfactory,78.13108,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 05:00:00+05:30,73.10625,Satisfactory,72.1673,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 05:00:00+05:30,69.60166666666667,Satisfactory,69.06037,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 06:00:00+05:30,61.89166666666667,Satisfactory,62.245533,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 06:00:00+05:30,73.56083333333333,Satisfactory,72.21198,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 06:00:00+05:30,80.53333333333333,Satisfactory,78.88882,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 06:00:00+05:30,69.76833333333333,Satisfactory,69.2472,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 07:00:00+05:30,80.09583333333333,Satisfactory,79.14029,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 07:00:00+05:30,61.525000000000006,Satisfactory,62.212124,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 07:00:00+05:30,69.88625,Satisfactory,69.21627,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 07:00:00+05:30,73.96666666666667,Satisfactory,72.41852,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 08:00:00+05:30,61.29166666666666,Satisfactory,62.072987,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 08:00:00+05:30,74.38208333333333,Satisfactory,73.55126,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 08:00:00+05:30,79.4875,Satisfactory,78.9697,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 08:00:00+05:30,70.28375000000001,Satisfactory,69.575386,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 09:00:00+05:30,70.80791666666667,Satisfactory,69.685394,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 09:00:00+05:30,61.21666666666667,Satisfactory,61.644093,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 09:00:00+05:30,74.30875,Satisfactory,74.42688,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 09:00:00+05:30,79.23333333333333,Satisfactory,78.85395,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 10:00:00+05:30,61.12916666666666,Satisfactory,61.64498,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 10:00:00+05:30,71.2075,Satisfactory,69.62786,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 10:00:00+05:30,79.925,Satisfactory,78.648186,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 10:00:00+05:30,74.49291666666666,Satisfactory,74.11558,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 11:00:00+05:30,74.83458333333333,Satisfactory,75.25648,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 11:00:00+05:30,71.78291666666667,Satisfactory,70.43959,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 11:00:00+05:30,60.90416666666666,Satisfactory,60.096775,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 11:00:00+05:30,80.2375,Satisfactory,79.65546,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 12:00:00+05:30,60.7125,Satisfactory,60.248074,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 12:00:00+05:30,74.52833333333334,Satisfactory,74.515625,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 12:00:00+05:30,80.59166666666667,Satisfactory,80.38635,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 12:00:00+05:30,72.00666666666667,Satisfactory,71.53889,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 13:00:00+05:30,62.93333333333333,Satisfactory,59.770706,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 13:00:00+05:30,72.53916666666666,Satisfactory,70.591934,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 13:00:00+05:30,74.60291666666667,Satisfactory,74.20565,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 13:00:00+05:30,80.67083333333333,Satisfactory,81.38729,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 14:00:00+05:30,75.39541666666666,Satisfactory,73.00964,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 14:00:00+05:30,62.53333333333333,Satisfactory,62.358814,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 14:00:00+05:30,74.55499999999999,Satisfactory,74.19725,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 14:00:00+05:30,80.83749999999999,Satisfactory,83.10984,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 15:00:00+05:30,73.88291666666667,Satisfactory,74.34085,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 15:00:00+05:30,74.71458333333334,Satisfactory,72.79163,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 15:00:00+05:30,79.97083333333335,Satisfactory,82.14638,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 15:00:00+05:30,62.025000000000006,Satisfactory,61.972164,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 16:00:00+05:30,61.695833333333326,Satisfactory,60.899323,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 16:00:00+05:30,74.25875,Satisfactory,72.532616,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 16:00:00+05:30,73.46666666666667,Satisfactory,73.58409,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 16:00:00+05:30,78.75,Satisfactory,81.42595,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 17:00:00+05:30,74.01541666666667,Satisfactory,72.72476,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 17:00:00+05:30,72.69541666666667,Satisfactory,71.52903,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 17:00:00+05:30,61.083333333333336,Satisfactory,60.524433,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 17:00:00+05:30,77.45,Satisfactory,78.26163,Satisfactory
+"Bidhannagar, Kolkata - WBPCB",2022-05-08 18:00:00+05:30,73.54130434782608,Satisfactory,72.64598,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 18:00:00+05:30,71.9075,Satisfactory,70.87159,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 18:00:00+05:30,59.8875,Satisfactory,58.71882,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 18:00:00+05:30,75.5875,Satisfactory,75.45501,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 19:00:00+05:30,58.65833333333333,Satisfactory,57.89737,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 19:00:00+05:30,70.31625,Satisfactory,68.81147,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 19:00:00+05:30,73.44583333333333,Satisfactory,72.25006,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 20:00:00+05:30,57.775,Satisfactory,56.144802,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 20:00:00+05:30,68.66625,Satisfactory,66.16528,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 20:00:00+05:30,71.11666666666666,Satisfactory,69.03082,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 21:00:00+05:30,68.69166666666666,Satisfactory,67.12062,Satisfactory
+"Rabindra Sarobar, Kolkata - WBPCB",2022-05-08 21:00:00+05:30,57.175,Satisfactory,55.499016,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 21:00:00+05:30,67.04916666666666,Satisfactory,64.77249,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 22:00:00+05:30,66.81041666666665,Satisfactory,64.14802,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 22:00:00+05:30,67.00833333333333,Satisfactory,65.8394,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-08 23:00:00+05:30,65.84375,Satisfactory,64.127525,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-08 23:00:00+05:30,65.75833333333334,Satisfactory,63.652363,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-09 00:00:00+05:30,64.52083333333333,Satisfactory,64.46334,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-09 00:00:00+05:30,64.57000000000001,Satisfactory,64.47728,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-09 01:00:00+05:30,63.65,Satisfactory,63.903534,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-09 01:00:00+05:30,63.154583333333335,Satisfactory,63.878727,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-09 02:00:00+05:30,61.15333333333333,Satisfactory,62.18065,Satisfactory
+"Ballygunge, Kolkata - WBPCB",2022-05-09 02:00:00+05:30,63.4695652173913,Satisfactory,63.081184,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-09 03:00:00+05:30,59.52166666666667,Satisfactory,60.858498,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-09 04:00:00+05:30,57.829583333333325,Satisfactory,58.74316,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-09 05:00:00+05:30,55.61875,Satisfactory,57.315506,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-09 06:00:00+05:30,53.3775,Satisfactory,57.78509,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-09 07:00:00+05:30,51.315,Satisfactory,53.951313,Satisfactory
+"Fort William, Kolkata - WBPCB",2022-05-09 08:00:00+05:30,49.33625,Good,46.379456,Good
+"Fort William, Kolkata - WBPCB",2022-05-09 09:00:00+05:30,47.5125,Good,46.175034,Good
+"Fort William, Kolkata - WBPCB",2022-05-09 10:00:00+05:30,45.66583333333333,Good,47.173294,Good
+"Fort William, Kolkata - WBPCB",2022-05-09 11:00:00+05:30,43.5975,Good,45.72617,Good
+"Fort William, Kolkata - WBPCB",2022-05-09 12:00:00+05:30,41.69125,Good,43.85384,Good
+"Fort William, Kolkata - WBPCB",2022-05-09 13:00:00+05:30,39.321666666666665,Good,41.74929,Good
+"Fort William, Kolkata - WBPCB",2022-05-09 14:00:00+05:30,36.51499999999999,Good,39.874516,Good
+"Fort William, Kolkata - WBPCB",2022-05-09 15:00:00+05:30,34.24916666666667,Good,37.42906,Good
+"Fort William, Kolkata - WBPCB",2022-05-09 16:00:00+05:30,31.790000000000003,Good,35.295853,Good
