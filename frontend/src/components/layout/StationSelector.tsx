@@ -57,35 +57,29 @@ export default function StationSelector() {
     return (
         <Popover open={open} onOpenChange={setOpen}>
 
-            <PopoverTrigger>
+            <PopoverTrigger
+    render={
+        <Button
+            variant="outline"
+            role="combobox"
+            className="w-[320px] justify-between"
+        >
+            <div className="flex items-center gap-2">
 
-                <Button
-                    variant="outline"
-                    role="combobox"
-                    className="w-[320px] justify-between"
-                >
+                <MapPin className="h-4 w-4" />
 
-                    <div className="flex items-center gap-2">
+                <span className="truncate">
+                    {selectedStation
+                        ? selectedStation.split(",")[0]
+                        : "Select Station"}
+                </span>
 
-                        <MapPin className="h-4 w-4" />
+            </div>
 
-                        <span className="truncate">
-
-                            {
-                                selectedStation
-                                    ? selectedStation.split(",")[0]
-                                    : "Select Station"
-                            }
-
-                        </span>
-
-                    </div>
-
-                    <ChevronsUpDown className="h-4 w-4 opacity-50" />
-
-                </Button>
-
-            </PopoverTrigger>
+            <ChevronsUpDown className="h-4 w-4 opacity-50" />
+        </Button>
+    }
+/>
 
             <PopoverContent className="w-[320px] p-0">
 

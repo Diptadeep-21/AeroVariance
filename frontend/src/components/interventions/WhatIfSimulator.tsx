@@ -5,6 +5,7 @@ import { useState } from "react";
 import { Play } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+
 import {
   Card,
   CardContent,
@@ -23,15 +24,30 @@ import {
 
 import { Slider } from "@/components/ui/slider";
 
-export default function WhatIfSimulator() {
-  const [intervention, setIntervention] =
-    useState("traffic");
+import { useSimulation } from "@/hooks/useSimulation";
 
-  const [reduction, setReduction] =
-    useState([20]);
+export default function WhatIfSimulator() {
+  const { simulate } = useSimulation();
+
+  const [traffic, setTraffic] =
+    useState(20);
+
+  const [construction, setConstruction] =
+    useState(15);
+
+  const [industry, setIndustry] =
+    useState(10);
 
   const [duration, setDuration] =
     useState("3");
+
+  async function run() {
+    await simulate(
+      traffic,
+      construction,
+      industry
+    );
+  }
 
   return (
     <Card>
@@ -46,7 +62,7 @@ export default function WhatIfSimulator() {
 
         <CardDescription>
 
-          Evaluate pollution-control strategies before deployment.
+          Evaluate pollution-control strategies before implementation.
 
         </CardDescription>
 
@@ -54,88 +70,43 @@ export default function WhatIfSimulator() {
 
       <CardContent className="space-y-8">
 
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-8 lg:grid-cols-2">
 
-          <div className="space-y-2">
+          <div className="space-y-6">
 
-            <p className="text-sm font-medium">
-              Intervention
-            </p>
+            <SliderField
+              label="Traffic Emissions"
+              value={traffic}
+              onChange={setTraffic}
+            />
 
-            <Select
-              value={intervention}
-              onValueChange={setIntervention}
-            >
+            <SliderField
+              label="Construction Dust"
+              value={construction}
+              onChange={setConstruction}
+            />
 
-              <SelectTrigger>
-
-                <SelectValue />
-
-              </SelectTrigger>
-
-              <SelectContent>
-
-                <SelectItem value="traffic">
-                  Traffic Restriction
-                </SelectItem>
-
-                <SelectItem value="industry">
-                  Industrial Emission Cut
-                </SelectItem>
-
-                <SelectItem value="construction">
-                  Construction Ban
-                </SelectItem>
-
-                <SelectItem value="dust">
-                  Dust Suppression
-                </SelectItem>
-
-                <SelectItem value="odd-even">
-                  Odd-Even Traffic
-                </SelectItem>
-
-              </SelectContent>
-
-            </Select>
-
-          </div>
-
-          <div className="space-y-2">
-
-            <div className="flex items-center justify-between">
-
-              <p className="text-sm font-medium">
-                Reduction
-              </p>
-
-              <span className="text-sm font-semibold">
-                {reduction[0]}%
-              </span>
-
-            </div>
-
-            <Slider
-              min={5}
-              max={80}
-              step={5}
-              value={reduction}
-              onValueChange={setReduction}
+            <SliderField
+              label="Industrial Emissions"
+              value={industry}
+              onChange={setIndustry}
             />
 
           </div>
 
-          <div className="space-y-2">
+          <div className="space-y-4">
 
             <p className="text-sm font-medium">
-
               Duration
-
             </p>
 
             <Select
               value={duration}
-              onValueChange={setDuration}
+              onValueChange={(value) => {
+                if (value) {
+                  setDuration(value);
+                }
+              }}
             >
 
               <SelectTrigger>
@@ -166,20 +137,71 @@ export default function WhatIfSimulator() {
 
             </Select>
 
+            <Button
+              className="mt-8 w-full"
+              onClick={run}
+            >
+
+              <Play className="mr-2 h-4 w-4" />
+
+              Run Simulation
+
+            </Button>
+
           </div>
 
         </div>
 
-        <Button className="w-full">
-
-          <Play className="mr-2 h-4 w-4" />
-
-          Run Simulation
-
-        </Button>
-
       </CardContent>
 
     </Card>
+  );
+}
+
+interface SliderFieldProps {
+  label: string;
+  value: number;
+  onChange: (value: number) => void;
+}
+
+function SliderField({
+  label,
+  value,
+  onChange,
+}: SliderFieldProps) {
+  return (
+    <div className="space-y-3">
+
+      <div className="flex items-center justify-between">
+
+        <p className="text-sm font-medium">
+
+          {label}
+
+        </p>
+
+        <span className="font-semibold">
+
+          {value}%
+
+        </span>
+
+      </div>
+
+      <Slider
+        min={0}
+        max={100}
+        step={5}
+        value={value}
+        onValueChange={(value) => {
+          if (typeof value === "number") {
+            onChange(value);
+          } else {
+            onChange(value[0] ?? 0);
+          }
+        }}
+      />
+
+    </div>
   );
 }
