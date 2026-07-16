@@ -32,7 +32,19 @@ const items = [
 
 export default function MapLegend() {
   return (
-    <Card className="absolute bottom-4 left-4 z-20 w-60 shadow-lg">
+    <Card
+  className="
+    absolute
+    bottom-6
+    left-6
+    z-30
+    w-64
+    border
+    bg-background/95
+    shadow-xl
+    backdrop-blur
+  "
+>
 
       <CardHeader className="pb-2">
 

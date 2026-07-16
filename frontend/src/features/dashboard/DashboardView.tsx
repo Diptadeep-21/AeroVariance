@@ -25,8 +25,8 @@ export default function DashboardView() {
     selectedStation,
   } = useAQIStore();
 
-  useDashboardInitializer();
-useDashboardData();
+//   useDashboardInitializer();
+// useDashboardData();
 
   return (
     <div className="space-y-6">

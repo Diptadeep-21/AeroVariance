@@ -8,6 +8,13 @@ from app.routes.forecast import router as forecast_router
 from app.routes.attribution import router as attribution_router
 from app.routes.simulation import router as simulation_router
 from app.routes.advisory import router as advisory_router
+from app.routes.station import router as station_router
+from app.routes.dashboard import router as dashboard_router
+from app.routes.translation import (
+    router as translation_router,
+)
+
+
 
 app = FastAPI(
     title="Urban Air Quality Intelligence API",
@@ -46,3 +53,6 @@ app.include_router(forecast_router)
 app.include_router(attribution_router)
 app.include_router(simulation_router)
 app.include_router(advisory_router)
+app.include_router(station_router)
+app.include_router(dashboard_router)
+app.include_router(translation_router)

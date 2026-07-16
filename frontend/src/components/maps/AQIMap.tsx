@@ -16,33 +16,26 @@ import {
 } from "@/lib/mapbox";
 
 export default function AQIMap() {
-    return (
-        <div className="h-175 w-full overflow-hidden rounded-3xl border">
+  return (
+    <div className="relative h-175 w-full overflow-hidden rounded-3xl border">
 
-            <Map
-                initialViewState={DEFAULT_VIEW}
-                mapStyle={MAP_STYLE}
-            >
-                <Map
-                    initialViewState={DEFAULT_VIEW}
-                    mapStyle={MAP_STYLE}
-                >
+      <Map
+        initialViewState={DEFAULT_VIEW}
+        mapStyle={MAP_STYLE}
+      >
 
-                    <NavigationControl position="top-right" />
+        <NavigationControl position="top-right" />
 
-                    <WardHeatmap />
+        <WardHeatmap />
 
-                    <PollutionHotspots />
+        <PollutionHotspots />
 
-                    <StationMarkers />
+        <StationMarkers />
 
-                </Map>
+      </Map>
 
-                <NavigationControl position="top-right" />
+      <MapLegend />
 
-            </Map>
-            <MapLegend />
-
-        </div>
-    );
+    </div>
+  );
 }

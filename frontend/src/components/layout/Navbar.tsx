@@ -1,44 +1,44 @@
 "use client";
 
-import { Bell, ChevronDown, MapPin } from "lucide-react";
+import {
+  Bell,
+  ChevronDown,
+} from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+
 import StationSelector from "./StationSelector";
+
 import { useAQIStore } from "@/store/useAQIStore";
 
 export default function Navbar() {
   const dashboard = useAQIStore(
     (state) => state.dashboard
   );
+
   return (
-    <header className="sticky top-0 z-40 h-18 border-b border-border bg-white/95 backdrop-blur supports-backdrop-filter:bg-white/80">
+    <header className="sticky top-0 z-40 h-20 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
 
-      <div className="flex h-full items-center justify-between px-8">
+      <div className="flex h-full items-center justify-between px-8 lg:px-10">
 
-        {/* Left */}
+        {/* Application Header */}
 
         <div>
 
-          <p className="text-xs uppercase tracking-[0.15em] text-muted-foreground">
-            Air Quality Intelligence
-          </p>
+          <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground">
 
-          <h1 className="mt-1 text-2xl font-semibold tracking-tight">
-            Dashboard
-          </h1>
+            Air Quality Intelligence
+
+          </p>
 
         </div>
 
-        {/* Right */}
+        {/* Global Controls */}
 
         <div className="flex items-center gap-4">
 
-          {/* Selected Station */}
-
           <StationSelector />
-
-          {/* AQI */}
 
           <Badge
             variant="secondary"
@@ -46,8 +46,6 @@ export default function Navbar() {
           >
             ● {dashboard?.forecast.category ?? "--"} AQI
           </Badge>
-
-          {/* Notification */}
 
           <Button
             variant="ghost"
@@ -57,13 +55,10 @@ export default function Navbar() {
             <Bell className="h-5 w-5" />
           </Button>
 
-          {/* Profile */}
-
           <Button
             variant="outline"
             className="h-10 gap-3 rounded-full pl-3 pr-2"
           >
-
             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 text-sm font-medium text-white">
 
               D

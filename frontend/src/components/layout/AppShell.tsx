@@ -5,6 +5,9 @@ import { ReactNode } from "react";
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
 
+import { useDashboardInitializer } from "@/hooks/useDashboardInitializer";
+import { useDashboardData } from "@/hooks/useDashboardData";
+
 interface AppShellProps {
   children: ReactNode;
 }
@@ -12,6 +15,12 @@ interface AppShellProps {
 export default function AppShell({
   children,
 }: AppShellProps) {
+
+   useDashboardInitializer();
+
+  useDashboardData();
+
+
   return (
     <div className="min-h-screen bg-background">
       <div className="flex"> 
