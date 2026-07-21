@@ -8,11 +8,11 @@ import {
 import { Badge } from "@/components/ui/badge";
 
 import type {
-  DashboardResponse,
-} from "@/types/dashboard";
+  StationDashboardResponse,
+} from "@/types/stationDashboard";
 
 interface Props {
-  dashboard: DashboardResponse;
+  dashboard: StationDashboardResponse;
 }
 
 export default function StationPopup({
@@ -44,13 +44,13 @@ export default function StationPopup({
             </p>
 
             <p className="text-3xl font-bold">
-              {dashboard.forecast.predicted_aqi.toFixed(1)}
+              {dashboard.forecast?.predicted_aqi?.toFixed(1) ?? dashboard.latest_reading?.aqi ?? "N/A"}
             </p>
 
           </div>
 
           <Badge>
-            {dashboard.forecast.category}
+            {dashboard.forecast?.category ?? dashboard.latest_reading?.category ?? "Normal"}
           </Badge>
 
         </div>
@@ -62,7 +62,7 @@ export default function StationPopup({
           </p>
 
           <p className="text-sm">
-            {dashboard.advisory.message}
+            {dashboard.advisory?.message ?? "Regular atmospheric monitoring active."}
           </p>
 
         </div>

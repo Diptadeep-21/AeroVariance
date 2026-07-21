@@ -1,11 +1,13 @@
-from fastapi import APIRouter
+from typing import Literal
 
-from app.services.dashboard_service import (
-    dashboard_service,
+from fastapi import APIRouter, Query
+
+from app.services.station_dashboard_service import (
+    station_dashboard_service,
 )
 
-from app.schemas.dashboard import (
-    DashboardResponse,
+from app.services.location_dashboard_service import (
+    dashboard_service as location_dashboard_service,
 )
 
 router = APIRouter(
@@ -14,15 +16,14 @@ router = APIRouter(
 )
 
 
-@router.post(
-    "/",
-    response_model=DashboardResponse,
-)
-def dashboard(payload: dict):
+@router.get("")
+def dashboard(
+    mode: Literal["station", "location"] = Query("station"),
+    station: str | None = Query(None),
+    location: str | None = Query(None),
+):
+    if mode == "station":
+        selected_station = station or "Rabindra Sarobar, Kolkata - WBPCB"
+        return station_dashboard_service.get_dashboard(selected_station)
 
-    station = payload.get("station", "")
-
-    return dashboard_service.get_dashboard(
-        station,
-        payload,
-    )
+    return location_dashboard_service.get_dashboard(location)

@@ -17,11 +17,11 @@ import {
 import { Badge } from "@/components/ui/badge";
 
 import type {
-  PredictionExplanation,
+  AttributionResponse,
 } from "@/types/attribution";
 
 interface Props {
-  data: PredictionExplanation | null;
+  data: AttributionResponse | null;
 }
 
 export default function PredictionInsights({

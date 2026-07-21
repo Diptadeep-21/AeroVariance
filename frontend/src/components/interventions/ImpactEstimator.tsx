@@ -34,7 +34,7 @@ export default function ImpactEstimator() {
     (state) => state.simulation
   );
 
-  if (!dashboard) {
+  if (!dashboard || !dashboard.forecast) {
     return (
       <Card>
         <CardContent className="flex h-40 items-center justify-center text-muted-foreground">
@@ -137,7 +137,7 @@ export default function ImpactEstimator() {
             </p>
 
             <h2 className="mt-2 text-3xl font-bold">
-              {(dashboard.forecast.confidence * 100).toFixed(0)}%
+              {((dashboard.forecast?.confidence ?? 0.85) * 100).toFixed(0)}%
             </h2>
 
           </div>

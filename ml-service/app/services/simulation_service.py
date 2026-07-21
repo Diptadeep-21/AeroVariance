@@ -8,6 +8,10 @@ from copy import deepcopy
 
 from app.services.forecast_service import forecast_service
 
+from app.services.snapshot_service import (
+    snapshot_service,
+)
+
 
 class SimulationService:
 
@@ -74,45 +78,80 @@ class SimulationService:
 
     def simulate(
         self,
-        payload: dict,
+        station: str,
         traffic_change: float = 0,
         construction_change: float = 0,
         industry_change: float = 0,
     ):
+        from app.repositories.location_history_repository import LocationHistoryRepository
 
-        before = forecast_service.predict(payload)
+        # Fallback for custom searched locations
+        if "WBPCB" not in station:
+            latest = LocationHistoryRepository.latest(station)
+            if latest:
+                snapshot = {
+                    "AQI_lag1": float(latest.get("aqi", 60.0)),
+                    "AQI_lag3": float(latest.get("aqi", 60.0)),
+                    "AQI_lag24": float(latest.get("aqi", 60.0)),
+                    "pm25_lag1": float(latest.get("pm25", 20.0)),
+                    "pm10_lag1": float(latest.get("pm10", 40.0)),
+                    "co_lag1": float(latest.get("co", 300.0)),
+                    "no2_lag1": float(latest.get("no2", 15.0)),
+                    "so2_lag1": float(latest.get("so2", 5.0)),
+                    "o3_lag1": float(latest.get("o3", 25.0)),
+                }
+            else:
+                snapshot = {
+                    "AQI_lag1": 60.0, "AQI_lag3": 60.0, "AQI_lag24": 60.0,
+                    "pm25_lag1": 20.0, "pm10_lag1": 40.0, "co_lag1": 300.0,
+                    "no2_lag1": 15.0, "so2_lag1": 5.0, "o3_lag1": 25.0
+                }
+        else:
+            snapshot = snapshot_service.build_snapshot(
+                station
+            )
 
-        modified = self.apply_changes(
-            payload,
-            traffic_change,
-            construction_change,
-            industry_change,
+        before = forecast_service.predict(
+        snapshot
         )
 
-        after = forecast_service.predict(modified)
+        modified = self.apply_changes(
+        snapshot,
+        traffic_change,
+        construction_change,
+        industry_change,
+        )
+
+        after = forecast_service.predict(
+        modified
+        )
 
         difference = round(
-            after["predicted_aqi"] -
-            before["predicted_aqi"],
-            2,
+        after["predicted_aqi"] -
+        before["predicted_aqi"],
+        2,
         )
 
         percent_change = round(
-            difference /
-            before["predicted_aqi"] *
-            100,
-            2,
+        difference /
+        before["predicted_aqi"] *
+        100,
+        2,
         )
 
         return {
 
-            "before": before["predicted_aqi"],
+        "before":
+            before["predicted_aqi"],
 
-            "after": after["predicted_aqi"],
+        "after":
+            after["predicted_aqi"],
 
-            "difference": difference,
+        "difference":
+            difference,
 
-            "percent_change": percent_change,
+        "percent_change":
+            percent_change,
         }
 
 

@@ -19,7 +19,7 @@ export default function StationDetails() {
     (state) => state.dashboard
   );
 
-  if (!dashboard) {
+  if (!dashboard || !dashboard.forecast) {
     return (
       <Card>
         <CardHeader>

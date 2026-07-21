@@ -154,16 +154,11 @@ def encode_stations(df):
     return df
 
 
-def build_training_dataframe(df):
+def get_feature_columns(df):
 
-    logger.info("Preparing training dataset...")
-
-    feature_columns = [
-
+    return [
         c
-
         for c in df.columns
-
         if (
             "_lag" in c
             or "_roll" in c
@@ -177,8 +172,13 @@ def build_training_dataframe(df):
                 "is_weekend",
             ]
         )
-
     ]
+
+def build_training_dataframe(df):
+
+    logger.info("Preparing training dataset...")
+
+    feature_columns = get_feature_columns(df)
 
     df_model = (
         df
@@ -242,6 +242,35 @@ def main():
     logger.info("Pipeline Complete")
 
 
-if __name__ == "__main__":
+def run_pipeline():
+    df = load_dataset()
+    df = create_time_features(df)
+    df = create_lag_features(df)
+    df = encode_stations(df)
 
+    return build_training_dataframe(df)
+
+def run_pipeline():
+    df = load_dataset()
+    df = create_time_features(df)
+    df = create_lag_features(df)
+    df = encode_stations(df)
+
+    return build_training_dataframe(df)
+
+
+def main():
+
+    logger.info("=" * 50)
+    logger.info("Feature Engineering Pipeline")
+    logger.info("=" * 50)
+
+    df_model, feature_columns = run_pipeline()
+
+    save_dataset(df_model)
+
+    logger.info("Pipeline Complete")
+
+
+if __name__ == "__main__":
     main()

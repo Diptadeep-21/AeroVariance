@@ -1,8 +1,8 @@
 "use client";
 
 import {
-  BarChart,
   Bar,
+  BarChart,
   CartesianGrid,
   ResponsiveContainer,
   Tooltip,
@@ -18,71 +18,57 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-import { useAQIStore } from "@/store/useAQIStore";
+export interface SHAPFeature {
+  feature: string;
+  importance: number;
+}
 
-export default function SHAPChart() {
-  const dashboard = useAQIStore(
-    (state) => state.dashboard
-  );
+interface SHAPChartProps {
+  data?: SHAPFeature[];
+}
 
-  const loading = useAQIStore(
-    (state) => state.loading
-  );
-
-  const data =
-    dashboard?.latest_prediction?.top_features?.map(
-      (item) => ({
-        feature: item.feature,
-        value: Math.abs(item.impact),
-      })
-    ) ?? [];
-
+export default function SHAPChart({
+  data = [],
+}: SHAPChartProps) {
   return (
     <Card className="h-105">
       <CardHeader>
-        <CardTitle>
-          Prediction Drivers
-        </CardTitle>
+        <CardTitle>Prediction Drivers</CardTitle>
 
         <CardDescription>
-          Most influential features for the latest AI prediction
+          Most influential features used by the model
         </CardDescription>
       </CardHeader>
 
       <CardContent className="h-80">
-        {loading ? (
+        {data.length === 0 ? (
           <div className="flex h-full items-center justify-center text-sm text-muted-foreground">
-            Loading prediction...
+            No feature importance available.
           </div>
         ) : (
-          <ResponsiveContainer
-            width="100%"
-            height="100%"
-          >
+          <ResponsiveContainer width="100%" height="100%">
             <BarChart
               data={data}
               layout="vertical"
               margin={{
-                left: 16,
-                right: 16,
+                left: 20,
+                right: 20,
               }}
             >
-              <CartesianGrid
-                strokeDasharray="3 3"
-              />
+              <CartesianGrid strokeDasharray="3 3" />
 
               <XAxis type="number" />
 
               <YAxis
-                type="category"
                 dataKey="feature"
+                type="category"
                 width={120}
               />
 
               <Tooltip />
 
               <Bar
-                dataKey="value"
+                dataKey="importance"
                 radius={[0, 6, 6, 0]}
               />
             </BarChart>

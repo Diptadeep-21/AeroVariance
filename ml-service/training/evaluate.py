@@ -30,6 +30,8 @@ from training.config import (
     REGRESSOR_MODEL,
 )
 
+from sklearn.metrics import mean_absolute_percentage_error
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(levelname)s | %(message)s"
@@ -67,6 +69,11 @@ def evaluate_regression(df):
         df["AQI_pred"]
     )
 
+    mape = mean_absolute_percentage_error(
+        df["AQI"],
+        df["AQI_pred"],
+    )
+
     r2 = r2_score(
         df["AQI"],
         df["AQI_pred"]
@@ -75,6 +82,7 @@ def evaluate_regression(df):
     metrics = {
         "RMSE": round(float(rmse),4),
         "MAE": round(float(mae),4),
+        "MAPE": round(float(mape),4),
         "R2": round(float(r2),4)
     }
 
@@ -216,19 +224,46 @@ def plot_feature_importance():
         REGRESSOR_MODEL
     )
 
-    fig, ax = plt.subplots(figsize=(12,10))
+    booster = regressor.get_booster()
+
+    scores = booster.get_score(
+        importance_type="gain"
+    )
+
+    df = (
+        pd.DataFrame(
+            scores.items(),
+            columns=[
+                "feature",
+                "importance",
+            ],
+        )
+        .sort_values(
+            "importance",
+            ascending=False,
+        )
+    )
+
+    df.to_csv(
+        METRICS_DIR / "feature_importance.csv",
+        index=False,
+    )
+
+    fig, ax = plt.subplots(
+        figsize=(12, 10)
+    )
 
     xgb.plot_importance(
         regressor,
         max_num_features=20,
-        ax=ax
+        ax=ax,
     )
 
     plt.tight_layout()
 
     plt.savefig(
         PLOTS_DIR / "feature_importance.png",
-        dpi=300
+        dpi=300,
     )
 
     plt.close()
@@ -256,3 +291,29 @@ def main():
 if __name__ == "__main__":
 
     main()
+
+import json
+
+with open(
+    METRICS_DIR / "regression_metrics.json"
+) as f:
+    regression = json.load(f)
+
+with open(
+    METRICS_DIR / "classification_metrics.json"
+) as f:
+    classification = json.load(f)
+
+with open(
+    METRICS_DIR / "evaluation.json",
+    "w",
+) as f:
+
+    json.dump(
+        {
+            "regression": regression,
+            "classification": classification,
+        },
+        f,
+        indent=4,
+    )

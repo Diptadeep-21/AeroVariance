@@ -9,7 +9,7 @@ export async function simulateAQI(
 ) {
   const { data } =
     await api.post<SimulationResponse>(
-      "/simulation",
+      "/simulation/",
       payload
     );
 
