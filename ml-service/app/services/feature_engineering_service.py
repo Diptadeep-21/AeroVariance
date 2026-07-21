@@ -1,6 +1,6 @@
 import math
 from statistics import mean
-from turtle import pos
+#from turtle import pos
 
 from attr import field
 
