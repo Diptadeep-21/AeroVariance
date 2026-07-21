@@ -1,37 +1,23 @@
 "use client";
 
 import PageHeader from "@/components/layout/PageHeader";
-
-import AQITrendChart, {
-  AQITrendPoint,
-} from "@/components/charts/AQITrendChart";
-
+import MetricCard from "@/components/common/MetricCard";
+import AQITrendChart, { AQITrendPoint } from "@/components/charts/AQITrendChart";
 import SHAPChart from "@/components/charts/SHAPChart";
-
 import PredictionHistory from "@/components/dashboard/PredictionHistory";
-
-import { Card } from "@/components/ui/card";
-
 import { useAnalytics } from "@/hooks/useAnalytics";
 
 export default function AnalyticsView() {
-  const {
-    analytics,
-    metrics,
-    loading,
-  } = useAnalytics();
+  const { analytics, metrics, loading } = useAnalytics();
 
   if (loading) {
     return (
       <div className="space-y-6">
         <PageHeader
           title="Analytics"
-          description="Historical insights and model performance."
+          description="Historical insights and model performance metrics."
         />
-
-        <div className="text-muted-foreground">
-          Loading analytics...
-        </div>
+        <div className="text-[#6B7280]">Loading analytics metrics...</div>
       </div>
     );
   }
@@ -41,99 +27,68 @@ export default function AnalyticsView() {
       <div className="space-y-6">
         <PageHeader
           title="Analytics"
-          description="Historical insights and model performance."
+          description="Historical insights and model performance metrics."
         />
-
-        <div className="text-destructive">
-          Unable to load analytics.
-        </div>
+        <div className="text-red-600 font-medium">Unable to load analytics data.</div>
       </div>
     );
   }
 
-  const trendData: AQITrendPoint[] =
-    analytics.sensor_readings.map((reading, index) => ({
-      label: new Date(reading.timestamp || Date.now()).toLocaleTimeString([], {
-        hour: "2-digit",
-        minute: "2-digit",
-      }),
-
-      actual: reading.AQI,
-
-      forecast:
-        analytics.predictions[index]?.predicted_aqi ??
-        null,
-    }));
+  const trendData: AQITrendPoint[] = analytics.sensor_readings.map((reading, index) => ({
+    label: new Date(reading.timestamp || Date.now()).toLocaleTimeString([], {
+      hour: "2-digit",
+      minute: "2-digit",
+    }),
+    actual: reading.AQI,
+    forecast: analytics.predictions[index]?.predicted_aqi ?? null,
+  }));
 
   return (
     <div className="space-y-6">
       <PageHeader
         title="Analytics"
-        description="Historical insights and AI model performance."
+        description="Historical atmospheric insights, error diagnostics, and AI model evaluation."
       />
 
-      <div className="grid gap-4 md:grid-cols-5">
+      {/* 5-Up Metric Card Row */}
+      <div className="grid gap-6 md:grid-cols-5">
         <MetricCard
           title="RMSE"
           value={metrics.regression.RMSE.toFixed(2)}
+          subtitle="Root Mean Sq Error"
         />
 
         <MetricCard
           title="MAE"
           value={metrics.regression.MAE.toFixed(2)}
+          subtitle="Mean Absolute Error"
         />
 
         <MetricCard
           title="MAPE"
           value={`${metrics.regression.MAPE.toFixed(2)}%`}
+          subtitle="Percentage Error"
         />
 
         <MetricCard
-          title="R²"
+          title="R² Score"
           value={metrics.regression.R2.toFixed(3)}
+          subtitle="Variance Explained"
         />
 
         <MetricCard
           title="Accuracy"
-          value={`${metrics.classification.accuracy.toFixed(
-            2
-          )}%`}
+          value={`${metrics.classification.accuracy.toFixed(2)}%`}
+          subtitle="Category Precision"
         />
       </div>
 
-      <AQITrendChart
-        data={trendData}
-      />
+      {/* Full-width AQI Trend Line Chart */}
+      <AQITrendChart data={trendData} />
 
-      <SHAPChart
-        data={metrics.top_features}
-      />
+      <SHAPChart data={metrics.top_features} />
 
-      <PredictionHistory
-        history={analytics.evaluations}
-      />
+      <PredictionHistory history={analytics.evaluations} />
     </div>
-  );
-}
-
-interface MetricCardProps {
-  title: string;
-  value: string;
-}
-
-function MetricCard({
-  title,
-  value,
-}: MetricCardProps) {
-  return (
-    <Card className="p-5">
-      <div className="text-sm text-muted-foreground">
-        {title}
-      </div>
-
-      <div className="mt-2 text-2xl font-bold">
-        {value}
-      </div>
-    </Card>
   );
 }

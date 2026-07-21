@@ -9,7 +9,7 @@ import WardHeatmap from "./WardHeatmap";
 import PollutionHotspots from "./PollutionHotspots";
 import { useAQIStore } from "@/store/useAQIStore";
 import { DEFAULT_VIEW, MAP_STYLE } from "@/lib/mapbox";
-import { Compass, ShieldAlert } from "lucide-react";
+import { Compass } from "lucide-react";
 
 export default function AQIMap() {
   const { mode, selectedLocation, locationData } = useAQIStore();
@@ -48,7 +48,7 @@ export default function AQIMap() {
     : null;
 
   return (
-    <div className="relative h-175 w-full overflow-hidden rounded-3xl border border-slate-100 shadow-sm">
+    <div className="relative h-175 w-full overflow-hidden rounded-2xl border border-[#E5E7EB] bg-white p-1 shadow-none">
       <Map
         {...viewState}
         onMove={(evt) => setViewState(evt.viewState)}
@@ -79,11 +79,11 @@ export default function AQIMap() {
                 id="risk-radius-layer"
                 type="circle"
                 paint={{
-                  "circle-radius": 70, // Represents ~2-3km dispersion radius
-                  "circle-color": locationData?.reading?.AQI && locationData.reading.AQI > 150 ? "#ef4444" : "#3b82f6",
+                  "circle-radius": 70,
+                  "circle-color": locationData?.reading?.AQI && locationData.reading.AQI > 150 ? "#EF4444" : "#2563EB",
                   "circle-opacity": 0.15,
                   "circle-stroke-width": 2,
-                  "circle-stroke-color": locationData?.reading?.AQI && locationData.reading.AQI > 150 ? "#dc2626" : "#2563eb",
+                  "circle-stroke-color": locationData?.reading?.AQI && locationData.reading.AQI > 150 ? "#DC2626" : "#2563EB",
                   "circle-stroke-opacity": 0.4,
                 }}
               />
@@ -96,8 +96,8 @@ export default function AQIMap() {
               anchor="center"
             >
               <div className="relative flex h-10 w-10 items-center justify-center">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-indigo-400 opacity-75"></span>
-                <div className="relative flex h-7 w-7 items-center justify-center rounded-full bg-indigo-600 shadow-md">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-blue-400 opacity-75"></span>
+                <div className="relative flex h-7 w-7 items-center justify-center rounded-full bg-[#2563EB] shadow-xs">
                   <Compass className="h-4 w-4 text-white animate-pulse" />
                 </div>
               </div>
@@ -109,11 +109,11 @@ export default function AQIMap() {
       <MapLegend />
 
       {/* Floating Mode Info overlay */}
-      <div className="absolute left-6 top-6 rounded-2xl border border-slate-100 bg-white/95 p-4 shadow-md backdrop-blur-md max-w-sm">
-        <h4 className="text-sm font-semibold text-slate-800">
+      <div className="absolute left-6 top-6 rounded-2xl border border-[#E5E7EB] bg-white/95 p-5 shadow-xs backdrop-blur-md max-w-sm">
+        <h4 className="font-serif text-[16px] font-semibold text-[#111827]">
           {mode === "station" ? "Monitoring Mode (Station AI)" : "Location Search Mode (Global AI)"}
         </h4>
-        <p className="text-xs text-muted-foreground mt-1 leading-normal">
+        <p className="text-xs text-[#6B7280] mt-1.5 leading-relaxed">
           {mode === "station"
             ? "Visualizing registered continuous ambient air stations. Click pins to view SHAP metrics."
             : selectedLocation

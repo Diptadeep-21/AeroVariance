@@ -8,14 +8,14 @@ export default function DashboardModeSwitch() {
   const setMode = useAQIStore((s) => s.setMode);
 
   return (
-    <div className="inline-flex rounded-xl border border-zinc-200 bg-white p-1 dark:border-zinc-800 dark:bg-zinc-900">
+    <div className="inline-flex rounded-full border border-[#E5E7EB] bg-[#FAFBFC] p-1">
       <button
         onClick={() => setMode("station")}
         className={cn(
-          "rounded-lg px-4 py-2 text-sm font-medium transition-all",
+          "rounded-full px-4 py-1.5 text-[13px] font-medium transition-all",
           mode === "station"
-            ? "bg-lime-300 text-black shadow-sm"
-            : "text-zinc-500 hover:text-black dark:hover:text-white"
+            ? "bg-[#C6F135] text-[#0F172A] font-semibold"
+            : "text-[#6B7280] hover:text-[#111827]"
         )}
       >
         Monitoring Station
@@ -24,10 +24,10 @@ export default function DashboardModeSwitch() {
       <button
         onClick={() => setMode("location")}
         className={cn(
-          "rounded-lg px-4 py-2 text-sm font-medium transition-all",
+          "rounded-full px-4 py-1.5 text-[13px] font-medium transition-all",
           mode === "location"
-            ? "bg-lime-300 text-black shadow-sm"
-            : "text-zinc-500 hover:text-black dark:hover:text-white"
+            ? "bg-[#C6F135] text-[#0F172A] font-semibold"
+            : "text-[#6B7280] hover:text-[#111827]"
         )}
       >
         Search Location

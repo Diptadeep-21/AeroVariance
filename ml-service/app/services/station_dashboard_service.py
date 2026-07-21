@@ -39,10 +39,25 @@ class StationDashboardService:
         station: str,
     ):
 
-        # Latest historical reading
-        latest = sensor_repository.latest(station)
-
         city = normalize_station(station)
+
+        # Trigger live sync for the station to get fresh real-time AQI and weather data!
+        try:
+            from app.core.cities import CITIES
+            from app.services.sync_service import sync_service
+
+            coords = CITIES.get(city) or CITIES.get(station)
+            if coords:
+                sync_service.sync_station(
+                    station=station,
+                    latitude=coords["latitude"],
+                    longitude=coords["longitude"],
+                )
+        except Exception as sync_err:
+            print(f"Station live sync notice: {sync_err}")
+
+        # Latest reading after live sync
+        latest = sensor_repository.latest(station)
 
         try:
 
