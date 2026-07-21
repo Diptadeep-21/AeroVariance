@@ -2,7 +2,7 @@ import math
 from statistics import mean
 #from turtle import pos
 
-from attr import field
+#from attr import field
 
 from app.repositories.sensor_repository import (
     sensor_repository,
