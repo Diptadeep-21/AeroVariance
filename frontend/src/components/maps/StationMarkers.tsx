@@ -49,46 +49,33 @@ export default function StationMarkers() {
     );
 
   async function handleClick(
-    station: string
+    stationName: string
   ) {
-    setStation(station);
+    setStation(stationName);
 
-    setOpenStation(station);
+    setOpenStation(stationName);
 
-    if (!stationDashboards[station]) {
-      const payload =
-        buildMockSnapshot(station);
-
-      await loadStationDashboard(
-        station,
-        payload
-      );
-      if (
-    !useAQIStore
-        .getState()
-        .stationHistory[station]
-) {
-    await loadStationHistory(
-        station
-    );
-}
+    if (!stationDashboards[stationName]) {
+      await loadStationDashboard(stationName);
+      if (!useAQIStore.getState().stationHistory[stationName]) {
+        await loadStationHistory(stationName);
+      }
     }
   }
 
   return (
     <>
-      {stations.map((station) => {
-        const point =
-          stationCoordinates[station];
+      {stations.map((item) => {
+        const stationName = typeof item === "string" ? item : item.station;
+        const point = stationCoordinates[stationName];
 
         if (!point) return null;
 
-        const dashboard =
-          stationDashboards[station];
+        const dashboard = stationDashboards[stationName];
 
         return (
           <Marker
-            key={station}
+            key={stationName}
             latitude={point.latitude}
             longitude={point.longitude}
             anchor="bottom"
@@ -96,13 +83,13 @@ export default function StationMarkers() {
             <>
               <button
                 onClick={() =>
-                  handleClick(station)
+                  handleClick(stationName)
                 }
                 className="transition hover:scale-110"
               >
                 <MapPin
                   className={`h-8 w-8 ${
-                    selectedStation === station
+                    selectedStation === stationName
                       ? "text-red-600"
                       : "text-sky-600"
                   }`}
@@ -110,7 +97,7 @@ export default function StationMarkers() {
                 />
               </button>
 
-              {openStation === station &&
+              {openStation === stationName &&
                 dashboard && (
                   <Popup
                     closeButton

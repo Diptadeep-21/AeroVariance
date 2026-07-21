@@ -4,6 +4,7 @@ Loads all ML assets once during application startup.
 
 import json
 import joblib
+import shap
 
 from app.core.config import (
     REGRESSOR_MODEL,
@@ -11,7 +12,6 @@ from app.core.config import (
     LABEL_ENCODER,
     FEATURE_COLUMNS,
     FEATURE_IMPORTANCE,
-    LOCAL_EXPLANATIONS,
 )
 
 from app.core.logger import logger
@@ -24,29 +24,51 @@ class ModelLoader:
         self.regressor = None
         self.classifier = None
         self.encoder = None
+
         self.feature_columns = None
+
         self.feature_importance = None
-        self.local_explanations = None
+        self.explainer = None
 
     def load(self):
 
         logger.info("Loading ML assets...")
 
-        self.regressor = joblib.load(REGRESSOR_MODEL)
+        self.regressor = joblib.load(
+            REGRESSOR_MODEL
+        )
 
-        self.classifier = joblib.load(CLASSIFIER_MODEL)
+        self.classifier = joblib.load(
+            CLASSIFIER_MODEL
+        )
 
-        self.encoder = joblib.load(LABEL_ENCODER)
+        self.encoder = joblib.load(
+            LABEL_ENCODER
+        )
 
-        self.feature_columns = joblib.load(FEATURE_COLUMNS)
+        self.feature_columns = joblib.load(
+            FEATURE_COLUMNS
+        )
 
-        with open(FEATURE_IMPORTANCE) as f:
-            self.feature_importance = json.load(f)
+        self.explainer = shap.TreeExplainer(
+            self.regressor
+        )
 
-        with open(LOCAL_EXPLANATIONS) as f:
-            self.local_explanations = json.load(f)
+        logger.info(
+            "SHAP TreeExplainer loaded."
+        )
 
-        logger.info("ML assets loaded successfully.")
+        with open(
+            FEATURE_IMPORTANCE
+        ) as f:
+
+            self.feature_importance = json.load(
+                f
+            )
+
+        logger.info(
+            "ML assets loaded successfully."
+        )
 
 
 loader = ModelLoader()

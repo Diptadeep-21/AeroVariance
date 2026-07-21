@@ -4,56 +4,72 @@ import { useEffect } from "react";
 
 import { useAQIStore } from "@/store/useAQIStore";
 
-import { buildMockSnapshot } from "@/lib/mockSnapshot";
-
 export function useDashboardData() {
+
+  const mode = useAQIStore(
+    (s) => s.mode
+  );
+
   const stations = useAQIStore(
-    (state) => state.stations
+    (s) => s.stations
   );
 
   const selectedStation = useAQIStore(
-    (state) => state.selectedStation
+    (s) => s.selectedStation
   );
 
-  const stationDashboards = useAQIStore(
-    (state) => state.stationDashboards
+  const selectedLocation = useAQIStore(
+    (s) => s.selectedLocation
   );
 
   const loadDashboard = useAQIStore(
-    (state) => state.loadDashboard
+    (s) => s.loadDashboard
   );
 
   const loadStationHistory = useAQIStore(
-    (state) => state.loadStationHistory
+    (s) => s.loadStationHistory
   );
 
   useEffect(() => {
-    if (
-      stations.length === 0 ||
-      !selectedStation
-    ) {
+
+    if (mode === "station") {
+
+      if (
+        stations.length === 0 ||
+        !selectedStation
+      ) {
+        return;
+      }
+
+      loadDashboard();
+
+      loadStationHistory(
+        selectedStation
+      );
+
       return;
     }
 
-    if (
-      stationDashboards[selectedStation]
-    ) {
-      loadStationHistory(selectedStation);
+    if (!selectedLocation) {
       return;
     }
 
-    const payload =
-      buildMockSnapshot(selectedStation);
-
-    loadDashboard(payload);
-
-    loadStationHistory(selectedStation);
+    loadDashboard();
 
   }, [
+
+    mode,
+
     stations,
+
     selectedStation,
-    stationDashboards,
+
+    selectedLocation,
+
     loadDashboard,
+
     loadStationHistory,
+
   ]);
+
 }

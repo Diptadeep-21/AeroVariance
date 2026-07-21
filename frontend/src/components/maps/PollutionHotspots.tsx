@@ -6,15 +6,15 @@ import { hotspots } from "@/lib/hotspots";
 
 export default function PollutionHotspots() {
     const data = {
-        type: "FeatureCollection",
+        type: "FeatureCollection" as const,
         features: hotspots.map((spot) => ({
-            type: "Feature",
+            type: "Feature" as const,
             properties: {
                 station: spot.station,
                 aqi: spot.aqi,
             },
             geometry: {
-                type: "Point",
+                type: "Point" as const,
                 coordinates: [
                     spot.longitude,
                     spot.latitude,

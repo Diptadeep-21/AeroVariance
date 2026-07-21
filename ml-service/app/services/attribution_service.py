@@ -1,50 +1,56 @@
 """
 Attribution Service
 
-Returns SHAP-based explanations.
+Provides SHAP-based explanations
+from MongoDB.
 """
 
+from app.repositories.shap_repository import (
+    shap_repository,
+)
+
 from app.core.model_loader import loader
-from app.core.logger import logger
+
+from app.core.station_mapper import normalize_station
 
 
 class AttributionService:
 
-    def get_by_index(
-        self,
-        index: int,
+    def get_latest_for_station(
+    self,
+    station: str,
     ):
 
-        explanations = loader.local_explanations
+        explanation = (
+        shap_repository.get_latest(station)
+        )
 
-        if explanations is None:
-            raise RuntimeError(
-                "Local explanations are not loaded."
-            )
+        if explanation is None:
+            return None
 
-        if index < 0 or index >= len(explanations):
-            raise IndexError(
-                f"Index {index} out of range."
-            )
+        explanation.pop("_id", None)
 
-        return explanations[index]
+        return explanation
 
     def get_station_history(
-        self,
-        station: str,
+    self,
+    station: str,
     ):
 
-        explanations = loader.local_explanations
+        history = (
+            shap_repository.get_history(station)
+        )
 
-        result = [
-            item
-            for item in explanations
-            if item["station"] == station
-        ]
+        for item in history:
+            item.pop("_id", None)
 
-        return result
+        return history
 
     def get_global_importance(self):
+        """
+        Returns the global feature importance
+        learned by the trained model.
+        """
 
         return loader.feature_importance
 

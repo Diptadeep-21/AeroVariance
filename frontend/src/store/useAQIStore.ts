@@ -3,16 +3,28 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
 import { getStations } from "@/services/station.service";
-import { getDashboard } from "@/services/dashboard.service";
+import { getStationDashboard } from "@/services/stationDashboard.service";
+import { getLocationDashboard } from "@/services/locationDashboard.service";
 import { getStationHistory } from "@/services/attribution.service";
 
-import type { ForecastRequest } from "@/types/forecast";
+// import type { ForecastRequest } from "@/types/forecast";
+//import type { DashboardRequest } from "@/types/dashboardRequest";
 import type { DashboardResponse } from "@/types/dashboard";
 import type { Station } from "@/types/station";
 import type { AttributionResponse } from "@/types/attribution";
+import type { StationDashboardResponse } from "@/types/stationDashboard";
+import type { LocationDashboardResponse } from "@/types/locationDashboard";
 
 import { simulateAQI } from "@/services/simulation.service";
 import { translate } from "@/services/translation.service";
+
+import type {
+  LocationResult,
+  LocationResponse,
+} from "@/types/location";
+import {
+  searchLocation as searchLocationApi,
+} from "@/services/location.service";
 
 import type {
   SimulationRequest,
@@ -24,12 +36,31 @@ interface AQIState {
 
   selectedStation: string;
 
-  dashboard: DashboardResponse | null;
+  mode:
+  | "station"
+  | "location";
 
-  stationDashboards: Record<
-    string,
-    DashboardResponse
-  >;
+  selectedLocation:
+  | LocationResult
+  | null;
+
+  nearestStation:
+  | string
+  | null;
+
+  locationData: LocationResponse | null;
+
+
+  stationDashboard: StationDashboardResponse | null;
+
+  dashboard: StationDashboardResponse | null;
+
+  locationDashboard: LocationDashboardResponse | null;
+
+stationDashboards: Record<
+  string,
+  StationDashboardResponse
+>;
 
   stationHistory: Record<
     string,
@@ -57,17 +88,34 @@ interface AQIState {
 
   loadStations: () => Promise<void>;
 
+  setMode: (
+    mode: "station" | "location"
+  ) => void;
+
+  setLocation: (
+    location: LocationResult
+  ) => void;
+
+  setNearestStation: (
+    station: string | null
+  ) => void;
+
+  setLocationData: (
+    data: LocationResponse | null
+  ) => void;
+
+  searchLocation: (
+    location: string
+  ) => Promise<void>;
+
   setStation: (
     station: string
   ) => void;
 
-  loadDashboard: (
-    payload: ForecastRequest
-  ) => Promise<void>;
+  loadDashboard: () => Promise<void>;
 
   loadStationDashboard: (
-    station: string,
-    payload: ForecastRequest
+    station: string
   ) => Promise<void>;
 
   loadStationHistory: (
@@ -83,11 +131,24 @@ export const useAQIStore = create<AQIState>(
   (set, get) => ({
     stations: [],
 
-    selectedStation: "",
+    selectedStation:
+      "Rabindra Sarobar, Kolkata - WBPCB",
+
+    mode: "station",
+
+    selectedLocation: null,
+
+    nearestStation: null,
+
+    locationData: null,
+
+    stationDashboard: null,
 
     dashboard: null,
 
-    stationDashboards: {},
+    locationDashboard: null,
+
+stationDashboards: {},
 
     stationHistory: {},
 
@@ -103,14 +164,19 @@ export const useAQIStore = create<AQIState>(
 
     error: null,
 
+
     loadStations: async () => {
       try {
         const stations =
           await getStations();
 
-        set({
+        set((state) => ({
           stations,
-        });
+          selectedStation:
+            state.selectedStation ||
+            stations[0]?.station ||
+            "",
+        }));
       } catch (err) {
         console.error(err);
 
@@ -121,76 +187,154 @@ export const useAQIStore = create<AQIState>(
       }
     },
 
-    setStation: (station) =>
-      set((state) => ({
-        selectedStation: station,
+    setMode: (
+      mode: "station" | "location"
+    ) =>
+      set({
+        mode,
+      }),
 
-        dashboard:
-          state.stationDashboards[station] ??
-          null,
+    setLocation: (
+      location: LocationResult
+    ) =>
+      set({
+        mode: "location",
+        selectedLocation: location,
+      }),
 
-        simulation: null,
+    setNearestStation: (
+      station: string | null
+    ) =>
+      set({
+        nearestStation: station,
+      }),
 
-        error: null,
-      })),
+    setLocationData: (data) =>
+      set({
+        locationData: data,
+      }),
 
-    loadDashboard: async (
-      payload
+    searchLocation: async (
+      location
     ) => {
       try {
-
         set({
           loading: true,
           error: null,
         });
 
-        const dashboard =
-          await getDashboard(payload);
+        const result =
+          await searchLocationApi(location);
 
-        set((state) => ({
-          dashboard,
-
-          stationDashboards: {
-            ...state.stationDashboards,
-
-            [dashboard.station]:
-              dashboard,
-          },
-
+        set({
           loading: false,
-        }));
 
+          mode: "location",
+
+          locationData: result,
+
+          selectedLocation: {
+            name: result.location.name,
+            latitude: result.location.lat,
+            longitude: result.location.lon,
+            country: result.location.country,
+            state: result.location.state,
+          },
+        });
       } catch (err) {
-
         console.error(err);
 
         set({
           loading: false,
-          error:
-            "Unable to load dashboard.",
+          error: "Unable to search location.",
+        });
+      }
+    },
+
+    setStation: (station) =>
+      set({
+        mode: "station",
+
+        selectedStation: station,
+
+        dashboard: null,
+
+        stationDashboard: null,
+
+        simulation: null,
+
+        error: null,
+      }),
+
+    loadDashboard: async () => {
+      try {
+        set({
+          loading: true,
+          error: null,
         });
 
-      }
-    },
+        const s = get();
 
-    loadStationDashboard: async (
-      station,
-      payload
-    ) => {
-      try {
-        const dashboard =
-          await getDashboard(payload);
+        if (s.mode === "station") {
+          const dashboard = await getStationDashboard(s.selectedStation);
 
-        set((state) => ({
-          stationDashboards: {
-            ...state.stationDashboards,
-            [station]: dashboard,
-          },
-        }));
-      } catch (err) {
-        console.error(err);
-      }
-    },
+          set((state) => ({
+            dashboard: dashboard,
+            stationDashboard: dashboard,
+            stationDashboards: {
+              ...state.stationDashboards,
+              [state.selectedStation]: dashboard,
+            },
+            loading: false,
+          }));
+
+          return;
+        }
+
+    if (!s.selectedLocation) {
+
+      set({
+        loading: false,
+      });
+
+      return;
+    }
+
+    const dashboard =
+      await getLocationDashboard(
+        s.selectedLocation.name
+      );
+
+    set({
+      locationDashboard: dashboard,
+      loading: false,
+    });
+
+  }
+
+  catch (err) {
+
+    console.error(err);
+
+    set({
+      loading: false,
+      error: "Unable to load dashboard.",
+    });
+
+  }
+
+},
+
+    loadStationDashboard: async (station) => {
+
+  set({
+    selectedStation: station,
+    mode: "station",
+  });
+
+  await get().loadDashboard();
+
+},
 
     loadStationHistory: async (
       station
@@ -277,104 +421,127 @@ export const useAQIStore = create<AQIState>(
 
     setLanguage: async (language) => {
 
-  if (language === "en") {
-    set({
-      language,
-      translations: {},
-    });
-    return;
-  }
+      if (language === "en") {
+        set({
+          language,
+          translations: {},
+        });
+        return;
+      }
 
-  const cache =
-    get().translationCache[language];
+      const cache =
+        get().translationCache[language];
 
-  if (cache) {
-    set({
-      language,
-      translations: cache,
-    });
-    return;
-  }
+      if (cache) {
+        set({
+          language,
+          translations: cache,
+        });
+        return;
+      }
 
-  // ✅ Get the latest dashboard from Zustand
-  const dashboard = get().dashboard;
+      // ✅ Get the latest dashboard from Zustand
+      const s = get();
 
-  const strings = {
-    pageTitle: "Citizen Advisories",
+let category = "";
+let forecast = "";
 
-    pageDescription:
-      "Health recommendations generated from the latest air-quality prediction.",
+if (s.mode === "location") {
 
-    advisoryTitle: "Citizen Advisory",
+  const current =
+    s.locationDashboard?.locations?.[0];
 
-    recommendation: "Recommendation",
+  category =
+    current?.latest_reading?.category ?? "";
 
-    predictedAQI: "Predicted AQI",
+  forecast =
+    current?.forecast?.predicted_aqi
+      ?.toString() ?? "";
 
-    riskLevel: "Risk Level",
+} else {
 
-    outdoorActivity: "Outdoor Activity",
+  category =
+    s.stationDashboard?.forecast?.category ?? "";
 
-    maskRequired: "Mask Required",
+  forecast =
+    s.stationDashboard?.forecast?.predicted_aqi
+      ?.toString() ?? "";
 
-    healthAssessment:
-      "Health Risk Assessment",
+}
 
-    healthAssessmentDescription:
-      "Estimated impact across different population groups.",
+      const strings = {
+        pageTitle: "Citizen Advisories",
 
-    children: "Children",
+        pageDescription:
+          "Health recommendations generated from the latest air-quality prediction.",
 
-    elderly: "Elderly",
+        advisoryTitle: "Citizen Advisory",
 
-    respiratoryPatients:
-      "Respiratory Patients",
+        recommendation: "Recommendation",
 
-    outdoorWorkers:
-      "Outdoor Workers",
+        predictedAQI: "Predicted AQI",
 
-    low: "Low",
+        riskLevel: "Risk Level",
 
-    moderate: "Moderate",
+        outdoorActivity: "Outdoor Activity",
 
-    high: "High",
+        maskRequired: "Mask Required",
 
-    veryHigh: "Very High",
+        healthAssessment:
+          "Health Risk Assessment",
 
-    disclaimer:
-      "This assessment is generated using the latest AI forecast and is intended to support precautionary decisions. Follow guidance from local authorities during severe pollution events.",
+        healthAssessmentDescription:
+          "Estimated impact across different population groups.",
 
-    yes: "Yes",
+        children: "Children",
 
-    no: "No",
+        elderly: "Elderly",
 
-    advisoryMessage:
-      dashboard?.advisory.message ?? "",
+        respiratoryPatients:
+          "Respiratory Patients",
 
-    advisoryRisk:
-      dashboard?.advisory.risk ?? "",
+        outdoorWorkers:
+          "Outdoor Workers",
 
-    advisoryOutdoor:
-      dashboard?.advisory.outdoor ?? "",
+        low: "Low",
 
-    forecastCategory:
-      dashboard?.forecast.category ?? "",
-  };
+        moderate: "Moderate",
 
-  const translated =
-    await translate({
-      language,
-      strings,
-    });
+        high: "High",
 
-  set((state) => ({
-    language,
-    translations: translated,
-    translationCache: {
-      ...state.translationCache,
-      [language]: translated,
+        veryHigh: "Very High",
+
+        disclaimer:
+          "This assessment is generated using the latest AI forecast and is intended to support precautionary decisions. Follow guidance from local authorities during severe pollution events.",
+
+        yes: "Yes",
+
+        no: "No",
+
+        advisoryMessage: category,
+
+advisoryRisk: category,
+
+        advisoryOutdoor:
+          "",
+
+        forecastCategory: forecast,
+      };
+
+      const translated =
+        await translate({
+          language,
+          strings,
+        });
+
+      set((state) => ({
+        language,
+        translations: translated,
+        translationCache: {
+          ...state.translationCache,
+          [language]: translated,
+        },
+      }));
     },
-  }));
-},
   })
 );
