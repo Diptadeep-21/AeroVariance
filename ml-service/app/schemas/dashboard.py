@@ -1,15 +1,39 @@
+from datetime import datetime
+from typing import Optional
+
 from pydantic import BaseModel
 
-from app.schemas.forecast import ForecastResponse
-from app.schemas.advisory import AdvisoryResponse
-from app.schemas.attribution import PredictionExplanation
+
+class DashboardRequest(BaseModel):
+    station: str
+
+
+class LatestReading(BaseModel):
+    timestamp: datetime
+
+    aqi: float
+
+    pm25: float
+
+    pm10: Optional[float] = None
+
+    co: Optional[float] = None
+
+    no2: Optional[float] = None
+
+    so2: Optional[float] = None
+
+    o3: Optional[float] = None
 
 
 class DashboardResponse(BaseModel):
+
     station: str
 
-    forecast: ForecastResponse
+    latest_reading: LatestReading
 
-    advisory: AdvisoryResponse
+    forecast: dict
 
-    latest_prediction: PredictionExplanation
+    advisory: dict
+
+    latest_prediction: Optional[dict] = None

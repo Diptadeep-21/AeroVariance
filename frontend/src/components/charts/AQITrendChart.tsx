@@ -1,9 +1,9 @@
 "use client";
 
 import {
-  LineChart,
-  Line,
   CartesianGrid,
+  Line,
+  LineChart,
   ResponsiveContainer,
   Tooltip,
   XAxis,
@@ -13,77 +13,68 @@ import {
 import {
   Card,
   CardContent,
+  CardDescription,
   CardHeader,
   CardTitle,
-  CardDescription,
 } from "@/components/ui/card";
 
-const data = [
-  { hour: "06", actual: 158, forecast: 160 },
-  { hour: "08", actual: 165, forecast: 166 },
-  { hour: "10", actual: 171, forecast: 170 },
-  { hour: "12", actual: 176, forecast: 178 },
-  { hour: "14", actual: 181, forecast: 182 },
-  { hour: "16", actual: null, forecast: 186 },
-  { hour: "18", actual: null, forecast: 191 },
-];
+export interface AQITrendPoint {
+  label: string;
+  actual: number | null;
+  forecast: number | null;
+}
 
-export default function AQITrendChart() {
+interface AQITrendChartProps {
+  data?: AQITrendPoint[];
+}
+
+export default function AQITrendChart({
+  data = [],
+}: AQITrendChartProps) {
   return (
     <Card className="h-105">
-
       <CardHeader>
-
-        <CardTitle>
-          AQI Trend
-        </CardTitle>
+        <CardTitle>AQI Trend</CardTitle>
 
         <CardDescription>
           Historical observations and AI forecast
         </CardDescription>
-
       </CardHeader>
 
       <CardContent className="h-80">
+        {data.length === 0 ? (
+          <div className="flex h-full items-center justify-center text-sm text-muted-foreground">
+            No trend data available.
+          </div>
+        ) : (
+          <ResponsiveContainer width="100%" height="100%">
+            <LineChart data={data}>
+              <CartesianGrid strokeDasharray="3 3" />
 
-        <ResponsiveContainer
-          width="100%"
-          height="100%"
-        >
+              <XAxis dataKey="label" />
 
-          <LineChart data={data}>
+              <YAxis />
 
-            <CartesianGrid
-              strokeDasharray="3 3"
-            />
+              <Tooltip />
 
-            <XAxis dataKey="hour" />
+              <Line
+                type="monotone"
+                dataKey="actual"
+                strokeWidth={3}
+                dot={false}
+              />
 
-            <YAxis />
-
-            <Tooltip />
-
-            <Line
-              type="monotone"
-              dataKey="actual"
-              strokeWidth={3}
-              dot={false}
-            />
-
-            <Line
-              type="monotone"
-              dataKey="forecast"
-              strokeDasharray="6 6"
-              strokeWidth={3}
-              dot={false}
-            />
-
-          </LineChart>
-
-        </ResponsiveContainer>
-
+              <Line
+                type="monotone"
+                dataKey="forecast"
+                strokeDasharray="6 6"
+                strokeWidth={3}
+                dot={false}
+              />
+            </LineChart>
+          </ResponsiveContainer>
+        )}
       </CardContent>
-
     </Card>
   );
 }

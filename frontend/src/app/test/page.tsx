@@ -52,17 +52,6 @@ export default function TestPage() {
       const data = await simulateAQI({
         station: "Ballygunge, Kolkata - WBPCB",
 
-        AQI_lag1: 180,
-        AQI_lag3: 170,
-        AQI_lag24: 160,
-
-        pm25_lag1: 95,
-        pm10_lag1: 145,
-
-        no2_lag1: 45,
-        co_lag1: 1700,
-        so2_lag1: 20,
-
         traffic_change: -20,
         construction_change: -15,
         industry_change: -10,

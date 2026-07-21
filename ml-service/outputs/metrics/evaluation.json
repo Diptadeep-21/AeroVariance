@@ -1,0 +1,11 @@
+{
+    "regression": {
+        "RMSE": 4.7332,
+        "MAE": 2.5359,
+        "MAPE": 0.043,
+        "R2": 0.9206
+    },
+    "classification": {
+        "accuracy": 0.9564
+    }
+}

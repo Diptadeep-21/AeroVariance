@@ -27,7 +27,7 @@ export default function AdvisoryCard() {
     (state) => state.translations
   );
 
-  if (!dashboard) {
+  if (!dashboard || !dashboard.forecast) {
     return (
       <Card>
         <CardContent className="flex h-60 items-center justify-center text-muted-foreground">
@@ -37,10 +37,15 @@ export default function AdvisoryCard() {
     );
   }
 
-  const {
-    forecast,
-    advisory,
-  } = dashboard;
+  const forecast = dashboard.forecast;
+  const advisory = dashboard.advisory ?? {
+    category: forecast.category,
+    risk: "Moderate",
+    message: "Standard precautionary measures advised.",
+    outdoor: "Moderate",
+    mask: false,
+    color: "#f59e0b",
+  };
 
   return (
     <Card>

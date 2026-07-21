@@ -10,6 +10,8 @@ import {
   SlidersHorizontal,
   ShieldAlert,
   Wind,
+  BarChart3,
+  Building2,
 } from "lucide-react";
 
 import { cn } from "@/lib/utils";
@@ -39,6 +41,16 @@ const navigation = [
     title: "Advisories",
     href: "/advisories",
     icon: ShieldAlert,
+  },
+  {
+    title: "Analytics",
+    href: "/analytics",
+    icon: BarChart3,
+  },
+  {
+    title: "Compare Cities",
+    href: "/compare-cities",
+    icon: Building2,
   },
 ];
 

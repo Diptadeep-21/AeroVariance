@@ -20,6 +20,8 @@ class FeaturePreprocessor:
 
         feature_columns = loader.feature_columns
 
+        print(loader.feature_columns)
+
         if feature_columns is None:
             raise RuntimeError(
                 "Models are not loaded. Call loader.load() first."
@@ -52,7 +54,19 @@ class FeaturePreprocessor:
 
         df = pd.DataFrame([row])
 
+        station_cols = [c for c in df.columns if c.startswith("station_")]
+
+        for col in df.columns:
+            if col in station_cols:
+                df[col] = df[col].astype(int)
+            else:
+                df[col] = pd.to_numeric(df[col], errors="coerce").astype(float)
+
+        print(df.dtypes)
+
         return df[feature_columns]
+
+
 
 
 preprocessor = FeaturePreprocessor()

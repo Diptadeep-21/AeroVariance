@@ -20,6 +20,7 @@ import pandas as pd
 import xgboost as xgb
 import sklearn
 from sklearn.preprocessing import LabelEncoder
+from training.feature_engineering import get_feature_columns
 
 from training.config import (
     FEATURE_FILE,
@@ -59,24 +60,7 @@ def load_dataset():
 def prepare_features(df):
     """Prepare feature columns."""
 
-    feature_cols = [
-        c
-        for c in df.columns
-        if (
-            "_lag" in c
-            or "_roll" in c
-            or "_sin" in c
-            or "_cos" in c
-            or "station_" in c
-            or c
-            in [
-                "hour",
-                "dayofweek",
-                "month",
-                "is_weekend",
-            ]
-        )
-    ]
+    feature_cols = get_feature_columns(df)
 
     logger.info(f"Feature Count: {len(feature_cols)}")
 

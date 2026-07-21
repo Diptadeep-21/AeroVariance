@@ -58,34 +58,36 @@ export default function StationSelector() {
         <Popover open={open} onOpenChange={setOpen}>
 
             <PopoverTrigger
-    render={
-        <Button
-            variant="outline"
-            role="combobox"
-            className="w-[320px] justify-between"
-        >
-            <div className="flex items-center gap-2">
+                render={
+                    <Button
+                        variant="outline"
+                        role="combobox"
+                        className="w-[320px] justify-between"
+                    >
+                        <div className="flex items-center gap-2">
 
-                <MapPin className="h-4 w-4" />
+                            <MapPin className="h-4 w-4" />
 
-                <span className="truncate">
-                    {selectedStation
-                        ? selectedStation.split(",")[0]
-                        : "Select Station"}
-                </span>
+                            <span className="truncate">
+                                {selectedStation
+                                    ? selectedStation
+                                        .replace(", Kolkata - WBPCB", "")
+                                        .replace("Victoria", "Victoria Memorial")
+                                    : "Select WBPCB Station"}
+                            </span>
 
-            </div>
+                        </div>
 
-            <ChevronsUpDown className="h-4 w-4 opacity-50" />
-        </Button>
-    }
-/>
+                        <ChevronsUpDown className="h-4 w-4 opacity-50" />
+                    </Button>
+                }
+            />
 
             <PopoverContent className="w-[320px] p-0">
 
                 <Command>
 
-                    <CommandInput placeholder="Search station..." />
+                    <CommandInput placeholder="Search WBPCB station..." />
 
                     <CommandList>
 
@@ -97,27 +99,31 @@ export default function StationSelector() {
 
                         <CommandGroup>
 
-                            {stations.map((station) => (
-                                <CommandItem
-                                    key={station}
-                                    value={station}
-                                    onSelect={() => {
-                                        setStation(station);
-                                        setOpen(false);
-                                    }}
-                                >
-                                    <Check
-                                        className={cn(
-                                            "mr-2 h-4 w-4",
-                                            selectedStation === station
-                                                ? "opacity-100"
-                                                : "opacity-0"
-                                        )}
-                                    />
+                            {stations
+                                .filter((s) => s.active)
+                                .map((s) => (
+                                    <CommandItem
+                                        key={s.station}
+                                        value={s.station}
+                                        onSelect={() => {
+                                            setStation(s.station);
+                                            setOpen(false);
+                                        }}
+                                    >
+                                        <Check
+                                            className={cn(
+                                                "mr-2 h-4 w-4",
+                                                selectedStation === s.station
+                                                    ? "opacity-100"
+                                                    : "opacity-0"
+                                            )}
+                                        />
 
-                                    {station}
-                                </CommandItem>
-                            ))}
+                                        {s.station
+                                            .replace(", Kolkata - WBPCB", "")
+                                            .replace("Victoria", "Victoria Memorial")}
+                                    </CommandItem>
+                                ))}
 
                         </CommandGroup>
 

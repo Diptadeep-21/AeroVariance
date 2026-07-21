@@ -1,15 +1,17 @@
 import { api } from "@/lib/api";
-import { DashboardResponse } from "@/types/dashboard";
-import { ForecastRequest } from "@/types/forecast";
 
-export async function getDashboard(
-  payload: ForecastRequest
-): Promise<DashboardResponse> {
-  const { data } =
-    await api.post<DashboardResponse>(
-      "/dashboard",
-      payload
-    );
+import type { DashboardResponse } from "@/types/dashboard";
 
-  return data;
+export async function getLocationDashboard() {
+
+    const { data } = await api.get(
+        "/dashboard",
+        {
+            params:{
+                mode:"location"
+            }
+        }
+    )
+
+    return data;
 }

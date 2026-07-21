@@ -31,7 +31,7 @@ export default function ComparisonChart() {
     (state) => state.simulation
   );
 
-  if (!dashboard) {
+  if (!dashboard || !dashboard.forecast) {
     return (
       <Card>
         <CardContent className="flex h-80 items-center justify-center text-muted-foreground">

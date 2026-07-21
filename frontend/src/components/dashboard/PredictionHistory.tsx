@@ -2,26 +2,27 @@
 
 import {
   Card,
+  CardContent,
+  CardDescription,
   CardHeader,
   CardTitle,
-  CardDescription,
-  CardContent,
 } from "@/components/ui/card";
 
-import { useAQIStore } from "@/store/useAQIStore";
+export interface PredictionHistoryItem {
+  timestamp: string;
+  predicted_aqi: number;
+  actual_aqi: number;
+  absolute_error: number;
+}
 
-export default function PredictionHistory() {
-  const selectedStation = useAQIStore(
-  (state) => state.selectedStation
-);
 
-const stationHistory = useAQIStore(
-  (state) => state.stationHistory
-);
+interface PredictionHistoryProps {
+  history?: PredictionHistoryItem[];
+}
 
-const history =
-  stationHistory[selectedStation] || [];
-
+export default function PredictionHistory({
+  history = [],
+}: PredictionHistoryProps) {
   return (
     <Card>
       <CardHeader>
@@ -30,7 +31,7 @@ const history =
         </CardTitle>
 
         <CardDescription>
-          Recent prediction performance for the selected station
+          Historical prediction performance
         </CardDescription>
       </CardHeader>
 
@@ -38,25 +39,15 @@ const history =
         <table className="w-full text-sm">
           <thead className="border-b">
             <tr className="text-left">
-              <th className="py-2">
-                Time
-              </th>
+              <th className="py-2">Time</th>
 
-              <th>
-                Actual
-              </th>
+              <th>Actual</th>
 
-              <th>
-                Predicted
-              </th>
+              <th>Predicted</th>
 
-              <th>
-                Error
-              </th>
+              <th>Error</th>
 
-              <th>
-                Status
-              </th>
+              <th>Status</th>
             </tr>
           </thead>
 
@@ -71,31 +62,27 @@ const history =
                 </td>
               </tr>
             ) : (
-              history.map((item, index) => (
+              history.map((item) => (
                 <tr
-                  key={index}
+                  key={item.timestamp}
                   className="border-b"
                 >
                   <td className="py-2">
-                    {item.timestamp}
+                    {new Date(
+                      item.timestamp
+                    ).toLocaleString()}
                   </td>
 
-                  <td>
-                    {item.actual_aqi}
-                  </td>
+                  <td>{item.actual_aqi}</td>
+
+                  <td>{item.predicted_aqi}</td>
+
+                  <td>{item.absolute_error}</td>
 
                   <td>
-                    {item.predicted_aqi}
-                  </td>
-
-                  <td>
-                    {item.prediction_error}
-                  </td>
-
-                  <td>
-                    {item.prediction_correct
+                    {item.absolute_error <= 10
                       ? "✅"
-                      : "❌"}
+                      : "⚠️"}
                   </td>
                 </tr>
               ))

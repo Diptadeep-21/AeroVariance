@@ -16,6 +16,10 @@ router = APIRouter(
 
 
 @router.post(
+    "",
+    response_model=SimulationResponse,
+)
+@router.post(
     "/",
     response_model=SimulationResponse,
 )
@@ -25,16 +29,12 @@ def simulate(
 
     try:
 
-        payload = request.model_dump()
-
-        result = simulation_service.simulate(
-            payload=payload,
-            traffic_change=payload["traffic_change"],
-            construction_change=payload["construction_change"],
-            industry_change=payload["industry_change"],
+        return simulation_service.simulate(
+            station=request.station,
+            traffic_change=request.traffic_change,
+            construction_change=request.construction_change,
+            industry_change=request.industry_change,
         )
-
-        return result
 
     except Exception as e:
 

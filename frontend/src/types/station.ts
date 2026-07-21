@@ -1,1 +1,5 @@
-export type Station = string;
+export interface Station {
+  station: string;
+
+  active: boolean;
+}

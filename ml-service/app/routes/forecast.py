@@ -1,9 +1,4 @@
-from fastapi import APIRouter, HTTPException
-
-from app.schemas.forecast import (
-    ForecastRequest,
-    ForecastResponse,
-)
+from fastapi import APIRouter, HTTPException, Query
 
 from app.services.forecast_service import (
     forecast_service,
@@ -15,25 +10,26 @@ router = APIRouter(
 )
 
 
-@router.post(
-    "/",
-    response_model=ForecastResponse,
-)
-def predict_forecast(
-    request: ForecastRequest,
+@router.get("")
+def get_forecast(
+    location: str = Query(
+        ...,
+        description="Location name",
+        example="Chennai",
+    ),
 ):
 
-    try:
+    result = forecast_service.forecast(
+        location
+    )
 
-        result = forecast_service.predict(
-            request.model_dump()
-        )
-
-        return result
-
-    except Exception as e:
+    if result is None:
 
         raise HTTPException(
-            status_code=500,
-            detail=str(e),
+            status_code=404,
+            detail=(
+                f"No trained model available for '{location}'."
+            ),
         )
+
+    return result

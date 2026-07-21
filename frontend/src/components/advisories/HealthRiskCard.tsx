@@ -143,7 +143,7 @@ export default function HealthRiskCard() {
     (state) => state.translations
   );
 
-  if (!dashboard) {
+  if (!dashboard || !dashboard.advisory) {
     return (
       <Card>
         <CardContent className="flex h-60 items-center justify-center text-muted-foreground">
