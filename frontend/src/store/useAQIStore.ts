@@ -131,8 +131,7 @@ export const useAQIStore = create<AQIState>(
   (set, get) => ({
     stations: [],
 
-    selectedStation:
-      "Rabindra Sarobar, Kolkata - WBPCB",
+    selectedStation: "",
 
     mode: "station",
 
@@ -148,7 +147,7 @@ export const useAQIStore = create<AQIState>(
 
     locationDashboard: null,
 
-stationDashboards: {},
+    stationDashboards: {},
 
     stationHistory: {},
 
@@ -172,10 +171,7 @@ stationDashboards: {},
 
         set((state) => ({
           stations,
-          selectedStation:
-            state.selectedStation ||
-            stations[0]?.station ||
-            "",
+          selectedStation: state.selectedStation || "",
         }));
       } catch (err) {
         console.error(err);
@@ -251,7 +247,7 @@ stationDashboards: {},
       }
     },
 
-    setStation: (station) =>
+    setStation: (station) => {
       set({
         mode: "station",
 
@@ -264,7 +260,9 @@ stationDashboards: {},
         simulation: null,
 
         error: null,
-      }),
+      });
+      get().loadDashboard();
+    },
 
     loadDashboard: async () => {
       try {
@@ -276,6 +274,10 @@ stationDashboards: {},
         const s = get();
 
         if (s.mode === "station") {
+          if (!s.selectedStation) {
+            set({ loading: false });
+            return;
+          }
           const dashboard = await getStationDashboard(s.selectedStation);
 
           set((state) => ({
@@ -340,13 +342,9 @@ stationDashboards: {},
       station
     ) => {
 
+      if (!station) return;
       try {
-
-        const cached =
-          useAQIStore
-            .getState()
-            .stationHistory[station];
-
+        const cached = useAQIStore.getState().stationHistory[station];
         if (cached) return;
 
         const history =

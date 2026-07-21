@@ -1,39 +1,17 @@
 "use client";
 
-import {
-  ShieldAlert,
-  Wind,
-  AlertTriangle,
-} from "lucide-react";
-
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-
-import { Badge } from "@/components/ui/badge";
-
+import { ShieldAlert, Wind, AlertTriangle } from "lucide-react";
 import { useAQIStore } from "@/store/useAQIStore";
 
 export default function AdvisoryCard() {
-  const dashboard = useAQIStore(
-    (state) => state.dashboard
-  );
-
-  const t = useAQIStore(
-    (state) => state.translations
-  );
+  const dashboard = useAQIStore((state) => state.dashboard);
+  const t = useAQIStore((state) => state.translations);
 
   if (!dashboard || !dashboard.forecast) {
     return (
-      <Card>
-        <CardContent className="flex h-60 items-center justify-center text-muted-foreground">
-          Loading advisory...
-        </CardContent>
-      </Card>
+      <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-none flex h-60 items-center justify-center text-[#6B7280]">
+        Loading advisory...
+      </div>
     );
   }
 
@@ -48,118 +26,61 @@ export default function AdvisoryCard() {
   };
 
   return (
-    <Card>
-
-      <CardHeader>
-
-        <CardTitle>
+    <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-none space-y-6">
+      <div>
+        <h3 className="font-serif text-xl font-semibold text-[#111827]">
           {t.advisoryTitle ?? "Citizen Advisory"}
-        </CardTitle>
+        </h3>
+        <p className="mt-1 text-sm text-[#6B7280]">
+          {t.pageDescription ?? "AI-generated health guidance for the selected station."}
+        </p>
+      </div>
 
-        <CardDescription>
-          {t.pageDescription ??
-            "AI-generated health guidance for the selected station."}
-        </CardDescription>
-
-      </CardHeader>
-
-      <CardContent className="space-y-6">
-
-        <div className="flex items-center justify-between">
-
-          <div>
-
-            <p className="text-sm text-muted-foreground">
-              {t.predictedAQI ?? "Predicted AQI"}
-            </p>
-
-            <h2 className="mt-1 text-4xl font-bold">
-              {forecast.predicted_aqi.toFixed(0)}
-            </h2>
-
-          </div>
-
-          <Badge
-            className="px-4 py-2 text-sm"
-            style={{
-              backgroundColor: advisory.color,
-              color: "#ffffff",
-            }}
-          >
-            {t.forecastCategory ??
-              forecast.category}
-          </Badge>
-
-        </div>
-
-        <div className="grid gap-4 md:grid-cols-3">
-
-          <div className="rounded-xl border p-4">
-
-            <ShieldAlert className="mb-3 h-5 w-5 text-primary" />
-
-            <p className="text-xs text-muted-foreground">
-              {t.riskLevel ?? "Risk Level"}
-            </p>
-
-            <p className="mt-1 font-semibold">
-              {t.advisoryRisk ??
-                advisory.risk}
-            </p>
-
-          </div>
-
-          <div className="rounded-xl border p-4">
-
-            <Wind className="mb-3 h-5 w-5 text-primary" />
-
-            <p className="text-xs text-muted-foreground">
-              {t.outdoorActivity ??
-                "Outdoor Activity"}
-            </p>
-
-            <p className="mt-1 font-semibold">
-              {t.advisoryOutdoor ??
-                advisory.outdoor}
-            </p>
-
-          </div>
-
-          <div className="rounded-xl border p-4">
-
-            <AlertTriangle className="mb-3 h-5 w-5 text-primary" />
-
-            <p className="text-xs text-muted-foreground">
-              {t.maskRequired ??
-                "Mask Required"}
-            </p>
-
-            <p className="mt-1 font-semibold">
-              {advisory.mask
-                ? (t.yes ?? "Yes")
-                : (t.no ?? "No")}
-            </p>
-
-          </div>
-
-        </div>
-
-        <div className="rounded-xl border bg-muted/40 p-5">
-
-          <p className="text-sm font-medium">
-            {t.recommendation ??
-              "Recommendation"}
+      <div className="flex items-center justify-between border-b border-[#E5E7EB] pb-6">
+        <div>
+          <p className="text-xs font-medium uppercase tracking-[0.14em] text-[#6B7280]">
+            {t.predictedAQI ?? "Predicted AQI"}
           </p>
-
-          <p className="mt-3 leading-7 text-muted-foreground">
-            {t.advisoryMessage ??
-              advisory.message}
-          </p>
-
+          <h2 className="mt-1 font-numeric text text-[40px] font-bold tracking-tight text-[#111827] leading-none">
+            {forecast.predicted_aqi.toFixed(0)}
+          </h2>
         </div>
 
-      </CardContent>
+        <span className="rounded-full bg-[#DCFCE7] px-4 py-1.5 text-xs font-semibold text-[#15803D]">
+          {t.forecastCategory ?? forecast.category}
+        </span>
+      </div>
 
-    </Card>
+      <div className="grid gap-4 md:grid-cols-3">
+        <div className="rounded-xl border border-[#E5E7EB] bg-[#FAFBFC] p-4">
+          <ShieldAlert className="mb-2 h-5 w-5 text-[#2563EB]" />
+          <p className="text-xs text-[#6B7280] font-medium uppercase tracking-wider">{t.riskLevel ?? "Risk Level"}</p>
+          <p className="mt-1 text-base font-semibold text-[#111827]">{t.advisoryRisk ?? advisory.risk}</p>
+        </div>
+
+        <div className="rounded-xl border border-[#E5E7EB] bg-[#FAFBFC] p-4">
+          <Wind className="mb-2 h-5 w-5 text-[#2563EB]" />
+          <p className="text-xs text-[#6B7280] font-medium uppercase tracking-wider">{t.outdoorActivity ?? "Outdoor Activity"}</p>
+          <p className="mt-1 text-base font-semibold text-[#111827]">{t.advisoryOutdoor ?? advisory.outdoor}</p>
+        </div>
+
+        <div className="rounded-xl border border-[#E5E7EB] bg-[#FAFBFC] p-4">
+          <AlertTriangle className="mb-2 h-5 w-5 text-[#2563EB]" />
+          <p className="text-xs text-[#6B7280] font-medium uppercase tracking-wider">{t.maskRequired ?? "Mask Required"}</p>
+          <p className="mt-1 text-base font-semibold text-[#111827]">
+            {advisory.mask ? (t.yes ?? "Yes") : (t.no ?? "No")}
+          </p>
+        </div>
+      </div>
+
+      <div className="rounded-xl border border-[#E5E7EB] bg-[#FAFBFC] p-5">
+        <p className="text-xs font-medium uppercase tracking-[0.14em] text-[#6B7280]">
+          {t.recommendation ?? "Recommendation"}
+        </p>
+        <p className="mt-2 text-sm leading-relaxed text-[#111827]">
+          {t.advisoryMessage ?? advisory.message}
+        </p>
+      </div>
+    </div>
   );
 }

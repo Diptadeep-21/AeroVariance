@@ -2,9 +2,8 @@
 
 import { useState, useEffect } from "react";
 import PageHeader from "@/components/layout/PageHeader";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Building2, TrendingUp, ShieldCheck, AlertTriangle, Activity } from "lucide-react";
+import MetricCard from "@/components/common/MetricCard";
+import { Building2, TrendingUp, ShieldCheck, Activity } from "lucide-react";
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, Legend } from "recharts";
 
 interface CityMetric {
@@ -39,155 +38,133 @@ export default function CompareView() {
     fetchComparison();
   }, []);
 
-  const getBadgeColor = (category: string) => {
-    switch (category.toLowerCase()) {
-      case "good":
-      case "satisfactory":
-        return "bg-emerald-500 text-white";
-      case "moderate":
-        return "bg-amber-500 text-white";
-      case "poor":
-      case "very poor":
-      case "severe":
-        return "bg-rose-500 text-white";
-      default:
-        return "bg-blue-500 text-white";
-    }
-  };
-
   if (loading) {
     return (
       <div className="space-y-6">
         <PageHeader
-          title="Multi-City Comparative Intelligence"
+          title="Compare Cities"
           description="Cross-metropolitan AQI analysis, intervention effectiveness, and compliance metrics."
         />
-        <div className="text-muted-foreground">Loading city comparative metrics...</div>
+        <div className="text-[#6B7280]">Loading city comparative metrics...</div>
       </div>
     );
   }
 
+  const avgAqi = Math.round(cities.reduce((acc, c) => acc + c.aqi, 0) / (cities.length || 1));
+  const totalInterventions = cities.reduce((acc, c) => acc + c.activeInterventions, 0);
+
   return (
     <div className="space-y-6">
       <PageHeader
-        title="Multi-City Comparative Intelligence"
+        title="Compare Cities"
         description="Cross-metropolitan AQI analysis, intervention effectiveness, and compliance metrics."
       />
 
-      {/* Overview Metric Cards */}
-      <div className="grid gap-4 md:grid-cols-4">
-        <Card className="p-5">
-          <div className="flex items-center gap-3">
-            <Building2 className="h-8 w-8 text-blue-600" />
-            <div>
-              <p className="text-xs text-muted-foreground">Tracked Cities</p>
-              <h3 className="text-2xl font-bold">{cities.length} Metros</h3>
-            </div>
-          </div>
-        </Card>
+      {/* 4-Up Metric Card Row */}
+      <div className="grid gap-6 md:grid-cols-4">
+        <MetricCard
+          title="Tracked Cities"
+          value={cities.length}
+          subtitle="Urban Centers"
+          icon={<Building2 className="h-5 w-5 text-[#2563EB]" />}
+        />
 
-        <Card className="p-5">
-          <div className="flex items-center gap-3">
-            <Activity className="h-8 w-8 text-amber-500" />
-            <div>
-              <p className="text-xs text-muted-foreground">National Avg AQI</p>
-              <h3 className="text-2xl font-bold">
-                {Math.round(cities.reduce((acc, c) => acc + c.aqi, 0) / (cities.length || 1))}
-              </h3>
-            </div>
-          </div>
-        </Card>
+        <MetricCard
+          title="National Avg AQI"
+          value={avgAqi}
+          subtitle="Aggregated Index"
+          icon={<Activity className="h-5 w-5 text-[#2563EB]" />}
+        />
 
-        <Card className="p-5">
-          <div className="flex items-center gap-3">
-            <ShieldCheck className="h-8 w-8 text-emerald-600" />
-            <div>
-              <p className="text-xs text-muted-foreground">Active Interventions</p>
-              <h3 className="text-2xl font-bold">
-                {cities.reduce((acc, c) => acc + c.activeInterventions, 0)} Total
-              </h3>
-            </div>
-          </div>
-        </Card>
+        <MetricCard
+          title="Active Interventions"
+          value={totalInterventions}
+          subtitle="Enforced Policies"
+          icon={<ShieldCheck className="h-5 w-5 text-[#2563EB]" />}
+        />
 
-        <Card className="p-5">
-          <div className="flex items-center gap-3">
-            <TrendingUp className="h-8 w-8 text-indigo-600" />
-            <div>
-              <p className="text-xs text-muted-foreground">Avg Enforcement Rate</p>
-              <h3 className="text-2xl font-bold">85.6%</h3>
-            </div>
-          </div>
-        </Card>
+        <MetricCard
+          title="Avg Enforcement Rate"
+          value="85.6%"
+          subtitle="Compliance Target"
+          icon={<TrendingUp className="h-5 w-5 text-[#2563EB]" />}
+        />
       </div>
 
-      {/* Comparison Chart */}
-      <Card>
-        <CardHeader>
-          <CardTitle>AQI & Pollutant Concentration Comparison</CardTitle>
-          <CardDescription>
+      {/* Grouped Bar Comparison Chart */}
+      <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-none">
+        <div className="mb-6">
+          <h3 className="font-serif text-xl font-semibold text-[#111827]">AQI & Pollutant Concentration Comparison</h3>
+          <p className="mt-1 text-sm text-[#6B7280]">
             Side-by-side comparison of PM2.5, PM10, and NO2 levels across major urban centers.
-          </CardDescription>
-        </CardHeader>
-        <CardContent className="h-80">
+          </p>
+        </div>
+
+        <div className="h-80 w-full">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={cities}>
-              <CartesianGrid strokeDasharray="3 3" vertical={false} />
-              <XAxis dataKey="city" />
-              <YAxis />
-              <Tooltip />
+              <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E5E7EB" />
+              <XAxis dataKey="city" stroke="#9CA3AF" tick={{ fill: "#6B7280", fontSize: 12 }} />
+              <YAxis stroke="#9CA3AF" tick={{ fill: "#6B7280", fontSize: 12 }} />
+              <Tooltip
+                contentStyle={{
+                  backgroundColor: "#FFFFFF",
+                  borderColor: "#E5E7EB",
+                  borderRadius: "12px",
+                  boxShadow: "0 4px 12px rgba(0,0,0,0.05)",
+                }}
+              />
               <Legend />
-              <Bar dataKey="aqi" name="Overall AQI" fill="#3b82f6" radius={[4, 4, 0, 0]} />
-              <Bar dataKey="pm25" name="PM2.5 (µg/m³)" fill="#f59e0b" radius={[4, 4, 0, 0]} />
-              <Bar dataKey="pm10" name="PM10 (µg/m³)" fill="#ef4444" radius={[4, 4, 0, 0]} />
+              <Bar dataKey="aqi" name="Overall AQI" fill="#3B82F6" radius={[4, 4, 0, 0]} />
+              <Bar dataKey="pm25" name="PM2.5 (µg/m³)" fill="#EF4444" radius={[4, 4, 0, 0]} />
+              <Bar dataKey="pm10" name="PM10 (µg/m³)" fill="#93C5FD" radius={[4, 4, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
-        </CardContent>
-      </Card>
+        </div>
+      </div>
 
       {/* City Breakdown Table */}
-      <Card>
-        <CardHeader>
-          <CardTitle>City Breakdown & Source Attribution</CardTitle>
-          <CardDescription>
+      <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-none">
+        <div className="mb-6">
+          <h3 className="font-serif text-xl font-semibold text-[#111827]">City Breakdown & Source Attribution</h3>
+          <p className="mt-1 text-sm text-[#6B7280]">
             Detailed environmental metrics, dominant pollution contributors, and municipal compliance.
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <div className="overflow-x-auto">
-            <table className="w-full text-left text-sm">
-              <thead className="border-b bg-slate-50 text-xs font-semibold uppercase text-slate-500">
-                <tr>
-                  <th className="p-3">City</th>
-                  <th className="p-3">AQI Level</th>
-                  <th className="p-3">PM2.5</th>
-                  <th className="p-3">PM10</th>
-                  <th className="p-3">Dominant Source</th>
-                  <th className="p-3">Interventions</th>
-                  <th className="p-3">Compliance</th>
+          </p>
+        </div>
+
+        <div className="overflow-x-auto">
+          <table className="w-full text-left text-sm">
+            <thead className="border-b border-[#E5E7EB] bg-[#FAFBFC] text-[11px] font-medium uppercase tracking-[0.14em] text-[#6B7280]">
+              <tr>
+                <th className="p-3.5">City</th>
+                <th className="p-3.5">AQI Level</th>
+                <th className="p-3.5">PM2.5</th>
+                <th className="p-3.5">PM10</th>
+                <th className="p-3.5">Dominant Source</th>
+                <th className="p-3.5">Interventions</th>
+                <th className="p-3.5">Compliance</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-[#E5E7EB]">
+              {cities.map((c) => (
+                <tr key={c.city} className="hover:bg-[#FAFBFC]/50 transition-colors">
+                  <td className="p-3.5 font-semibold text-[#111827]">{c.city}</td>
+                  <td className="p-3.5">
+                    <span className="rounded-full bg-[#DCFCE7] px-3 py-1 text-xs font-semibold text-[#15803D]">
+                      {c.aqi} - {c.category}
+                    </span>
+                  </td>
+                  <td className="p-3.5 text-[#111827]">{c.pm25} µg/m³</td>
+                  <td className="p-3.5 text-[#111827]">{c.pm10} µg/m³</td>
+                  <td className="p-3.5 font-medium text-[#6B7280]">{c.dominantSource}</td>
+                  <td className="p-3.5 text-[#111827]">{c.activeInterventions} Active</td>
+                  <td className="p-3.5 font-semibold text-[#15803D]">{c.complianceRate}</td>
                 </tr>
-              </thead>
-              <tbody className="divide-y">
-                {cities.map((c) => (
-                  <tr key={c.city} className="hover:bg-slate-50/50">
-                    <td className="p-3 font-semibold">{c.city}</td>
-                    <td className="p-3">
-                      <Badge className={getBadgeColor(c.category)}>
-                        {c.aqi} - {c.category}
-                      </Badge>
-                    </td>
-                    <td className="p-3">{c.pm25} µg/m³</td>
-                    <td className="p-3">{c.pm10} µg/m³</td>
-                    <td className="p-3 font-medium text-slate-700">{c.dominantSource}</td>
-                    <td className="p-3">{c.activeInterventions} Active</td>
-                    <td className="p-3 text-emerald-600 font-semibold">{c.complianceRate}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </CardContent>
-      </Card>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 }

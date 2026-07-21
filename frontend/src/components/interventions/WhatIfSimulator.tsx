@@ -1,19 +1,8 @@
 "use client";
 
 import { useState } from "react";
-
 import { Play } from "lucide-react";
-
 import { Button } from "@/components/ui/button";
-
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-
 import {
   Select,
   SelectContent,
@@ -21,140 +10,84 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-
 import { Slider } from "@/components/ui/slider";
-
 import { useSimulation } from "@/hooks/useSimulation";
 
 export default function WhatIfSimulator() {
   const { simulate } = useSimulation();
 
-  const [traffic, setTraffic] =
-    useState(20);
-
-  const [construction, setConstruction] =
-    useState(15);
-
-  const [industry, setIndustry] =
-    useState(10);
-
-  const [duration, setDuration] =
-    useState("3");
+  const [traffic, setTraffic] = useState(20);
+  const [construction, setConstruction] = useState(15);
+  const [industry, setIndustry] = useState(10);
+  const [duration, setDuration] = useState("3");
 
   async function run() {
-    await simulate(
-      traffic,
-      construction,
-      industry
-    );
+    await simulate(traffic, construction, industry);
   }
 
   return (
-    <Card>
-
-      <CardHeader>
-
-        <CardTitle>
-
+    <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-none">
+      <div className="mb-6">
+        <h3 className="font-serif text-xl font-semibold text-[#111827]">
           What-If Simulator
-
-        </CardTitle>
-
-        <CardDescription>
-
+        </h3>
+        <p className="mt-1 text-sm text-[#6B7280]">
           Evaluate pollution-control strategies before implementation.
+        </p>
+      </div>
 
-        </CardDescription>
+      <div className="grid gap-8 lg:grid-cols-2">
+        <div className="space-y-6">
+          <SliderField
+            label="Traffic Emissions Reduction"
+            value={traffic}
+            onChange={setTraffic}
+          />
+          <SliderField
+            label="Construction Dust Control"
+            value={construction}
+            onChange={setConstruction}
+          />
+          <SliderField
+            label="Industrial Emission Limits"
+            value={industry}
+            onChange={setIndustry}
+          />
+        </div>
 
-      </CardHeader>
-
-      <CardContent className="space-y-8">
-
-        <div className="grid gap-8 lg:grid-cols-2">
-
-          <div className="space-y-6">
-
-            <SliderField
-              label="Traffic Emissions"
-              value={traffic}
-              onChange={setTraffic}
-            />
-
-            <SliderField
-              label="Construction Dust"
-              value={construction}
-              onChange={setConstruction}
-            />
-
-            <SliderField
-              label="Industrial Emissions"
-              value={industry}
-              onChange={setIndustry}
-            />
-
-          </div>
-
-          <div className="space-y-4">
-
-            <p className="text-sm font-medium">
-              Duration
+        <div className="flex flex-col justify-between space-y-4 rounded-xl border border-[#E5E7EB] bg-[#FAFBFC] p-6">
+          <div>
+            <p className="text-xs font-medium uppercase tracking-[0.14em] text-[#6B7280] mb-2">
+              Simulation Horizon
             </p>
-
             <Select
               value={duration}
               onValueChange={(value) => {
-                if (value) {
-                  setDuration(value);
-                }
+                if (value) setDuration(value);
               }}
             >
-
-              <SelectTrigger>
-
+              <SelectTrigger className="w-full rounded-xl border-[#E5E7EB] bg-white">
                 <SelectValue />
-
               </SelectTrigger>
-
               <SelectContent>
-
-                <SelectItem value="1">
-                  1 Day
-                </SelectItem>
-
-                <SelectItem value="3">
-                  3 Days
-                </SelectItem>
-
-                <SelectItem value="5">
-                  5 Days
-                </SelectItem>
-
-                <SelectItem value="7">
-                  7 Days
-                </SelectItem>
-
+                <SelectItem value="1">1 Day</SelectItem>
+                <SelectItem value="3">3 Days</SelectItem>
+                <SelectItem value="5">5 Days</SelectItem>
+                <SelectItem value="7">7 Days</SelectItem>
               </SelectContent>
-
             </Select>
-
-            <Button
-              className="mt-8 w-full"
-              onClick={run}
-            >
-
-              <Play className="mr-2 h-4 w-4" />
-
-              Run Simulation
-
-            </Button>
-
           </div>
 
+          <Button
+            className="mt-6 w-full rounded-full bg-[#0F172A] py-6 text-sm font-medium text-white hover:bg-slate-800 transition-all shadow-xs"
+            onClick={run}
+          >
+            <Play className="mr-2 h-4 w-4 fill-white" />
+            Run Simulation
+          </Button>
         </div>
-
-      </CardContent>
-
-    </Card>
+      </div>
+    </div>
   );
 }
 
@@ -164,44 +97,26 @@ interface SliderFieldProps {
   onChange: (value: number) => void;
 }
 
-function SliderField({
-  label,
-  value,
-  onChange,
-}: SliderFieldProps) {
+function SliderField({ label, value, onChange }: SliderFieldProps) {
   return (
-    <div className="space-y-3">
-
+    <div className="space-y-2.5">
       <div className="flex items-center justify-between">
-
-        <p className="text-sm font-medium">
-
-          {label}
-
-        </p>
-
-        <span className="font-semibold">
-
-          {value}%
-
-        </span>
-
+        <p className="text-sm font-medium text-[#111827]">{label}</p>
+        <span className="font-semibold text-[#2563EB] text-sm">{value}%</span>
       </div>
-
       <Slider
         min={0}
         max={100}
         step={5}
         value={value}
-        onValueChange={(value) => {
-          if (typeof value === "number") {
-            onChange(value);
+        onValueChange={(val) => {
+          if (typeof val === "number") {
+            onChange(val);
           } else {
-            onChange(value[0] ?? 0);
+            onChange(val[0] ?? 0);
           }
         }}
       />
-
     </div>
   );
 }
