@@ -1,4 +1,4 @@
-# AERIS AI — AI-Powered Urban Air Quality Intelligence Platform
+# AeroVariance — AI-Powered Urban Air Quality Intelligence Platform
 
 > **Smart Cities / Environmental Intelligence / Geospatial Analytics / Public Health**
 
