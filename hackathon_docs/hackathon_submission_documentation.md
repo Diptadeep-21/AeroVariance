@@ -5,66 +5,60 @@
 
 ---
 
-## 📖 1. Executive Summary & Problem Statement
+## 💡 1. The Core Idea
 
-### Hackathon Problem Context
-India's air quality crisis is not a regional anomaly — it is a national urban emergency. Across major metro areas, the situation is severe:
-- **Delhi** averages an AQI of 218, remaining in "Poor" or worse categories for over 200 days a year.
-- **Mumbai** routinely exceeds safe AQI levels for more than 60 days annually.
-- **Kolkata** reports winter AQI averages above 150.
-- **Bengaluru** and **Chennai** face rapid deterioration as vehicle densities and construction activities surge.
+**AeroVariance** is an AI-powered urban air quality intelligence platform designed to move municipal administrations from **reactive monitoring to proactive, evidence-based environmental policy intervention**. 
 
-CPCB's National Air Quality data shows that **24 of India's 50 most polluted cities are Tier 1 or Tier 2 urban centres**, leading to an estimated **1.67 million premature deaths annually** in India (Lancet Planetary Health). 
-
-Despite deploying over **900 Continuous Ambient Air Quality Monitoring Stations (CAAQMS)** under the National Clean Air Programme, a recent CAG audit found that **only 31% of cities with monitoring data had any actionable multi-agency response protocols** linked to those readings. 
-
-### The Gap
-The data exists, but the intelligence layer to act on it does not. City administrations require more than passive dashboards; they need:
-1. **Geospatial Attribution**: Identifying which emission sources are responsible at specific coordinates in real-time.
-2. **Predictive Forecasting**: Resolving 24-72h forecast trends at the ward/neighborhood level.
-3. **Enforcement Intelligence**: Directing municipal inspectors to major pollution hotspots for maximum impact.
-
-### Unique Value Proposition (UVP)
-AeroVariance provides a real-time, interactive intelligence layer that sits directly on top of CAAQMS telemetry. It moves cities from reactive warnings to proactive interventions by matching air quality readings with a **What-If Policy Simulator** (XGBoost model forecasting) and a **SHAP-based Source Attribution engine**, enabling administrators to model and reduce pollution at the source.
+Instead of simply measuring pollution, AeroVariance functions as a decision-support system. It combines real-time sensor telemetry from Continuous Ambient Air Quality Monitoring Stations (CAAQMS), meteorological forecasting, and historical pollutant datasets to provide ward-level AQI predictions (24-72 hours), explainable source attribution, what-if policy simulations, and multi-lingual health advisories.
 
 ---
 
-## ⚡ 2. Core Innovations & Workflow Modules
+## 🎯 2. Problem Resolution
 
-### Module A: Geospatial Pollution Source Attribution Engine
-- **Methodology**: Fuses real-time CAAQMS pollutant telemetry, local weather dynamics, and seasonal emission calendars.
-- **Source Categorization**: Attributes AQI values into source categories: Vehicular, Industrial, Construction Dust, and Biomass Burning.
-- **Explainability**: Uses SHAP (SHapley Additive exPlanations) values to output feature importance diagnostics, showing city officials the exact parameters driving predictions.
+### The Current Gaps
+1. **The Inaction Gap**: While India has deployed over 900 CAAQMS monitoring stations, a recent CAG audit revealed that **only 31% of monitored cities** have actionable multi-agency response protocols linked to these readings. Data is collected, but not acted upon.
+2. **Lack of Attribution**: Administrations know when the AQI is high, but they lack localized source attribution. They cannot isolate whether a local spike is driven by vehicular density, construction dust, industrial stacks, or seasonal crop burning.
+3. **No Simulation Capabilities**: City planners must guess the impact of interventions (such as vehicle bans or construction halts) rather than modeling the environmental benefits beforehand.
 
-### Module B: Hyperlocal Predictive AQI Forecasting Agent
-- **Localized Calibration Pipeline**:
-  - **Phase 1 (Ingestion & Baseline)**: Continuous collection of raw local pollutant telemetry.
-  - **Phase 2 (Dispersion Calibration)**: Fitting lag features with regional wind vectors and temperature values.
-  - **Phase 3 (Active AI Inference)**: A dedicated local XGBoost regressor is trained and calibrated.
-- **Global Regressor Fallback**: If a searched custom location does not have a nearby CAAQMS station, it falls back to a global regressor trained on meteorological parameters, using OpenWeather concentrations normalized to the standard CPCB index.
-
-### Module C: What-If Policy Simulator
-- Provides sliders for municipal planners to simulate percentage reductions in traffic density, construction dust controls, and industrial operations.
-- The underlying machine learning model recalculates predicted AQI on the fly, allowing administrators to evaluate policy impacts before issuing orders.
-
-### Module D: Multi-Lingual Citizen Health Advisory System
-- Automatically translates health risk guidance based on local regional preference.
-- Supports **English, Hindi, and Bengali**.
-- Uses a local translation dictionary with automatic LLM fallback translation via Groq API.
+### How AeroVariance Resolves Them
+- **Enforcement Action Mapping**: Converts raw telemetry into localized source attribution charts (powered by SHAP feature explainers) to pinpoint the exact driver of a pollution spike.
+- **Hyperlocal Policy Simulator**: Planners can adjust sliders (Traffic, Construction, Industry) to simulate emissions reductions and visualize the predicted drop in AQI *before* issuing administrative mandates.
+- **Citizen Engagement Loop**: Automatically translates complex AQI telemetry into localized, vulnerable-group-targeted health advisories in regional languages (**Hindi, Bengali, English**), helping individuals make safer daily choices.
 
 ---
 
-## 🎨 3. AeroVariance Design System
+## 💎 3. Unique Value Proposition (UVP)
 
-The visual style is designed to be clean, light, and focused on readability:
-- **Light over Dark**: White (`#FFFFFF`) and light gray (`#FAFBFC`) backgrounds. Layout structure is defined by 1px borders (`#E5E7EB`) instead of drop shadows.
-- **Serif for Meaning**: Titles and hero numbers are set in **Playfair Display** (serif) to draw the eye to key data. Labels, nav controls, and data grids use **Inter** (sans-serif).
-- **Lime Accent**: Active navigation states and controls use a bright lime accent (`#C6F135`) for clear interactive feedback.
-- **Quiet Containers**: Rounded boundaries (`16px / rounded-2xl`) and minimal styling to prioritize content visibility.
+- **Evidence-Backed Action over Passive Monitoring**: AeroVariance bridges the gap between raw data collection and operational policy. It generates a clear path of action (e.g., specific sector limits) based on current air dispersion models.
+- **Progressive Machine Learning Timelines**: Implements a 3-phase calibration workflow (Ingestion, Calibration, Active Inference) that ensures model predictions continuously adapt to localized seasonal wind, temperature, and traffic variations over a 60-day window.
+- **Global Fallback Regression**: By mapping custom geolocation coordinate searches to standard CPCB index scales, any user worldwide can receive real-time, normalized predictive forecasts even in areas without dedicated CPCB hardware.
 
 ---
 
-## 🏗️ 4. Technical Architecture
+## 🛠️ 4. Technology Stack
+
+- **Frontend**: Next.js 16 (React 19, Zustand State Store, MapLibre GL for geospatial maps, Recharts for trend visualizations, Tailwind CSS for the AeroVariance Design System).
+- **Backend**: FastAPI (Python 3.11), PyMongo for database communication, and Uvicorn server hosting.
+- **Machine Learning Core**: Scikit-Learn, XGBoost, and SHAP (SHapley Additive exPlanations) for source attribution mapping.
+- **Database**: MongoDB Atlas with custom compound indexing on `(location, timestamp)` and `(station, timestamp)` to minimize search latency.
+- **Translation Engine**: Local dictionary translation maps with LLM fallback translation via Groq API.
+
+---
+
+## 📈 5. Feasibility & Viability
+
+### Technical Feasibility
+- **Data Integration**: Leverages existing national CAAQMS stations and open-source weather APIs (OpenWeather), making the platform highly feasible to deploy immediately without new sensor infrastructure.
+- **Modern ML Tooling**: By running lightweight, pre-trained XGBoost regressors on the backend and offloading map rendering to client-side WebGL (MapLibre), the platform maintains low compute requirements, running efficiently on modest cloud servers.
+
+### Economic Viability
+- **Low Capital Expenditure**: Since it interfaces with existing sensors and open APIs, municipal deployment requires no capital expenditure on hardware.
+- **Reduced Enforcement Cost**: Instead of blanket policing across entire districts, the platform's hotspot targeting directs environmental inspectors to precise high-emission zones, optimizing municipal operational budgets.
+- **Adoption Framework**: Easily integrates into existing Smart City Command Centers via standard REST APIs, facilitating quick adoption by state pollution control boards (e.g., WBPCB).
+
+---
+
+## 🏗️ 6. Technical Architecture
 
 ```mermaid
 graph TD
@@ -78,24 +72,17 @@ graph TD
     D -->|SHAP Explainers| E[Source Attribution]
     
     %% Client Gateway
-    F[Next.js Client App] -->|Axios Request| G[Next.js API Router Proxy]
+    F[Next.js Client App] -->|Axios Request| G[Next.js API Gateway Proxy]
     G -->|Proxy to Port 8000| B
 ```
 
-### Database Performance & Indexing
-To support fast loading times and avoid query timeouts, MongoDB collections are configured with compound indexes:
-- `location_history`: `[("location", 1), ("timestamp", -1)]`
-- `sensor_readings`: `[("station", 1), ("timestamp", -1)]`
-This indexing strategy reduced dashboard query response times from **14.6 seconds to 2.2 seconds**.
-
 ---
 
-## 🛠️ 5. API Reference & Data Models
+## 📁 7. API Reference & Data Models
 
 ### Data Models (Pydantic Schemas)
 
 #### `Station`
-Defines a continuous ambient air quality monitoring station.
 ```python
 class Station(BaseModel):
     station: str          # Name of the monitoring station
@@ -106,7 +93,6 @@ class Station(BaseModel):
 ```
 
 #### `StationLatestReading`
-Stores real-time pollutant measurements.
 ```python
 class StationLatestReading(BaseModel):
     aqi: float            # Normalized CPCB AQI
@@ -121,7 +107,6 @@ class StationLatestReading(BaseModel):
 ```
 
 #### `ForecastResponse`
-Returns AI model predictions.
 ```python
 class ForecastResponse(BaseModel):
     predicted_aqi: float  # AI Predicted AQI
@@ -131,7 +116,6 @@ class ForecastResponse(BaseModel):
 ```
 
 #### `TranslateRequest` & `TranslateResponse`
-Used to translate advisory texts.
 ```python
 class TranslateRequest(BaseModel):
     text: str             # Input text to translate
@@ -147,13 +131,11 @@ class TranslateResponse(BaseModel):
 
 #### 1. List Stations
 - **URL**: `GET /api/v1/stations`
-- **Description**: Returns all active CAAQMS monitoring stations.
 - **Response**: `List[Station]`
 
 #### 2. Get Station Dashboard
 - **URL**: `GET /api/v1/dashboard`
 - **Parameters**: `station` (string, optional)
-- **Description**: Retrieves real-time telemetry, model forecasts, active advisories, and prediction histories. Returns the main overview statistics if no station is specified.
 - **Response**:
   ```json
   {
@@ -187,7 +169,6 @@ class TranslateResponse(BaseModel):
 #### 3. Trigger Real-Time Station Sync
 - **URL**: `POST /api/v1/sync`
 - **Parameters**: `station` (string)
-- **Description**: Triggers an on-demand API fetch for fresh pollutants, syncing with the local database cache.
 - **Response**:
   ```json
   {
@@ -199,17 +180,4 @@ class TranslateResponse(BaseModel):
 #### 4. Translate Advisory
 - **URL**: `POST /api/v1/advisories/translate`
 - **Request Body**: `TranslateRequest`
-- **Description**: Translates health advisory messages into Hindi or Bengali using cached dictionary assets, falling back to LLM translation if needed.
 - **Response**: `TranslateResponse`
-
----
-
-## 🏆 6. Judging Criteria & Submission Alignment
-
-| Judging Criteria | Value Proposition |
-|---|---|
-| **Business Impact (25%)** | Directly aligns with NCAP objectives. Fills the gap between CAAQMS raw telemetry and actionable multi-agency response protocols. |
-| **Technical Excellence (25%)** | Fuses real-time ingestion, global fallback regressors, automated db indexing optimization, and SHAP tree explainability. |
-| **Scalability (20%)** | Built with Next.js Turbopack and FastAPI to scale across multiple municipal areas. Supports any searched coordinate via OpenWeather API mappings. |
-| **User Experience (15%)** | Employs the customized AeroVariance Design System (serif fonts for stats, clean light layout, and multi-lingual language support). |
-| **Innovation (15%)** | Fuses What-If simulators, predictive analytics, and regional translation systems into a single dashboard. |
