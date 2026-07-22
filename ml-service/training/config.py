@@ -1,13 +1,13 @@
 from pathlib import Path
 
-ROOT_DIR = Path(__file__).resolve().parents[2]
+ROOT_DIR = Path(__file__).resolve().parents[1]
 
-DATASET_DIR = ROOT_DIR / "datasets"
+DATASET_DIR = ROOT_DIR.parent / "datasets"
 PROCESSED_DIR = DATASET_DIR / "processed"
 
-MODELS_DIR = ROOT_DIR / "ml-service" / "models"
+MODELS_DIR = ROOT_DIR / "models"
 
-OUTPUT_DIR = ROOT_DIR / "ml-service" / "outputs"
+OUTPUT_DIR = ROOT_DIR / "outputs"
 PLOTS_DIR = OUTPUT_DIR / "plots"
 METRICS_DIR = OUTPUT_DIR / "metrics"
 
