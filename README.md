@@ -1,21 +1,35 @@
-# AeroVariance — Environmental Intelligence Platform
+# AeroVariance — Proactive Urban Air Quality Intelligence Platform
 
 > **Category**: Smart Cities, Geospatial Analytics & Environmental Policy Automation  
-> **AeroVariance** is an advanced environmental intelligence platform designed to move city administrations from reactive AQI warnings to **proactive, evidence-based urban air quality interventions**. It fuses real-time CPCB station feeds, weather forecasting, satellite thermal anomalies, and geospatial emission layers to deliver ward-level AQI predictions, source attribution, what-if policy simulations, and multi-lingual citizen health advisories.
+> **AeroVariance** is an AI-powered environmental decision-support system designed to move municipal administrations from **reactive monitoring to proactive, evidence-based urban air quality interventions**. By fusing continuous ambient station feeds (CAAQMS), meteorological forecasting, and historical pollutant datasets, it delivers ward-level AQI predictions (24-72h), explainable source attribution, what-if policy simulations, and multi-lingual citizen health advisories.
 
 ---
 
-## 🎨 AeroVariance Design System
+## 💡 The Core Idea
 
-The platform is designed around a light, atmospheric, and highly intentional UI language:
-- **Light over Dark**: Pure white (`#FFFFFF`) and near-white (`#FAFBFC`) surfaces throughout. Depth is structured using 1px hairline borders (`#E5E7EB`) rather than heavy drop shadows.
-- **Serif for Meaning, Sans for Structure**: Headlines and hero metrics are rendered in a serif typeface (*Playfair Display*) to highlight core readouts, while labels, navigation elements, and data layouts use a clean, quiet sans-serif font (*Inter*).
-- **One Accent**: A vibrant lime-green highlight (`#C6F135`) is strictly reserved for active states (segmented controls, selected tabs). Primary data visualization lines use a crisp brand blue (`#2563EB`).
-- **Quiet Containers**: Rounded corners (`16px / rounded-2xl`), zero gradients, and minimal styling container boxes to keep the interface focused on data readability.
+Traditional air quality systems suffer from three primary flaws: they are **reactive** (alerts occur after spikes), **coarse-grained** (city-wide rather than ward-level), and **un-attributed** (no insight into source contribution). 
+
+**AeroVariance** acts as an intelligence and command layer sitting directly on top of raw sensor telemetry. By mapping real-time pollutants against local wind/temperature vectors, traffic density profiles, and seasonal calendars, it equips city planners to simulate emissions reductions (e.g. banning diesel trucks or restricting construction zones) and visualize the immediate predicted AQI drop *before* issuing administrative mandates.
 
 ---
 
-## 🏗️ Core Architecture & Data Flow
+## 🎯 Problem Resolution
+
+- **The NCAP Actionability Gap**: While India has deployed over 900 CAAQMS monitoring stations under the National Clean Air Programme, only 31% of monitored cities have actionable multi-agency response protocols linked to these readings. AeroVariance bridges this gap by translating telemetry into prioritized enforcement guidelines.
+- **Explainable Hotspot Targeting**: Uses SHAP (SHapley Additive exPlanations) values to isolate whether local spikes are driven by vehicular emissions, construction dust, or industrial operations.
+- **Unified Citizen Advisory Pipeline**: Automatically converts raw scientific pollutant counts into localized, vulnerable-group-targeted health advisories translated into regional languages (**Hindi, Bengali, English**).
+
+---
+
+## 💎 Unique Value Proposition (UVP)
+
+- **Evidence-Backed Action over Passive Monitoring**: Moves administrations from passive measurement to predictive intervention.
+- **Progressive Machine Learning Timeline**: Fuses historical data over a target timeline through a 3-phase calibration workflow (Ingestion, Dispersion Calibration, Active Inference) ensuring local prediction engines continuously adapt to seasonal atmospheric dynamics.
+- **Global Fallback Regression**: Maps custom coordinates anywhere globally to the standard 0–500 CPCB (Central Pollution Control Board) scale, ensuring forecasting availability even in zones lacking local CAAQMS hardware.
+
+---
+
+## 🏗️ Technical Architecture & Data Flow
 
 AeroVariance leverages a modern, distributed architecture combining real-time ingestion, AI inference, and a highly responsive Next.js frontend application.
 
@@ -24,8 +38,7 @@ graph TD
     %% Ingestion Layer
     A1[CPCB Station Feeds] -->|Live Sync| B[FastAPI ML Service]
     A2[OpenWeather API] -->|Atmospheric Data| B
-    A3[Satellite FIRMS] -->|Thermal Anomalies| B
-
+    
     %% Storage & Compute
     B -->|Ingest & Index| C[(MongoDB Atlas)]
     B -->|AI Inference: XGBoost / SHAP| D[Model Regressor]
@@ -41,6 +54,23 @@ graph TD
     G -->|Render| H3[SHAP Source Attribution]
     G -->|Render| H4[Multi-lingual Advisories]
 ```
+
+---
+
+## 🛠️ Technology Stack
+
+- **Frontend**: Next.js 16 (React 19, Zustand State Store, MapLibre GL for geospatial maps, Recharts for trend visualizations, Tailwind CSS).
+- **Backend**: FastAPI (Python 3.11), PyMongo, and Uvicorn.
+- **Machine Learning Core**: Scikit-Learn, XGBoost, and SHAP (SHapley Additive exPlanations).
+- **Database**: MongoDB Atlas with custom compound indexing on `(location, timestamp)` and `(station, timestamp)` to reduce query latency.
+- **Translation Engine**: Local dictionary translation maps with LLM fallback translation via Groq API.
+
+---
+
+## 📈 Feasibility & Viability
+
+- **Technical Feasibility**: Leverages existing national CAAQMS sensors and open-source weather APIs, making the platform highly feasible to deploy immediately without capital expenditure on new hardware.
+- **Economic Viability**: Instead of district-wide lockdowns, hotspot targeting directs environmental inspectors to precise high-emission zones, optimizing municipal operational budgets. It integrates into existing Smart City Command Centers via standard REST APIs.
 
 ---
 
@@ -83,25 +113,6 @@ ET_AI_Hackathon/
 
 ---
 
-## ⚡ Key Technical Features & Algorithms
-
-### 1. Progressive Global AI Regression Fallback
-- **Hyperlocal vs. Global**: When users search a custom location globally, the system dynamically assesses if a locally-calibrated model is available (Phase 3).
-- **Fallback Regressor**: If no local model is calibrated, it runs a global fallback XGBoost model trained on general atmospheric dynamics, using OpenWeather pollutant inputs ($PM_{2.5}, PM_{10}, NO_2, SO_2, O_3, CO$) normalized to the standard CPCB scale.
-
-### 2. Standardized CPCB AQI Normalization (0–500 scale)
-- Converts OpenWeather concentration values ($\mu g/m^3$ or $ppb$) into sub-indices for individual pollutants based on CPCB breakpoints (0-50, 51-100, 101-200, 201-300, 301-400, 401-500).
-- The overall AQI is calculated as the maximum sub-index, ensuring that custom-searched cities reflect the exact scaling used by standard monitoring stations.
-
-### 3. Live Station Auto-Sync Trigger
-- To eliminate stale or cached data, selecting a monitoring station instantly calls `sync_service.sync_station` on the backend, fetching the latest live telemetry from environmental sensors before returning the dashboard view.
-
-### 4. Interactive Policy "What-If" Simulator
-- Allows environmental planners to adjust Traffic, Construction, and Industrial outputs via interactive sliders.
-- A local XGBoost model recalibrates emissions on the fly, showing how the overall AQI trend would respond to immediate city-level interventions.
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -120,7 +131,11 @@ Run Backend:
 ```bash
 cd ml-service
 python -m venv venv
-.\venv\Scripts\Activate.ps1  # On Windows PowerShell
+# On Windows PowerShell:
+.\venv\Scripts\Activate.ps1
+# On Linux/macOS:
+source venv/bin/activate
+
 pip install -r requirements.txt
 python run.py
 ```
